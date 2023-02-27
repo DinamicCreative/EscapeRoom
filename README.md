@@ -5,7 +5,7 @@ o jogo foi pensado em duas salas, uma inicial com instruções que ensinam a cri
 
 ### REFERÊNCIAS:
 
-### REGRAS:lalalal
+### REGRAS:
 
 ### OBJETIVO DO JOGO:
 
