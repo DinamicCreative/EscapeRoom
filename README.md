@@ -10,6 +10,7 @@ https://www.clickjogos.com.br/jogos-de-acao/fireboy-and-watergirl-5-elements
 https://code.org/
 https://github.com/boidacarapreta/catalogo-de-jogos
 https://www.youtube.com/@GMTK
+https://github.com/boidacarapreta/adcipt20231
 
 ### REGRAS:
 - Só pode enfrentar cada chefão depois de coletar os objetos necessários que serão descritos na entrada de cada toca (onde os chefões vão ficar).
