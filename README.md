@@ -2,6 +2,9 @@
 
 ### PREMISSA:
 
+### Responsáveis pelo projeto: Isadora Alves Domingos e Sabrina Aparício
+
+### Empresa: Able Tecnologia
 
 ### REFERÊNCIAS:
 https://www.twilio.com/quest
