@@ -17,7 +17,11 @@
 
 ### COMO GERAR RECEITA: 
 O jogo terá duas formas de monetização:
+
+
 1- venda ao público aberto com valor de 1,00 real. O baixo valor foca na necessidade da venda em alta escala.
+
+
 2- venda para instituições de ensino (públicas ou privadas), junto com a promoção de eventos que desenvolvam o interesse das crianças na área da tecnologia.
 
 
