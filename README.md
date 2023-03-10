@@ -18,6 +18,8 @@ O objetivo é levá-los a buscar respostas de como tudo começou e salvar a cida
 
 **Acessórios:** Cada jogador inicia o jogo com uma mochila com 15 espaços disponíveis, que podem ser melhorados durante o jogo, e uma arma laser nível 1 com munição infinita.
 
+**Personagem:** Ao início do jogo, cada jogador deve escolher qual será  a especialização do seu personagem.
+
 **Jogabilidade:** Os jogadores não podem ir para a próxima fase enquanto não resolverem as missões necessárias para cada; 
 
 Só pode enfrentar cada chefão depois de coletar os objetos necessários que serão descritos na entrada de cada toca (onde os chefões vão ficar). Caso já tenha cumprido os requisitos e após a derrota do chefão, será feito jogo de quiz entre os jogadores relacionado ao aprendizado obtido na fase, que será um bônus de recompensa para a próxima etapa.
