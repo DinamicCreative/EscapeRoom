@@ -62,7 +62,9 @@ Os itens necessarios para entrar na toca do chefão estarão dispostos por locai
 
 Os dois podem coletar os itens e colocar dentro da mochila, mas ao entrar na toca do chefão os itens tem que ser colocados na mochila de apenas 1 jogador. Os jogadores tem que escolher quem tem maior habilidade para enfrentar aquela etapa, pois só 1 poderá entrar.
 
-O jogo começa dentro da casa deles, mas em um tempo diferente (no futuro). Eles saem da casa e percebem que a cidade deles está muito diferente, com muito mais tecnologia.
+Um dos jogadores será mais ágil, e o outro será mais inteligente. O jogador mais inteligente carrega dicas extras sobre o jogo.
+
+O jogo começa dentro da casa deles (são irmãos, portanto moram juntos), mas em um tempo diferente (no futuro). Eles saem da casa e percebem que a cidade deles está muito diferente, com muito mais tecnologia.
 
 Terá um robôzinho do bem auxiliando, explicando um pouco sobre o decorrer do jogo ou dando dicas.
 
@@ -74,15 +76,9 @@ Malware tentará sabotar o andar do jogo, enviando robôs para atacar. Como as c
 
 Ao passar para o próximo cenário, os jogadores serão submetidos a um quiz sobre os aprendizados daquela etapa. O bom desenvolvimento dos jogadores no quiz, dará retorno pra eles alguma facilidade (moedas, vidas a mais, etc).
 
+O segundo cenário será a estação de eletricidade. Na estação de eletrecidade inicialmente está com defeito, então raios saem dos postar e caem na rua enquanto os jogadores andam pelo mapa, nem todas as tecnologias daquele local funcionam corretamente. Quando entram no local, algumas luzes estão falhando, portas estão desativadas e não abrem, etc. Eles precisam fazer a estação funcionar corretamente, para poderem abrir o portão que dará acesso ao outro cenário do jogo, o a fabrica de eletronicos.
 
-
-
-
-
-
-As missões e aprendizados do jogo estarão relacionadas com as tecnologias que eles vão enfrentar.
-
-
+A fabrica de eletronicos tem um nivel de dificuldade maior, com mais interrupções do terrível Malware, que sabe que eles estão se aproximando. Existe um número maior de robôs do mal. O objetivo dessa etapa é encontrar um código que desbloqueia a fechadura de uma grande porta de metal nos fundos da fábrica. Ao desbloquear essa fechadura, os jogadores irão enfim enfrentar o maior desafio do jogo, o Malware. Para enfrentar essa etapa, será necessário a colaboração dos dois, pois exige tanto agilidade, quanto a inteligência.
 
 ### **COMO GERAR RECEITA:**
 O jogo é gratuíto, disṕonibilizado para download em android e iOS.
