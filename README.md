@@ -28,13 +28,13 @@ Só pode enfrentar cada chefão depois de coletar os objetos necessários que se
 
 **Dano:** os robôs reprogramados pelo malware dão uma quantidade de dano dependendo do nível do robô:
 
-*Robôs nível 1:* 0;5 de vida cada dano; 
+*Robôs nível 1:* 0,5 de vida cada dano; 
 
 
-*Robôs nível 2:* 1 vida a cada dano.
+*Robôs nível 2:* 1 vida a cada dano;
 
 
-*Robôs nível 3:* 1,5 de vida a cada dano.
+*Robôs nível 3:* 1,5 de vida a cada dano;
 
 ### **REFERÊNCIAS:**
 A Família Mitchell e a Revolta das Máquinas (filme);
