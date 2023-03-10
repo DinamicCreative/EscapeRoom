@@ -8,11 +8,10 @@
 
 
 ### **PREMISSA:**
-Tudo acontece no ano de 1985, onde John acorda em um dia qualquer para ir à faculdade juntamente com seu colega de quarto Rully, mas ao olhar pela janela, se depara com o futuro. Eles não estavam em casa!
-A tecnologia tinha tomado conta da cidade em que se localizavam, o que antes era resumido em um simples CD-ROM, IBM 5150, rede Arpanet, se transformou em carros voadores, robôs interativos, aparelhos IoT em redes sem fio. Simplesmente revolucionário!
+Tudo acontece no ano de 1985, onde John acorda em um dia qualquer para ir à faculdade juntamente com seu colega de quarto Rully, mas ao olhar pela janela, se depara com o futuro.
+A tecnologia tinha tomado conta da cidade em que moravam,e o que antes era resumido em um simples CD-ROM, IBM 5150, rede Arpanet, se transformou em carros voadores, robôs interativos, aparelhos IoT em redes sem fio. Simplesmente revolucionário!
 
-John e Rully agora em 2036, buscam entender esse mundo novo que os cercam e como chegar em suas cidades natal, mergulhando nessa imersão tecnológica.
-
+John e Rully agora no futuro, buscam respostas às suas perguntas nessa imersão tecnológica e recebem a missão de salvar a cidade de um terrível malware que está tentando a sucumbir.
 
 ### **REGRAS:**
 **Quantidade de jogadores:** 2.
@@ -27,7 +26,7 @@ John e Rully agora em 2036, buscam entender esse mundo novo que os cercam e como
 
 
 ### **OBJETIVO DO JOGO:**
-O objetivo é levá-los de volta para casa vivos com muita diversão e aprendizado e pelo trajeto.
+O objetivo é levá-los a buscar respostas de como tudo começou e salvar a cidade inteligente.
 
 ### **COMO GERAR RECEITA:**
 Como forma de monetização:
