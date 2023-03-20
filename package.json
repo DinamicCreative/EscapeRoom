@@ -1,5 +1,26 @@
 {
+  "name": "jogoifsc",
+  "version": "0.1.0",
+  "description": "jogo Web com suporte a WebRTC",
+  "main": "servidor.js",
   "dependencies": {
     "express": "^4.18.2"
-  }
+  },
+  "scripts": {
+    "start": "node servidor.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AbleTecnologia/jogoifsc.git"
+  },
+  "keywords": [
+    "webRTC",
+    "web"
+  ],
+  "author": "Sabrina",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/AbleTecnologia/jogoifsc/issues"
+  },
+  "homepage": "https://github.com/AbleTecnologia/jogoifsc#readme"
 }
