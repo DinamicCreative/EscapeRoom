@@ -1,7 +1,7 @@
 # De Cara com o Futuro!
 
 ### **PREMISSA:**
-Tudo acontece no ano de 1985, onde John acorda em um dia qualquer para ir à faculdade juntamente com seu colega de quarto Rully, mas ao olhar pela janela, se depara com o futuro.
+Tudo acontece no ano de 1985, onde John acorda em um dia qualquer para ir à faculdade juntamente com sua colega de quarto Rully, mas ao olhar pela janela, se depara com o futuro.
 A tecnologia tinha tomado conta da cidade em que moravam, e o que antes era resumido em um simples CD-ROM, IBM 5150, rede Arpanet, se transformou em carros voadores, robôs interativos, aparelhos IoT em redes sem fio. Simplesmente revolucionário!
 
 John e Rully agora no futuro, buscam respostas às suas perguntas nessa imersão tecnológica e recebem a missão de salvar a cidade de um terrível malware que está tentando a sucumbir.
