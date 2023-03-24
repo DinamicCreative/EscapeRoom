@@ -85,3 +85,7 @@ Finalizando essa etapa, eles se deparam com uma máquina do tempo que os possibi
 ### **COMO GERAR RECEITA:**
 O jogo é gratuíto, disṕonibilizado para download em android e iOS.
 Dentro do jogo pode haver compras de moedas, ticket de dicas, vida e skins para os personagens.
+
+
+### ***CANVAS:***
+Compartilhado via E-mail para o professor, e anexado o arquivo em forma de lista na tarefa do GitHub.
