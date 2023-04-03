@@ -4,12 +4,12 @@ export default class finalfeliz extends Phaser.Scene {
     }
   
     preload() {
-      this.load.image("ifsc-sj-2014", "./assets/ifsc-sj-2014.png");
+      this.load.spritesheet("faca", "./assets/faca.png");
     }
   
     create() {
       this.imagem = this.add
-        .image(400, 225, "ifsc-sj-2014")
+        .sprite(400, 225, "faca")
         .setTint(0xffff00)
         .setInteractive()
         .on("pointerdown", () => {

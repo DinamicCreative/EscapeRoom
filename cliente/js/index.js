@@ -2,8 +2,8 @@ import config from "./config.js";
 
 import abertura from "./cena-abertura.js";
 import principal from "./cena-principal.js";
-import finaltriste from "./cena-finaltriste.js";
-import finalfeliz from "./cena-finalfeliz.js";
+import fim_do_jogo from "./cena-finaltriste.js";
+import final_feliz from "./cena-finalfeliz.js";
 
 class Game extends Phaser.Game {
   constructor() {
@@ -11,8 +11,8 @@ class Game extends Phaser.Game {
 
     this.scene.add("abertura", abertura);
     this.scene.add("principal", principal);
-    this.scene.add("finaltriste", finaltriste);
-    this.scene.add("finalfeliz", finalfeliz);
+    this.scene.add("fim-do-jogo", fim_do_jogo);
+    this.scene.add("final-feliz", final_feliz);
 
     this.scene.start("abertura");
   }

@@ -1,15 +1,15 @@
 export default class finaltriste extends Phaser.Scene {
     constructor() {
-      super("fim-do-jogo");
+      super("cena-finaltriste");
     }
   
     preload() {
-      this.load.image("ifsc-sj-2014", "./assets/ifsc-sj-2014.png");
+      this.load.spritesheet("faca", "./assets/faca.png");
     }
   
     create() {
       this.imagem = this.add
-        .image(400, 225, "ifsc-sj-2014")
+        .sprite(400, 225, "faca")
         .setTint(0xff0000)
         .setInteractive()
         .on("pointerdown", () => {
