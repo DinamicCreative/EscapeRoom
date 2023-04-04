@@ -24,14 +24,17 @@ Parceria com eventos/lugares para replicar o Escape Room em outros ambientes, au
 ### **CANVAS:**
 
 **Parceiros Chave**
+```python
     AWS (nuvem Amazon)
     Arduino
     Cineplay São José
     MicroPython
     Espressif
     Continente Park Shopping
+```
 
 **Atividades Chave**
+```python
     Aprimoramento dos conhecimentos de JavaScript, HTML e CSS.
     Estudo em desenvolvimento de jogos.
     Aprimoramentos em estratégia de marketing.
@@ -39,38 +42,50 @@ Parceria com eventos/lugares para replicar o Escape Room em outros ambientes, au
     Criação de redes sociais, posts de divulgação e mensagens para os potenciais usuários.
     Estudo em tecnologia IoT e hardware.
     Estudo de designer de interface virtual.
+```
 
 **Recurso Chave**
+```python
     Aplicação da lógica de programação.
     Aplicação de hardware nos locais específicos do Escape Room.
     Conta no GitPod para desenvolvimento do jogo online.
     Diretório no GitHub para administração de tarefas.
     Sites online de desenvolvimento de imagens em pixel.
+ ```
     
 **Proposta de Valor**
+```python
     Jogo desenvolve habilidades de cooperatividade, estratégia e raciocínio lógico.
     Ao consumir o produto, o cliente apoia o trabalho de estudantes da rede federal
     Desafia os jogadores a enfrentarem o próprio medo.
     Experiência imersiva em local estilizado de acordo com o tema proposto.
+```
 
 **Relação com o cliente**
+```python
     E-mail do SAC - aparece no final do jogo e no folder físico - disponível (para elogios, relatos de bug, críticas, etc).
     Divulgação por redes sociais.
     Avaliação no stand ao final do jogo.
+```
 
 **Canais**
+```python
     Folders físico (distribuir pelo IFSC, para familiares e amigos).
     Instagram
     E-mail
+```
 
 **Segmentos de Mercado**
+   ```python
     Pessoas com acesso a Internet e a algum dispositivo móvel.
     Gostam de enigmas, aventura e terror.
     Pessoas que residem a grande Florianópolis.
     A partir de 14 anos.
     Dupla de colegas interessados no jogo.
 
+   ```
 **Estrutura de Custos**
+```python
     Salário de dois funcionários (designer e programador).
     Uber corporativo
     Assinatura de ferramentas online.
@@ -80,7 +95,10 @@ Parceria com eventos/lugares para replicar o Escape Room em outros ambientes, au
     Tráfego pago no Instagram.
     Manutenção de componentes eletrônicos.
     Pagamento de serviços de profissionais externos (ex: dublador de áudio).
+```
 
 **Fontes de Renda**
+```python
     Venda de ingressos.
     Replicar o evento em outros locais, promovendo a empresa e criando parcerias.
+```
