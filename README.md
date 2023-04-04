@@ -18,5 +18,7 @@ Decifrar os enigmas e sair antes do relógio marcar meia noite para não ser mor
 ### **JOGO IDEAL:**
 
 ### **COMO GERAR RECEITA:**
+Venda de ingressos para entrada no Escape Room.
+Parceria com eventos/lugares para replicar o Escape Room em outros ambientes, aumentando o alcance.
 
 ### **CANVAS:**
