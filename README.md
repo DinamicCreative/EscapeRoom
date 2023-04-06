@@ -11,17 +11,37 @@ Prontos para desvendar o mistério?
 ### **OBJETIVO DO JOGO:**
 Decifrar os enigmas e sair antes do relógio marcar meia noite para não ser morto pelos espíritos.
 
+
+### **Quantidade de níveis: 5 (resumo de cada nível)**
+**Fase 1:** 02:00m - decifrar o código para abrir a caixa de vidro.
+
+**Fase 2:** 01:30m - pegar a chave, abrir a porta, subir as escadas e localizar a próxima etapa.
+
+**Fase 3:** 05:00m - procurar caça palavras na pilha de tralhas e preencher.
+
+**Fase 4:** 02:30m - atrasar o relógio.
+
+**Fase 5:** 01:00m - desativar o ritual e sair do local.
+
+
 ### **REGRAS:**
+- Antes de começar, deverão assinar um termo de compromisso indicando que estão cientes que o jogo não é ligado a nenhum tipo de religião e trata-se de apenas um cenário falso.
+- Os jogadores vão se comunicar por áudio através da interface.
+- As fases deverão ser executadas dentro do tempo indicado, na ordem indicada.
+- Para desistir do jogo, deverá ser apertado um botão que ficará no canto da tela com o símbolo de perigo, e confirmar. Quando confirmarem a interface fecha e eles são liberados.
+- Não podem sair do local que o jogo estará indicando durante a execução.
+- A interface começa a contar 40s (tempo para leitura dos dois jogadores) após identificar que os dois jogadores estão na posição geográfica correta, que estará indicada no chão com um X vermelho. No fim dos 40s o relógio começa a passar o tempo e o cronômetro também.
+
 
 ### **REFERÊNCIAS:**
 
 ### **JOGO IDEAL:**
 
 ### **COMO GERAR RECEITA:**
-Venda de ingressos para entrada no Escape Room.
-Parceria com eventos/lugares para replicar o Escape Room em outros ambientes, aumentando o alcance.
+- Venda de ingressos para entrada no Escape Room.
+- Parceria com eventos/lugares para replicar o Escape Room em outros ambientes, aumentando o alcance.
 
-### **CANVAS:**
+### **MODELO DE NEGÓCIO: CANVAS:**
 
 **Parceiros Chave**
 ```python
