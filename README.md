@@ -17,11 +17,11 @@ Decifrar os enigmas e sair antes do relógio marcar meia noite para não ser mor
 
 **Fase 2:** 01:30m - pegar a chave, abrir a porta, subir as escadas e localizar a próxima etapa.
 
-**Fase 3:** 05:00m - procurar caça palavras na pilha de tralhas e preencher.
+**Fase 3:** 04:30m - procurar caça palavras na pilha de tralhas e preencher.
 
-**Fase 4:** 02:30m - atrasar o relógio.
+**Fase 4:** 02:00m - atrasar o relógio.
 
-**Fase 5:** 01:00m - desativar o ritual e sair do local.
+**Fase 5:** 01:30m - desativar o ritual e sair do local.
 
 
 ### **REGRAS:**
