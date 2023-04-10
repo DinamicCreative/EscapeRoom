@@ -70,7 +70,7 @@ Os jogadores tem o objetivo final destruir o ritual antes da meia noite, para qu
 **2- Cena de carregamento.**
 Descrição: Faca pingando e mensagem “Aguardando todos os jogadores se posicionarem corretamente)
 
-OBS: colocar sensor de geolocalização (latitude e longitude) e ir para a próxima cena apenas quando os jogadores estiverem no local indicado
+OBS: colocar sensor de geolocalização (latitude e longitude) e ir para a próxima cena apenas quando os jogadores estiverem no local indicado.
 
 **3- Cena com mensagem.**
 Tempo de duração: 40 segundos
