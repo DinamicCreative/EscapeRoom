@@ -114,6 +114,16 @@ Os jogadores tem o objetivo final destruir o ritual antes da meia noite, para qu
 
     Final trágico - acontece caso alguma etapa não seja executada dentro do tempo estabelecido. Na tela aparece “O ritual vai começar, corra enquanto ainda é tempo” - lampada vermelha e sirene.
 
+### **Descrição dos ambientes:**
+
+**Stand:**
+Metade fechada com tecido preto, com uma mesa, fone de ouvido para comunicação, um abajur, algumas folhas de papel de rascunho, caneta, livro e um calendário pendurado.
+Outra metade: Painel com o QR code, premissa, título do jogo, regras, termo, etc.
+
+**Auditório:**
+Em baixo: caixa com porta de vidro e teclado, para pegar a chave. Sinalização pelo auditório para a porta indicada. 
+Em cima: Sensor na escada para ligar as velas quando entrar. Botão em cima de uma cadeira com papel e caneta. Local decorado com corrente, prateleira coberta por TNT preto, riscos com giz nas paredes, estrela de Davi desenhada com velas de led numeradas em cada ponta. Mesinha com o relógio e teclado para a fase 4.
+
 
 ### **COMO GERAR RECEITA:**
 - Venda de ingressos para entrada no Escape Room;
