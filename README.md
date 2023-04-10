@@ -28,10 +28,8 @@ Após a situação tenebrosa, poucas pessoas tiveram coragem de subir na sala de
     (IMPORTANTE: precisa dizer o mês do ocorrido para que o jogador vá até o calendário procurar o dia)
     Texto 2 - história explicando quem são os espíritos, e por que faziam aquilo.
     (IMPORTANTE: precisa ter as palavras da cruzadinha em destaque)
-    Texto 3 - ritual (IMPORTANTE: precisa ter a orientação de como destruir o ritual)
-
-
-
+    Texto 3 - ritual
+    (IMPORTANTE: precisa ter a orientação de como destruir o ritual)
 
 ### **JOGO IDEAL:**
 As duas pessoas interessadas deverão ir até o stand, onde irão ler a premissa da história, assinar um termo de comprometimento e abrir a interface nos seus celulares através de um QR code.
