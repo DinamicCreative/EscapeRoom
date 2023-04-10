@@ -72,15 +72,15 @@ Os jogadores tem o objetivo final destruir o ritual antes da meia noite, para qu
 ### **REFERÊNCIAS:**
 - Filme Escape Room;
 
-### **REFERÊNCIAS:**
+### **FLUXOGRAMA:**
 
 Início do jogo
+
 ```python
 flowchart TD
     A[Início - dupla no stand] -->|Jogadores abrem a interface do jogo em seus smartphones| B(Jogadores se separam)
      -->|JOGADOR 1| D[Permanece no stand - pôe os fones de ouvido] --> |Informativo de 40 segundos| Nível1
     B -->|JOGADOR 2| E[Vai até o auditório - em cima do X no chão] --> |Informativo de 40 segundos| Nível1    
-  
 ```
 
 
