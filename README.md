@@ -61,51 +61,52 @@ Os jogadores tem o objetivo final destruir o ritual antes da meia noite, para qu
 - Os componentes eletrônicos presentes no escape room são sensíveis, é importante que os jogadores joguem com cuidado.
 
 ### **REFERÊNCIAS:**
-- Filme Escape Room
+- Filme Escape Room;
 
 ### **Descrição das cenas do jogo (interface):**
 
 **1- Cena com nome do jogo.**
 
 **2- Cena de carregamento.**
-Descrição: Faca pingando e mensagem “Aguardando todos os jogadores se posicionarem corretamente)
+Descrição: Faca pingando e mensagem “Aguardando todos os jogadores se posicionarem corretamente).
 
 OBS: colocar sensor de geolocalização (latitude e longitude) e ir para a próxima cena apenas quando os jogadores estiverem no local indicado.
 
 **3- Cena com mensagem.**
-Tempo de duração: 40 segundos
+Tempo de duração: 40 segundos.
 Item: canto inferior direito relógio marcando 23:50:00.
 Mensagem no meio da tela: "Agora são 23:50. O ritual dos espíritos inicia à meia noite e vocês precisam terminar todos os níveis dentro do tempo indicado para conseguirem sair a salvo. Boa sorte..."
 
 (após os 40 segundos, pular para próxima cena)
 
 **4- Cena Nível 1.**
-Item: canto inferior direito relógio passando o tempo (a partir de 23:50:00)
+Item: canto inferior direito relógio passando o tempo (a partir de 23:50:00).
 Em baixo da mensagem: cronômetro regressivo de 02:00 minutos.
-Mensagem no meio da tela: “Nível 1 - Vocês precisam subir na sala de projeção, mas a porta está trancada. Dentro da caixa há uma chave, e o enigma para abri-la é uma data. Descubram em até dois minutos"
-OBS: ir para a próxima cena e abrir a porta de vidro quando o código for inserido no teclado da caixa corretamente
+Mensagem no meio da tela: “Nível 1 - Vocês precisam subir na sala de projeção, mas a porta está trancada. Dentro da caixa há uma chave, e o enigma para abri-la é uma data. Descubram em até dois minutos".
+
+OBS: ir para a próxima cena e abrir a porta de vidro quando o código for inserido no teclado da caixa corretamente.
 
 **5- Cena Nível 2.**
-Item: canto inferior direito relógio passando o tempo (continuando da outra cena)
+Item: canto inferior direito relógio passando o tempo (continuando da outra cena).
 Em baixo da mensagem: cronômetro regressivo de 01:30 minutos.
 Mensagem no meio da tela: “Nível 2 - como resolver o mistério sem ir até a cena do crime? Pegue a chave e abra a porta à esquerda no fundo do auditório. Suba as escadas e aperte o botão em cima da cadeira para iniciar o próximo nível"
 
 **6- Cena Nível 3.**
-Item: canto inferior direito relógio passando o tempo (continuando da outra cena)
+Item: canto inferior direito relógio passando o tempo (continuando da outra cena).
 Em baixo da mensagem: cronômetro regressivo de 04:30 minutos.
 Mensagem no meio da tela: "Nível 3 - o garoto deixou uma cruzadinha e as respostas são 6 palavras que estão espalhadas pelas próximas páginas do livro. Junte as letras das mesmas cores e posicione as palavras no lugar correto."
 
 OBS: passa para a próxima etapa apenas quando acabar o tempo de 04:30 minutos.
 
 **7- Cena Nível 4.**
-Item: canto inferior direito relógio passando o tempo (continuando da outra cena)
+Item: canto inferior direito relógio passando o tempo (continuando da outra cena).
 Em baixo da mensagem: cronômetro regressivo de 02:00 minutos.
 Mensagem no meio da tela: "Nível 4: o tempo está quase acabando, precisamos atrasar o relógio para seguir com a última etapa da missão."
 
-OBS: ir para a próxima cena e voltar o relógio (físico) para 23:58:30 apenas quando a missão for executada
+OBS: ir para a próxima cena e voltar o relógio (físico) para 23:58:30 apenas quando a missão for executada.
 
 **8- Cena Nível 5.**
-Item: canto inferior direito relógio passando o tempo (volta para 23:58:30)
+Item: canto inferior direito relógio passando o tempo (volta para 23:58:30).
 Em baixo da mensagem: cronômetro regressivo de 01:30 minutos.
 Mensagem no meio da tela: "Nível 5: os espíritos já estão rodando por aí, é preciso destruir o ritual para saírem vivos. Cada vela tem um símbolo e são sensíveis, aproxime a mão em cima de cada uma na ordem correta indicada na página 7 do livro para destruir o ritual. CUIDADO: não encoste para não se queimar."
 
@@ -115,9 +116,8 @@ Mensagem no meio da tela: “Final vitorioso. Vocês acabam de destruir o ritual
 ***Final trágico*** - acontece caso alguma etapa não seja executada dentro do tempo estabelecido. Na tela aparece “O ritual vai começar, corra enquanto ainda é tempo” - lampada vermelha e sirene.
 
 
-
 ### **COMO GERAR RECEITA:**
-- Venda de ingressos para entrada no Escape Room.
+- Venda de ingressos para entrada no Escape Room;
 - Parceria com eventos/lugares para replicar o Escape Room em outros ambientes, aumentando o alcance.
 
 ### **MODELO DE NEGÓCIO: CANVAS:**
