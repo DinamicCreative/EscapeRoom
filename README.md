@@ -65,75 +65,54 @@ Os jogadores tem o objetivo final destruir o ritual antes da meia noite, para qu
 
 ### **Descrição das cenas do jogo (interface):**
 
-**1- Cena com nome do jogo.**
+    1- Cena com nome do jogo.
 
-**2- Cena de carregamento.**
+    2- Cena de carregamento.
+    Descrição: Faca pingando e mensagem “Aguardando todos os jogadores se posicionarem corretamente).
+    OBS: colocar sensor de geolocalização (latitude e longitude) e ir para a próxima cena apenas quando os jogadores estiverem no local indicado.
 
-Descrição: Faca pingando e mensagem “Aguardando todos os jogadores se posicionarem corretamente).
+    3- Cena com mensagem.
+    Tempo de duração: 40 segundos.
+    Item: canto inferior direito relógio marcando 23:50:00.
+    Mensagem no meio da tela: "Agora são 23:50. O ritual dos espíritos inicia à meia noite e vocês precisam terminar todos os níveis dentro do tempo indicado para conseguirem sair a salvo. Boa sorte..."
 
-OBS: colocar sensor de geolocalização (latitude e longitude) e ir para a próxima cena apenas quando os jogadores estiverem no local indicado.
+    (após os 40 segundos, pular para próxima cena)
 
-**3- Cena com mensagem.**
+    4- Cena Nível 1.
+    Item: canto inferior direito relógio passando o tempo (a partir de 23:50:00).
+    Em baixo da mensagem: cronômetro regressivo de 02:00 minutos.
+    Mensagem no meio da tela: “Nível 1 - Vocês precisam subir na sala de projeção, mas a porta está trancada. Dentro da caixa há uma chave, e o enigma para abri-la é uma data. Descubram em até dois minutos".
 
-Tempo de duração: 40 segundos.
+    OBS: ir para a próxima cena e abrir a porta de vidro quando o código for inserido no teclado da caixa corretamente.
 
-Item: canto inferior direito relógio marcando 23:50:00.
+    5- Cena Nível 2.
+    Item: canto inferior direito relógio passando o tempo (continuando da outra cena).
+    Em baixo da mensagem: cronômetro regressivo de 01:30 minutos.
+    Mensagem no meio da tela: “Nível 2 - como resolver o mistério sem ir até a cena do crime? Pegue a chave e abra a porta à esquerda no fundo do auditório. Suba as escadas e aperte o botão em cima da cadeira para iniciar o próximo nível"
 
-Mensagem no meio da tela: "Agora são 23:50. O ritual dos espíritos inicia à meia noite e vocês precisam terminar todos os níveis dentro do tempo indicado para conseguirem sair a salvo. Boa sorte..."
+    6- Cena Nível 3.
+    Item: canto inferior direito relógio passando o tempo (continuando da outra cena).
+    Em baixo da mensagem: cronômetro regressivo de 04:30 minutos.
+    Mensagem no meio da tela: "Nível 3 - o garoto deixou uma cruzadinha e as respostas são 6 palavras que estão espalhadas pelas próximas páginas do livro. Junte as letras das mesmas cores e posicione as palavras no lugar correto."
 
-(após os 40 segundos, pular para próxima cena)
+    OBS: passa para a próxima etapa apenas quando acabar o tempo de 04:30 minutos.
 
-**4- Cena Nível 1.**
+    7- Cena Nível 4.
+    Item: canto inferior direito relógio passando o tempo (continuando da outra cena).
+    Em baixo da mensagem: cronômetro regressivo de 02:00 minutos.
+    Mensagem no meio da tela: "Nível 4: o tempo está quase acabando, precisamos atrasar o relógio para seguir com a última etapa da missão."
 
-Item: canto inferior direito relógio passando o tempo (a partir de 23:50:00).
+    OBS: ir para a próxima cena e voltar o relógio (físico) para 23:58:30 apenas quando a missão for executada.
 
-Em baixo da mensagem: cronômetro regressivo de 02:00 minutos.
+    8- Cena Nível 5.
+    Item: canto inferior direito relógio passando o tempo (volta para 23:58:30).
+    Em baixo da mensagem: cronômetro regressivo de 01:30 minutos.
+    Mensagem no meio da tela: "Nível 5: os espíritos já estão rodando por aí, é preciso destruir o ritual para saírem vivos. Cada vela tem um símbolo e são sensíveis, aproxime a mão em cima de cada uma na ordem correta indicada na página 7 do livro para destruir o ritual. CUIDADO: não encoste para não se queimar."
 
-Mensagem no meio da tela: “Nível 1 - Vocês precisam subir na sala de projeção, mas a porta está trancada. Dentro da caixa há uma chave, e o enigma para abri-la é uma data. Descubram em até dois minutos".
+    9- Final.
+    Mensagem no meio da tela: “Final vitorioso. Vocês acabam de destruir o ritual, agora a alma do pequeno órfão e de outras pessoas está livre. Se reúnam no stand e comemorem a vitória juntos”.
 
-OBS: ir para a próxima cena e abrir a porta de vidro quando o código for inserido no teclado da caixa corretamente.
-
-**5- Cena Nível 2.**
-
-Item: canto inferior direito relógio passando o tempo (continuando da outra cena).
-
-Em baixo da mensagem: cronômetro regressivo de 01:30 minutos.
-
-Mensagem no meio da tela: “Nível 2 - como resolver o mistério sem ir até a cena do crime? Pegue a chave e abra a porta à esquerda no fundo do auditório. Suba as escadas e aperte o botão em cima da cadeira para iniciar o próximo nível"
-
-**6- Cena Nível 3.**
-
-Item: canto inferior direito relógio passando o tempo (continuando da outra cena).
-
-Em baixo da mensagem: cronômetro regressivo de 04:30 minutos.
-
-Mensagem no meio da tela: "Nível 3 - o garoto deixou uma cruzadinha e as respostas são 6 palavras que estão espalhadas pelas próximas páginas do livro. Junte as letras das mesmas cores e posicione as palavras no lugar correto."
-
-OBS: passa para a próxima etapa apenas quando acabar o tempo de 04:30 minutos.
-
-**7- Cena Nível 4.**
-
-Item: canto inferior direito relógio passando o tempo (continuando da outra cena).
-
-Em baixo da mensagem: cronômetro regressivo de 02:00 minutos.
-
-Mensagem no meio da tela: "Nível 4: o tempo está quase acabando, precisamos atrasar o relógio para seguir com a última etapa da missão."
-
-OBS: ir para a próxima cena e voltar o relógio (físico) para 23:58:30 apenas quando a missão for executada.
-
-**8- Cena Nível 5.**
-
-Item: canto inferior direito relógio passando o tempo (volta para 23:58:30).
-
-Em baixo da mensagem: cronômetro regressivo de 01:30 minutos.
-
-Mensagem no meio da tela: "Nível 5: os espíritos já estão rodando por aí, é preciso destruir o ritual para saírem vivos. Cada vela tem um símbolo e são sensíveis, aproxime a mão em cima de cada uma na ordem correta indicada na página 7 do livro para destruir o ritual. CUIDADO: não encoste para não se queimar."
-
-**9- Final.**
-
-Mensagem no meio da tela: “Final vitorioso. Vocês acabam de destruir o ritual, agora a alma do pequeno órfão e de outras pessoas está livre. Se reúnam no stand e comemorem a vitória juntos”.
-
-***Final trágico*** - acontece caso alguma etapa não seja executada dentro do tempo estabelecido. Na tela aparece “O ritual vai começar, corra enquanto ainda é tempo” - lampada vermelha e sirene.
+    Final trágico - acontece caso alguma etapa não seja executada dentro do tempo estabelecido. Na tela aparece “O ritual vai começar, corra enquanto ainda é tempo” - lampada vermelha e sirene.
 
 
 ### **COMO GERAR RECEITA:**
