@@ -63,8 +63,7 @@ Os jogadores tem o objetivo final destruir o ritual antes da meia noite, para qu
 ### **REFERÊNCIAS:**
 - Filme Escape Room
 
-### **Descrição das cenas do jogo:**
-Cenas interface:
+### **Descrição das cenas do jogo (interface):**
 
 **1- Cena com nome do jogo.**
 
