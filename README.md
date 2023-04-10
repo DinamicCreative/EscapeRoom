@@ -22,6 +22,17 @@ Após a situação tenebrosa, poucas pessoas tiveram coragem de subir na sala de
 
 **Fase 5:** 01:30m - desativar o ritual e sair do local.
 
+### **Item importante:**
+    Diário do menino que vai ficar no stand com o jogador 1 para decifrar as tarefas (páginas com textos intercaladas com páginas de fotos).
+    Texto 1 - relato dele de quando foi capturado pelos espíritos
+    (IMPORTANTE: precisa dizer o mês do ocorrido para que o jogador vá até o calendário procurar o dia)
+    Texto 2 - história explicando quem são os espíritos, e por que faziam aquilo.
+    (IMPORTANTE: precisa ter as palavras da cruzadinha em destaque)
+    Texto 3 - ritual (IMPORTANTE: precisa ter a orientação de como destruir o ritual)
+
+
+
+
 ### **JOGO IDEAL:**
 As duas pessoas interessadas deverão ir até o stand, onde irão ler a premissa da história, assinar um termo de comprometimento e abrir a interface nos seus celulares através de um QR code.
 
@@ -123,6 +134,15 @@ Os jogadores tem o objetivo final destruir o ritual antes da meia noite, para qu
 **Auditório:**
 - Em baixo: caixa com porta de vidro e teclado, para pegar a chave. Sinalização pelo auditório para a porta indicada. 
 - Em cima: Sensor na escada para ligar as velas quando entrar. Botão em cima de uma cadeira com papel e caneta. Local decorado com corrente, prateleira coberta por TNT preto, riscos com giz nas paredes, estrela de Davi desenhada com velas de led numeradas em cada ponta. Mesinha com o relógio e teclado para a fase 4.
+
+### **Tecnologias dos locais:**
+- Caixa com porta de vidro e teclado para inserir números (motor para abertura)
+- Detector de presença (a pessoa sobe a escada e as velas de LED acendem).
+- Botão em cima da cadeira para iniciar a fase 3.
+- Relógio com display e teclado para voltar ao tempo.
+- Sirene vermelha (no stand e na sala de projeção - lâmpadas de led inteligente, bucal portátil)
+- Sensor de prox. nas velas (o jogador aproxima a mão das velas numa ordem X para desativar o ritual)
+- Caixa de som sincronizada com o jogo (música de suspense, áudio de marcação de tempo, áudio de fim trágico).
 
 
 ### **COMO GERAR RECEITA:**
