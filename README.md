@@ -71,6 +71,9 @@ Os jogadores tem o objetivo final destruir o ritual antes da meia noite, para qu
 
 ### **REFERÊNCIAS:**
 - Filme Escape Room;
+- Filme Um classico filme de terror
+- Jogo Stranger Things
+- Jogo (Pacify)[https://store.steampowered.com/app/967050/Pacify/]
 
 ### **FLUXOGRAMA:**
 
