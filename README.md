@@ -70,10 +70,10 @@ Os jogadores tem o objetivo final destruir o ritual antes da meia noite, para qu
 - Os componentes eletrônicos presentes no escape room são sensíveis, é importante que os jogadores joguem com cuidado.
 
 ### **REFERÊNCIAS:**
-- Filme Escape Room;
-- Filme Um classico filme de terror
-- Jogo Stranger Things
-- Jogo Pacify[https://store.steampowered.com/app/967050/Pacify/]
+- [Filme Escape Room;](https://www.youtube.com/watch?v=v9JFZFQLt9k)
+- [Filme Um classico filme de terror](https://www.youtube.com/watch?v=hYuV9N5egg8)
+- [Série Stranger Things](https://www.netflix.com/br/title/80057281)
+- [Jogo Pacify](https://store.steampowered.com/app/967050/Pacify/)
 
 ### **FLUXOGRAMA:**
 
