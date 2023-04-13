@@ -1,10 +1,10 @@
-export default class cena1 extends Phaser.Scene {
+export default class capa_do_jogo extends Phaser.Scene {
   constructor() {
-    super("cena2");
+    super("capa-do-jogo");
   }
 
   preload() {
-    this.load.image("capa", "./assets/capa.jpg");
+    this.load.image("capa", "./assets/capa.png");
   }
 
   create() {
@@ -13,7 +13,7 @@ export default class cena1 extends Phaser.Scene {
       .setInteractive()
       .on("pointerdown", () => {
         this.capa.destroy();
-        this.game.scene.start("logo");
+        this.game.scene.start("cena-carregamento");
       });
   }
 

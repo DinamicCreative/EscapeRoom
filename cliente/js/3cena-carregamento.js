@@ -1,12 +1,12 @@
-export default class abertura extends Phaser.Scene {
+export default class cena_carregamento extends Phaser.Scene {
   constructor() {
-    super("abertura");
+    super("cena-carregamento");
   }
 
   preload() {
     this.load.spritesheet("faca", "./assets/faca.png", {
       frameWidth: 128,
-      frameHeight: 128
+      frameHeight: 128,
     });
   }
 
@@ -19,19 +19,18 @@ export default class abertura extends Phaser.Scene {
         this.game.scene.start("principal");
       });
 
-      this.anims.create({
-        key: "faca-pingando",
-        frames: this.anims.generateFrameNumbers("faca", {
-          start: 0,
-          end: 3,
-        }),
-        frameRate: 5,
-        repeat: -1,
-      });
-      //
-      this.faca.anims.play("faca-pingando", true);
+    this.anims.create({
+      key: "faca-pingando",
+      frames: this.anims.generateFrameNumbers("faca", {
+        start: 0,
+        end: 3,
+      }),
+      frameRate: 5,
+      repeat: -1,
+    });
+    //
+    this.faca.anims.play("faca-pingando", true);
   }
 
   upload() {}
 }
-  
