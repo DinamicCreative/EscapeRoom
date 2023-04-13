@@ -1,6 +1,6 @@
 export default class cena1 extends Phaser.Scene {
   constructor() {
-    super("cena1");
+    super("cena2");
   }
 
   preload() {
