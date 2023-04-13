@@ -12,15 +12,15 @@ Certo dia, o menino não desceu mais do seu quarto para nenhuma de suas tarefas 
 Após a situação tenebrosa, poucas pessoas tiveram coragem de subir na sala de projeção, e o órfão nunca mais apareceu. Os gritos da meia noite ainda podem ser ouvidos mas a situação continua sem uma solução. Prontos para enfrentar o mistério?
 
 ### **Quantidade de níveis: 5 (resumo de cada nível)**
-**Fase 1:** 02:00m - decifrar o código para abrir a caixa de vidro.
+**Fase 1:** decifrar o código para abrir a caixa de vidro.
 
-**Fase 2:** 01:30m - pegar a chave, abrir a porta, subir as escadas e localizar a próxima etapa.
+**Fase 2:** pegar a chave, abrir a porta, subir as escadas e localizar a próxima etapa.
 
-**Fase 3:** 04:30m - cruzadinha.
+**Fase 3:** cruzadinha.
 
-**Fase 4:** 02:00m - atrasar o relógio.
+**Fase 4:**  atrasar o relógio.
 
-**Fase 5:** 01:30m - desativar o ritual e sair do local.
+**Fase 5:** desativar o ritual e sair do local.
 
 ### **Item importante:**
     Diário do menino que vai ficar no stand com o jogador 1 para decifrar as tarefas (páginas com textos intercaladas com páginas de fotos).
