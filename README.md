@@ -79,13 +79,24 @@ Os jogadores tem o objetivo final destruir o ritual antes da meia noite, para qu
 
 Início do jogo
 
-```python
+```mermaid
 flowchart TD
     A[Início - dupla no stand] -->|Jogadores abrem a interface do jogo em seus smartphones| B(Jogadores se separam)
      -->|JOGADOR 1| D[Permanece no stand - pôe os fones de ouvido] --> |Informativo de 40 segundos| Nível1
     B -->|JOGADOR 2| E[Vai até o auditório - em cima do X no chão] --> |Informativo de 40 segundos| Nível1    
 ```
 
+```mermaid
+flowchart TD
+  A([Início])
+  B[Cena de abertura]
+  C[Próxima cena:\nPrincipal]
+  Z([Fim])
+
+  A --> B
+  B --> |Usuário clica no botão| C
+  C --> Z
+```
 
 ### **Descrição das cenas do jogo (interface):**
 
