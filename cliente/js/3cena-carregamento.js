@@ -12,11 +12,11 @@ export default class cena_carregamento extends Phaser.Scene {
 
   create() {
     this.faca = this.add
-      .sprite(400, 225, "faca")
+      .sprite(225, 400, "faca")
       .setInteractive()
       .on("pointerdown", () => {
         this.faca.destroy();
-        this.game.scene.start("principal");
+        this.game.scene.start("aviso-hora");
       });
 
     this.anims.create({
