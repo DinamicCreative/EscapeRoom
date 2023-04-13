@@ -86,16 +86,6 @@ flowchart TD
     B -->|JOGADOR 2| E[Vai até o auditório - em cima do X no chão] --> |Informativo de 40 segundos| Nível1    
 ```
 
-```mermaid
-flowchart TD
-  A([Início])
-  B[Cena de abertura]
-  C[Próxima cena:\nPrincipal]
-  Z([Fim])
-
-  A --> B
-  B --> |Usuário clica no botão| C
-  C --> Z
 ```
 
 ### **Descrição das cenas do jogo (interface):**
