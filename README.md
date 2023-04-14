@@ -16,7 +16,7 @@ Após a situação tenebrosa, poucas pessoas tiveram coragem de subir na sala de
 
 **Fase 2:** pegar a chave, abrir a porta, subir as escadas e localizar a próxima etapa.
 
-**Fase 3:** cruzadinha.
+**Fase 3:** passar o circuito sem encostar no fio.
 
 **Fase 4:**  atrasar o relógio.
 
@@ -27,7 +27,6 @@ Após a situação tenebrosa, poucas pessoas tiveram coragem de subir na sala de
     Texto 1 - relato dele de quando foi capturado pelos espíritos
     (IMPORTANTE: precisa dizer o mês do ocorrido para que o jogador vá até o calendário procurar o dia)
     Texto 2 - história explicando quem são os espíritos, e por que faziam aquilo.
-    (IMPORTANTE: precisa ter as palavras da cruzadinha em destaque)
     Texto 3 - ritual
     (IMPORTANTE: precisa ter a orientação de como destruir o ritual)
 
@@ -36,26 +35,26 @@ As duas pessoas interessadas deverão ir até o stand, onde irão ler a premissa
 
 O jogador 1 entra em uma parte fechada do stand e é orientado a por o fone de ouvido que estará a disposição, enquanto o jogador 2 ganha uma lanterna de dínamo e é direcionado ao auditório, onde precisa ficar em cima de um X no chão para começar o jogo. A interface ficará na tela de carregamento até que os dois jogadores estejam corretamente nos seus locais indicados.
 
-Após esta etapa, a interface ficará por 40 segundos em uma tela que terá no canto inferior direito terá um relógio pausado em 23:50:00, e no meio o texto "Agora são 23:50. O ritual dos espiritos inicia à meia noite e vocês precisam terminar todos os níveis dentro do tempo indicado para conseguirem sair a salvo. Boa sorte...". Finalizando os 40 segundos (tempo para os jogadores lerem a mensagem), o Nível 1 inicia.
+Após esta etapa, a interface irá iniciar um cronometro por 15 segundos na tela e terá no canto inferior direito terá um relógio pausado em 23:50:00, e no meio o texto "Agora são 23:50. O ritual dos espiritos inicia à meia noite e vocês precisam terminar todos os níveis dentro do tempo indicado para conseguirem sair a salvo. Boa sorte...". Finalizando os 15 segundos (tempo para os jogadores lerem a mensagem), o Nível 1 inicia.
 
-Nível 1: aparece na tela "Nível 1 - Vocês precisam subir na sala de projeção, mas a porta está trancada. Dentro da caixa há uma chave, e o enigma para abri-la é uma data. Descubram em até dois minutos" e um cronômetro de 2 minutos roda na parte de baixo da tela. 
+Nível 1: aparece na tela "Nível 1 - Vocês precisam subir na sala de projeção, mas a porta está trancada. Dentro da caixa há uma chave, e o enigma para abri-la é uma data. Descubram em até dois minutos" e o relógio no canto da tela começa a rodar a hora.
 
 O jogador 1 terá um texto onde o garoto descreve o mês em que os espíritos começaram a perturbá-lo, na sua frente também terá um calendário, e no mês indicado no texto, terá um dia circulado. O jogador 2 deve inserir a data apenas com números no teclado para abrir a porta da caixa de vidro que guarda a chave da próxima etapa. (ex: 25 de janeiro de 1990 - inserir: 25011990). Após inserir a senha correta, a porta da caixa irá se abrir e estão aptos para a próxima etapa.
 
-Nível 2: aparece na tela "Nível 2 - como resolver o mistério sem ir até a cena do crime? Pegue a chave e abra a porta à esquerda no fundo do auditório. Suba as escadas e aperte o botão em cima da cadeira para iniciar o próximo nível". Inicia uma contagem na tela de um cronômetro de 01:30 minutos.
+Nível 2: aparece na tela "Nível 2 - como resolver o mistério sem ir até a cena do crime? Pegue a chave e abra a porta à esquerda no fundo do auditório. Suba as escadas e aperte o botão em cima da cadeira para iniciar o próximo nível".
 
-Nível 3: em cima da cadeira terá papéis e canetas. Após apertar o botão indicado, aparece na tela "Nível 3 - o garoto deixou uma cruzadinha e as respostas são 6 palavras que estão espalhadas pelas próximas páginas do livro. Junte as letras das mesmas cores e posicione as palavras no lugar correto." Inicia uma contagem na tela de 04:30 minutos. O jogador 2 deve escrever na folha palavras que o jogador 1 irá encontrar no livro para completar a cruzadinha.
+Nível 3: aparece na tela "Nível 3: o relógio é um item importante para a jornada de vocês, mas para desbloquea-lo é necessário completar o circuito em cima da mesa passando o objeto de metal sem encostar no fio."
 
-Nível 4: após o fim do tempo, aparece na tela "Nível 4: o tempo está quase acabando, precisamos atrasar o relógio para seguir com a última etapa da missão." Inicia um cronômetro de 02:00 minutos na tela. 
+Nível 4: após completarem a missão, aparece na tela "Nível 4: o tempo está quase acabando, agora que desbloquearam o relógio precisamos atrasa-lo para seguir com a última etapa da missão."
 
-Ao completar esta etapa o relógio volta para 23:58:30 (eles tem mais 01:30 de tempo).
+Ao completar esta etapa o relógio volta para 23:58:30.
 
 Nível 5: aparece na tela "Nível 5: os espíritos já estão rodando por aí, é preciso destruir o ritual para saírem vivos. Cada vela tem um símbolo e são sensíveis, aproxime a mão em cima de cada uma na ordem correta indicada na página 7 do livro para destruir o ritual. CUIDADO: não encoste para não se queimar." O jogador 1 deverá ir até a página indicada do livro, onde estará falando sobre o ritual, por que ele acontece, etc. No fim da página terá um bloco de destaque com as instruções para destruir o ritual e a ordem que o jogador 2 precisa aproximar a mão delas para concluir a fase.
 
 Finalização: ao concluírem todas as etapas dentro do tempo estimado, aparece na tela  “Final vitorioso. Vocês acabam de destruir o ritual, agora a alma do pequeno órfão e de outras pessoas está livre. Se reúnam no stand e comemorem a vitória juntos”. Chegando lá, o placar de vitoriosos se atualiza e eles ganham uma recompensa (pirulito ou algum chocolate).
 
 ### **OBJETIVO DO JOGO:**
-Os jogadores tem o objetivo final destruir o ritual antes da meia noite, para que não sejam capturados pelos espíritos e conseguirem salvar as almas que já estão presas local, mas até conseguir isso, terão que enfrentar uma sequência de níveis que exige raciocínio lógico e agilidade. Caso não consigam cumprir o tempo estimado para qualquer etapa, o jogo estará perdido e os jogadores devem se retirar. Informações que podem ser importantes para o jogo:
+Os jogadores tem o objetivo final de destruir o ritual antes da meia noite, para que não sejam capturados pelos espíritos e conseguirem salvar as almas que já estão presas local, mas até conseguir isso, terão que enfrentar uma sequência de níveis que exige raciocínio lógico e agilidade. Caso não consigam cumprir o tempo estimado para qualquer etapa, o jogo estará perdido e os jogadores devem se retirar. Informações que podem ser importantes para o jogo:
 - Os jogadores devem estar atentos aos objetos ao seu redor, em um escape room qualquer objeto pode ser uma dica.
 
 ### **REGRAS:**
@@ -90,51 +89,46 @@ flowchart TD
 
 ### **Descrição das cenas do jogo (interface):**
 
-    1- Cena com nome do jogo.
+    1- Cena com a logo da empresa.
+    
+    2- Cena com nome do jogo.
 
-    2- Cena de carregamento.
+    3- Cena de carregamento.
     Descrição: Faca pingando e mensagem “Aguardando todos os jogadores se posicionarem corretamente).
     OBS: colocar sensor de geolocalização (latitude e longitude) e ir para a próxima cena apenas quando os jogadores estiverem no local indicado.
 
-    3- Cena com mensagem.
-    Tempo de duração: 40 segundos.
+    4- Cena com mensagem.
+    Tempo de duração: 15 segundos.
     Item: canto inferior direito relógio marcando 23:50:00.
     Mensagem no meio da tela: "Agora são 23:50. O ritual dos espíritos inicia à meia noite e vocês precisam terminar todos os níveis dentro do tempo indicado para conseguirem sair a salvo. Boa sorte..."
 
-    (após os 40 segundos, pular para próxima cena)
+    (após os 15 segundos, pular para próxima cena)
 
-    4- Cena Nível 1.
+    5- Cena Nível 1.
     Item: canto inferior direito relógio passando o tempo (a partir de 23:50:00).
-    Em baixo da mensagem: cronômetro regressivo de 02:00 minutos.
-    Mensagem no meio da tela: “Nível 1 - Vocês precisam subir na sala de projeção, mas a porta está trancada. Dentro da caixa há uma chave, e o enigma para abri-la é uma data. Descubram em até dois minutos".
+    Mensagem no meio da tela: “Nível 1 - Vocês precisam subir na sala de projeção, mas a porta está trancada. Dentro da caixa há uma chave, e o enigma para abri-la é uma data".
 
     OBS: ir para a próxima cena e abrir a porta de vidro quando o código for inserido no teclado da caixa corretamente.
 
-    5- Cena Nível 2.
+    6- Cena Nível 2.
     Item: canto inferior direito relógio passando o tempo (continuando da outra cena).
-    Em baixo da mensagem: cronômetro regressivo de 01:30 minutos.
     Mensagem no meio da tela: “Nível 2 - como resolver o mistério sem ir até a cena do crime? Pegue a chave e abra a porta à esquerda no fundo do auditório. Suba as escadas e aperte o botão em cima da cadeira para iniciar o próximo nível"
 
-    6- Cena Nível 3.
+    7- Cena Nível 3.
     Item: canto inferior direito relógio passando o tempo (continuando da outra cena).
-    Em baixo da mensagem: cronômetro regressivo de 04:30 minutos.
-    Mensagem no meio da tela: "Nível 3 - o garoto deixou uma cruzadinha e as respostas são 6 palavras que estão espalhadas pelas próximas páginas do livro. Junte as letras das mesmas cores e posicione as palavras no lugar correto."
+    Mensagem no meio da tela: "Nível 3: o relógio é um item importante para a jornada de vocês, mas para desbloquea-lo é necessário completar o circuito em cima da mesa passando o objeto de metal sem encostar no fio."
 
-    OBS: passa para a próxima etapa apenas quando acabar o tempo de 04:30 minutos.
-
-    7- Cena Nível 4.
+    8- Cena Nível 4.
     Item: canto inferior direito relógio passando o tempo (continuando da outra cena).
-    Em baixo da mensagem: cronômetro regressivo de 02:00 minutos.
     Mensagem no meio da tela: "Nível 4: o tempo está quase acabando, precisamos atrasar o relógio para seguir com a última etapa da missão."
 
     OBS: ir para a próxima cena e voltar o relógio (físico) para 23:58:30 apenas quando a missão for executada.
 
-    8- Cena Nível 5.
+    9- Cena Nível 5.
     Item: canto inferior direito relógio passando o tempo (volta para 23:58:30).
-    Em baixo da mensagem: cronômetro regressivo de 01:30 minutos.
     Mensagem no meio da tela: "Nível 5: os espíritos já estão rodando por aí, é preciso destruir o ritual para saírem vivos. Cada vela tem um símbolo e são sensíveis, aproxime a mão em cima de cada uma na ordem correta indicada na página 7 do livro para destruir o ritual. CUIDADO: não encoste para não se queimar."
 
-    9- Final.
+    10- Final.
     Mensagem no meio da tela: “Final vitorioso. Vocês acabam de destruir o ritual, agora a alma do pequeno órfão e de outras pessoas está livre. Se reúnam no stand e comemorem a vitória juntos”.
 
     Final trágico - acontece caso alguma etapa não seja executada dentro do tempo estabelecido. Na tela aparece “O ritual vai começar, corra enquanto ainda é tempo” - lampada vermelha e sirene.
@@ -142,7 +136,7 @@ flowchart TD
 ### **Descrição dos ambientes:**
 
 **Stand:**
-- Metade fechada com tecido preto, com uma mesa, fone de ouvido para comunicação, um abajur, algumas folhas de papel de rascunho, caneta, livro e um calendário pendurado.
+- Metade fechada com tecido preto, com uma mesa, fone de ouvido para comunicação, um abajur, algumas folhas de papel de rascunho, caneta, livro e um calendário pendurado e objeto do circuito eletronico.
 - Outra metade: Painel com o QR code, premissa, título do jogo, regras, termo, etc.
 
 **Auditório:**
@@ -153,6 +147,7 @@ flowchart TD
 - Caixa com porta de vidro e teclado para inserir números (motor para abertura)
 - Detector de presença (a pessoa sobe a escada e as velas de LED acendem).
 - Botão em cima da cadeira para iniciar a fase 3.
+- Circuito da fase 3, com led e liberação do relógio.
 - Relógio com display e teclado para voltar ao tempo.
 - Sirene vermelha (no stand e na sala de projeção - lâmpadas de led inteligente, bucal portátil)
 - Sensor de prox. nas velas (o jogador aproxima a mão das velas numa ordem X para desativar o ritual)
