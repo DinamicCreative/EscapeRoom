@@ -85,8 +85,6 @@ flowchart TD
     B -->|JOGADOR 2| E[Vai até o auditório - em cima do X no chão] --> |Informativo de 40 segundos| Nível1    
 ```
 
-```
-
 ### **Descrição das cenas do jogo (interface):**
 
     1- Cena com a logo da empresa.
