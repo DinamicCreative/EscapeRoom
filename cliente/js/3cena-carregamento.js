@@ -4,15 +4,15 @@ export default class cena_carregamento extends Phaser.Scene {
   }
 
   preload() {
-    this.load.spritesheet("faca", "./assets/faca.png", {
-      frameWidth: 128,
-      frameHeight: 128,
+    this.load.spritesheet("vela", "./assets/vela.png", {
+      frameWidth: 450,
+      frameHeight: 800,
     });
   }
 
   create() {
     this.faca = this.add
-      .sprite(225, 400, "faca")
+      .sprite(225, 350, "vela")
       .setInteractive()
       .on("pointerdown", () => {
         this.faca.destroy();
@@ -20,16 +20,16 @@ export default class cena_carregamento extends Phaser.Scene {
       });
 
     this.anims.create({
-      key: "faca-pingando",
-      frames: this.anims.generateFrameNumbers("faca", {
+      key: "vela-mexendo",
+      frames: this.anims.generateFrameNumbers("vela", {
         start: 0,
-        end: 3,
+        end: 4,
       }),
       frameRate: 5,
       repeat: -1,
     });
     //
-    this.faca.anims.play("faca-pingando", true);
+    this.faca.anims.play("vela-mexendo", true);
   }
 
   upload() {}
