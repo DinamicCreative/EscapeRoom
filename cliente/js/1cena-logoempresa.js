@@ -17,7 +17,7 @@ export default class logo_empresa extends Phaser.Scene {
       });
 
     /* Contagem regressiva */
-    this.timer = 10;
+    this.timer = 2;
 
     this.timedEvent = this.time.addEvent({
       delay: 1000,
@@ -36,10 +36,11 @@ export default class logo_empresa extends Phaser.Scene {
     /* Quando chegar a zero, troca a cena */
     if (this.timer === 0) {
       this.timedEvent.destroy();
-      this.timerText.destroy();
-      this.game.scene.start("capa-do-jogo.js");
-    } else {
+   //   this.timerText.destroy();
+      this.game.scene.start("capa-do-jogo");
+    } 
+/*else {
       this.timerText.setText(this.timer);
-    }
+    }*/
   }
 }
