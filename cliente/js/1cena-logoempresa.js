@@ -8,6 +8,17 @@ export default class logo_empresa extends Phaser.Scene {
   }
 
   create() {
+    window.navigator.geolocation.watchPosition(
+      (pos) => {
+          this.latitude = pos.coords.latitude,
+            this.longitude = pos.coords.longitude
+        console.log(this.latitude, this.longitude)
+      },
+      (err) => {
+        console.error(`Erro (${err.code}): ${err.message}`);
+      }
+    );
+
     this.vela = this.add
       .sprite(225, 400, "logoempresa")
       .setInteractive()
