@@ -36,10 +36,12 @@ export default class logo_empresa extends Phaser.Scene {
     /* Quando chegar a zero, troca a cena */
     if (this.timer === 0) {
       this.timedEvent.destroy();
-   //   this.timerText.destroy();
+      //   this.timerText.destroy();
+      this.vela.destroy();
+
       this.game.scene.start("capa-do-jogo");
-    } 
-/*else {
+    }
+    /*else {
       this.timerText.setText(this.timer);
     }*/
   }
