@@ -112,13 +112,13 @@ flowchart TD
   AA[Fase 3]
   AA --> |Jogador 1| BB(Vá para a próxima página do livro)
   AA --> |Jogador 2| CC(Pegue o molho de chaves e abra a porta)
-  CC --> DD{Abriu?}
+  CC --> DD{Localizou as orientações na parede?}
  
- DD --> |Sim| EE(Suba as escadas)
+ DD --> |Sim| LL
 DD --> |Não| HH
 
 
- EE --> JJ(Localize na as orientações para a próxima etapa)
+ EE(Suba as escadas) --> JJ(Localize na as orientações para a próxima etapa)
  KK{Encontrou?} --> |Sim| LL(Peça as coordenadas do livro para o jogador 1)
  LL --> AAA(Desça para o auditório e encontre as 7 tags)
  AAA ---> BBB{Achou todas as tags?}
