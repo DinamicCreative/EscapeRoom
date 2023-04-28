@@ -105,8 +105,47 @@ flowchart TD
 
 Jogador 1(stand):  este jogador é indicado a ir até uma página específica do livro, e nesta página tem 7 coordenadas diferentes (indicando fileira e número de cadeira)
 
-Jogador 2(auditório): ele encontra no molho de chaves a chave que abre a porta da sala de projeção, sobe as escadas e a interface pede para que o jogador procure pistas do que fazer pelas paredes da sala. Nas paredes terá as orientações para ele voltar para a parte de baixo do auditório e pegar os itens de acordo com as coordenadas do outro jogador. Ele irá encontrar 7 tags iguais e precisa subir com elas para a sala de projeção novamente. Na mesa de cabeceira há uma caixa trancada, e ele é orientado a encontrar qual das 7 tags abre a caixa (após encontrar, precisa guardar as outras 6 pois serão úteis para os próximos níveis. Quando o jogador aproximar da caixa a tag correta, eles passam para o próximo nível.
+Jogador 2(auditório): ele encontra no molho de chaves a chave que abre a porta da sala de projeção, sobe as escadas e a interface pede para que o jogador procure pistas do que fazer pelas paredes da sala. Nas paredes terá as orientações para ele voltar para a parte de baixo do auditório e pegar os itens de acordo com as coordenadas do outro jogador. Ele irá encontrar 7 tags iguais e precisa subir com elas para a sala de projeção novamente. Na mesa de cabeceira há uma caixa trancada, e ele é orientado a encontrar qual das 7 tags abre a caixa (após encontrar, precisa guardar as outras 6 pois serão úteis para os próximos níveis). Quando o jogador aproximar da caixa a tag correta, eles passam para o próximo nível.
 
+```mermaid
+flowchart TD
+  AA[Fase 3]
+  AA --> |Jogador 1| BB(Se dirige ao auditório)
+  AA --> |Jogador 2| CC(Pegue o molho de chaves e abra a porta)
+  CC --> DD{Abriu?}
+ 
+ DD --> |Sim| EE(Suba as escadas)
+DD --> |Não| HH
+
+
+ EE --> JJ(Localize na parede coordenadas)
+ JJ --> KK{Encontrou?}
+ KK --> |Sim| LL(Dê as coordenadas para o jogador 1  )
+ KK --> |Não| HH(O tempo continua rodando)
+  HH --> MM{O tempo acabou?}
+  MM --> |Sim| II[Fim de jogo]
+  MM --> |Não| JJ
+
+
+BB --> RR{Possui as coordenadas?}
+RR -->  |Sim| SS(Encontre e pegue todas as tags)
+RR -->  |Não| TT(Peça ao jogador 2)
+
+
+SS --> UU{Encontrou todas?}
+UU --> |Sim|PP(Suba na sala de projeção)
+UU --> |Não| QQ(O tempo continua rodando)
+  QQ --> VV{O tempo acabou?}
+  VV --> |Sim| WW[Fim de jogo]
+  VV --> |Não| SS
+
+
+  PP --> ZZ(Desbloqueia a caixa em cima da cama com a tag certa)
+  ZZ --> XX{Encontrou?}
+  XX --> |Não|QQ
+  XX --> |Sim| OO[Próxima Fase]
+
+```
 **Nível 4:**
 
 Jogador 1: na sua tela, aparece “O outro jogador está correndo perigo, pegue sua lanterna e se direcione de forma silenciosa até o auditório para encontrá-lo na sala de projeção subindo as escadas da porta á esquerda”.
