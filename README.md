@@ -44,6 +44,7 @@ Jogador 2 (auditório): é informado que precisa aguardar o código e inseri-lo 
 Após conseguirem decifrar o código e o jogador 2 pegar as chaves, avançam para o próximo nível.
 
 ```mermaid
+flowchart TD
    H[Fase 1] -->|JOGADOR 1| I(Recebe a missão de decifrar o enigma)
    I --> K{Decifrou?}
    K -->|Sim| L(Dê o código ao jogador 2)
