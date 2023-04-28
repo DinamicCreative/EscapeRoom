@@ -128,10 +128,10 @@ DD --> |Não| HH
 
 
 BB --> RR{Possui as coordenadas?}
-RR -->  |Sim| SS(Encontre e pegue todas as tags)
+RR -->  |Sim| SS(Informe ao Jogador 1)
 RR -->  |Não| BB
 
-SS --> UU{Encontrou todas?}
+JJ --> UU{Encontrou todas?}
 UU --> |Sim|PP(Suba na sala de projeção)
 UU --> |Não| QQ(O tempo continua rodando)
   QQ --> VV{O tempo acabou?}
