@@ -142,8 +142,7 @@ UU --> |Sim|PP(Suba na sala de projeção)
 UU --> |Não| QQ(O tempo continua rodando)
   QQ --> VV{O tempo acabou?}
   VV --> |Sim| WW[Fim de jogo]
-  VV --> |Não| SS
-
+  
 
   PP --> ZZ(Desbloqueia a caixa em cima da cama com a tag certa)
   ZZ --> XX{Encontrou?}
