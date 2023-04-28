@@ -110,7 +110,7 @@ Jogador 2(auditório): ele encontra no molho de chaves a chave que abre a porta 
 ```mermaid
 flowchart TD
   AA[Fase 3]
-  AA --> |Jogador 1| BB(Se dirige ao auditório)
+  AA --> |Jogador 1| BB(Vá para a próxima página do livro)
   AA --> |Jogador 2| CC(Pegue o molho de chaves e abra a porta)
   CC --> DD{Abriu?}
  
@@ -118,9 +118,9 @@ flowchart TD
 DD --> |Não| HH
 
 
- EE --> JJ(Localize na parede coordenadas)
+ EE --> JJ(Localize na as orientações para a próxima etapa)
  JJ --> KK{Encontrou?}
- KK --> |Sim| LL(Dê as coordenadas para o jogador 1  )
+ KK --> |Sim| LL(Peça as coordenadas do livro para o jogador 1)
  KK --> |Não| HH(O tempo continua rodando)
   HH --> MM{O tempo acabou?}
   MM --> |Sim| II[Fim de jogo]
@@ -129,8 +129,7 @@ DD --> |Não| HH
 
 BB --> RR{Possui as coordenadas?}
 RR -->  |Sim| SS(Encontre e pegue todas as tags)
-RR -->  |Não| TT(Peça ao jogador 2)
-
+RR -->  |Não| BB
 
 SS --> UU{Encontrou todas?}
 UU --> |Sim|PP(Suba na sala de projeção)
