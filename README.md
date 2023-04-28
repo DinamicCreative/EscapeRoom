@@ -27,8 +27,8 @@ flowchart TD
    B(Os jogadores abrem o jogo e são separados)
 
 
-   -->|JOGADOR 1| D[Permanece no stand] --> |Informativo de 15 segundos| F(Iniciam o jogo)
-  B -->|JOGADOR 2| E[Levado até o auditório - em cima do X no chão] --> |Informativo de 15 segundos| F(Iniciam o jogo)
+   -->|JOGADOR 1| D[Permanece no stand] --> |Informativo de 10 segundos| F(Iniciam o jogo)
+  B -->|JOGADOR 2| E[Levado até o auditório] --> |Informativo de 10 segundos| F(Iniciam o jogo)
   KA --> |Não|BE(São convidados a se retirar.)
  
 ```
