@@ -128,10 +128,6 @@ DD --> |Não| HH
  DDD ---> |Sim| EEE(Próxima fase)
  DDD ---> |Não| HH
  KK --> |Não| HH(O tempo continua rodando)
-  HH --> MM{O tempo acabou?}
-  MM --> |Sim| II[Fim de jogo]
-  MM --> |Não| JJ
-
 
 BB --> RR{Possui as coordenadas?}
 RR -->  |Sim| SS(Informe ao Jogador 1)
