@@ -103,7 +103,7 @@ Fase 4: Sensor de movimento na janela para iniciar a próxima fase
 Fase 5: Tags da fase 5 encaixando em outros sensores para desligar o led de cada vela
 
 **Resumo dos itens físicos:**
-Itens físicos:
+
 - Termos de compromisso impressos
 - Placas de vencedores e perdedores
 - Fone de ouvido para o stand
