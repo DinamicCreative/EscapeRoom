@@ -159,6 +159,18 @@ F ---> |Não| S
 Os jogadores vão ser orientados a usarem as tags que foram coletadas anteriormente, pois cada uma desativa uma vela apenas aproximando. O ambiente deve iniciar uma música de aflição, mensagens pedindo para os jogadores serem rápidos. Caso consigam completar esse e os outros níveis dentro do tempo de 10 minutos, saem com a vitória. Aparece na tela  “Final vitorioso". Vocês acabam de destruir o ritual, agora a alma do pequeno órfão e de outras pessoas está livre. Se reúnam no stand e comemorem a vitória juntos”.
 No stand deve haver uma placa com o ranking de vencedores mais rápidos, e a numeração de pessoas que não conseguiram completar o jogo.
 
+´´´mermaid
+
+flowchart TD
+  A[Fase 5]
+  A -->  B(Os jogadores devem aproximar corretamente as tags das velas, até que todas se apaguem)
+  B ---> D
+D{Todas as velas estão desligadas?} ---> |Sim| C(O ritual foi destruído e os jogadores venceram)
+D ---> |Não| F{Acabo o tempo?}
+F ---> |Sim| G(Fim de jogo)
+F ---> |Não| B
+
+´´´
 ### **Hardware que será utilizado:**
 
 Início: sensor de presença no auditório
