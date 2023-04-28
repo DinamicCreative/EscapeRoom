@@ -20,6 +20,9 @@ O jogador 1 entra em uma parte fechada do stand e é orientado a por o fone de o
 
 Após esta etapa, a interface irá apresentar o seguinte informativo por 10 segundos: "Agora são 23:50 do dia 23 de junho. O ritual dos espíritos inicia à meia noite e vocês precisam terminar todos os níveis dentro do tempo indicado para conseguirem sair a salvo. Boa sorte…”. Após o informativo, se inicia o primeiro nível.
 
+IMPORTANTE: os jogadores tem até 10 minutos para completar todas as fases do jogo, terá um cronômetro no canto superior da tela indicando o tempo.
+
+
 ```mermaid
 flowchart TD
   A[Início - dupla no stand] --> KA{Aceitam os termos e regras do jogo?}
