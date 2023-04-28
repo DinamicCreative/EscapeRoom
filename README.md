@@ -140,6 +140,20 @@ Jogador 1: na sua tela, aparece “O outro jogador está correndo perigo, pegue 
 
 Jogador 2: abrindo a caixa que foi desbloqueada, se depara com imagens e textos de páginas antigas (aspecto amarelado e um pouco rasgado) que informam que aquele era um lugar de rituais muito antes do garoto ir morar lá, que os espíritos raptaram sua alma e de algumas outras pessoas que se atrevem a entrar no local no momento da cerimônia. Diz que existe apenas um jeito de impedir que o ritual aconteça, e dá dicas de onde os jogadores têm que encontrar essas orientações. Os jogadores verão pistas pela sala, que vão direcioná-los a olharem para fora das janelas que tem na sala de projeção. Haverá um sensor nas janelas, assim que eles olharem verão as instruções em cima do ar condicionado, e a interface iniciará o próximo e último nível do jogo.
 
+```mermaid
+
+flowchart TD
+  A[Fase 4]
+  A --> |Jogador 1| B(Pegue sua lanterna e vá para o auditório em silêncio)
+  B ---> S
+  A --> |Jogador 2| S(Leia os textos da caixa e pegue a dica para procurar as orientações da próxima fase)
+S ---> D
+D{Encontraram a dica?} ---> |Sim| C(Próxima fase )
+D ---> |Não| F{Acabo o tempo?}
+F ---> |Sim| G(Fim de jogo)
+F ---> |Não| S
+
+```
 **Nível 5:**
 
 Os jogadores vão ser orientados a usarem as tags que foram coletadas anteriormente, pois cada uma desativa uma vela apenas aproximando. O ambiente deve iniciar uma música de aflição, mensagens pedindo para os jogadores serem rápidos. Caso consigam completar esse e os outros níveis dentro do tempo de 10 minutos, saem com a vitória. Aparece na tela  “Final vitorioso". Vocês acabam de destruir o ritual, agora a alma do pequeno órfão e de outras pessoas está livre. Se reúnam no stand e comemorem a vitória juntos”.
