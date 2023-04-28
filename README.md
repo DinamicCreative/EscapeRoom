@@ -11,47 +11,58 @@ Certo dia, o menino não desceu mais do seu quarto para nenhuma de suas tarefas 
 
 Após a situação tenebrosa, poucas pessoas tiveram coragem de subir na sala de projeção, e o órfão nunca mais apareceu. Os gritos da meia noite ainda podem ser ouvidos mas a situação continua sem uma solução. Prontos para enfrentar o mistério?
 
-### **Quantidade de níveis: 5 (resumo de cada nível)**
-**Fase 1:** decifrar o código para abrir a caixa de vidro.
-
-**Fase 2:** pegar a chave, abrir a porta, subir as escadas e localizar a próxima etapa.
-
-**Fase 3:** passar o circuito sem encostar no fio.
-
-**Fase 4:**  atrasar o relógio.
-
-**Fase 5:** desativar o ritual e sair do local.
-
-### **Item importante:**
-    Diário do menino que vai ficar no stand com o jogador 1 para decifrar as tarefas (páginas com textos intercaladas com páginas de fotos).
-    Texto 1 - relato dele de quando foi capturado pelos espíritos
-    (IMPORTANTE: precisa dizer o mês do ocorrido para que o jogador vá até o calendário procurar o dia)
-    Texto 2 - história explicando quem são os espíritos, e por que faziam aquilo.
-    Texto 3 - ritual
-    (IMPORTANTE: precisa ter a orientação de como destruir o ritual)
-
 ### **JOGO IDEAL:**
+
+**Início:**
 As duas pessoas interessadas deverão ir até o stand, onde irão ler a premissa da história, assinar um termo de comprometimento e abrir a interface nos seus celulares através de um QR code.
 
-O jogador 1 entra em uma parte fechada do stand e é orientado a por o fone de ouvido que estará a disposição, enquanto o jogador 2 ganha uma lanterna de dínamo e é direcionado ao auditório, onde precisa ficar em cima de um X no chão para começar o jogo. A interface ficará na tela de carregamento até que os dois jogadores estejam corretamente nos seus locais indicados.
+```mermaid
+flowchart TD
+  A[Início - dupla no stand] --> KA{Aceitam os termos e regras do jogo?}
+  KA --> |Sim| B
+   B(Os jogadores abrem o jogo e são separados)
 
-Após esta etapa, a interface irá iniciar um cronometro por 15 segundos na tela e terá no canto inferior direito terá um relógio pausado em 23:50:00, e no meio o texto "Agora são 23:50. O ritual dos espiritos inicia à meia noite e vocês precisam terminar todos os níveis dentro do tempo indicado para conseguirem sair a salvo. Boa sorte...". Finalizando os 15 segundos (tempo para os jogadores lerem a mensagem), o Nível 1 inicia.
 
-Nível 1: aparece na tela "Nível 1 - Vocês precisam subir na sala de projeção, mas a porta está trancada. Dentro da caixa há uma chave, e o enigma para abri-la é uma data. Descubram em até dois minutos" e o relógio no canto da tela começa a rodar a hora.
+   -->|JOGADOR 1| D[Permanece no stand] --> |Informativo de 15 segundos| F(Iniciam o jogo)
+  B -->|JOGADOR 2| E[Levado até o auditório - em cima do X no chão] --> |Informativo de 15 segundos| F(Iniciam o jogo)
+  KA --> |Não|BE(São convidados a se retirar.)
+ 
+```
 
-O jogador 1 terá um texto onde o garoto descreve o mês em que os espíritos começaram a perturbá-lo, na sua frente também terá um calendário, e no mês indicado no texto, terá um dia circulado. O jogador 2 deve inserir a data apenas com números no teclado para abrir a porta da caixa de vidro que guarda a chave da próxima etapa. (ex: 25 de janeiro de 1990 - inserir: 25011990). Após inserir a senha correta, a porta da caixa irá se abrir e estão aptos para a próxima etapa.
+O jogador 1 entra em uma parte fechada do stand e é orientado a por o fone de ouvido que estará a disposição, enquanto o jogador 2 ganha uma lanterna de dínamo e é direcionado ao auditório. A interface ficará na tela de carregamento até que os dois jogadores estejam corretamente nos seus locais indicados.
 
-Nível 2: aparece na tela "Nível 2 - como resolver o mistério sem ir até a cena do crime? Pegue a chave e abra a porta à esquerda no fundo do auditório. Suba as escadas e aperte o botão em cima da cadeira para iniciar o próximo nível".
+Após esta etapa, a interface irá apresentar o seguinte informativo por 10 segundos: "Agora são 23:50 do dia 23 de junho. O ritual dos espíritos inicia à meia noite e vocês precisam terminar todos os níveis dentro do tempo indicado para conseguirem sair a salvo. Boa sorte…”. Após o informativo, se inicia o primeiro nível.
 
-Nível 3: aparece na tela "Nível 3: o relógio é um item importante para a jornada de vocês, mas para desbloquea-lo é necessário completar o circuito em cima da mesa passando o objeto de metal sem encostar no fio."
+**Nível 1:**
 
-Nível 4: após completarem a missão, aparece na tela "Nível 4: o tempo está quase acabando, agora que desbloquearam o relógio precisamos atrasa-lo para seguir com a última etapa da missão."
+Jogador 1 (stand): aparece na tela que este jogador precisa encontrar um código, e para isso ele terá que usar o calendário e o diário que estão dispostos na mesa.
 
-Ao completar esta etapa o relógio volta para 23:58:30.
+Jogador 2 (auditório): é informado que precisa aguardar o código e inseri-lo corretamente para abrir a porta de vidro e pegar a chave.
+Após conseguirem decifrar o código e o jogador 2 pegar a chave, avançam para o próximo nível.
 
-Nível 5: aparece na tela "Nível 5: os espíritos já estão rodando por aí, é preciso destruir o ritual para saírem vivos. Cada vela tem um símbolo e são sensíveis, aproxime a mão em cima de cada uma na ordem correta indicada na página 7 do livro para destruir o ritual. CUIDADO: não encoste para não se queimar." O jogador 1 deverá ir até a página indicada do livro, onde estará falando sobre o ritual, por que ele acontece, etc. No fim da página terá um bloco de destaque com as instruções para destruir o ritual e a ordem que o jogador 2 precisa aproximar a mão delas para concluir a fase.
+**Nível 2:**
 
-Finalização: ao concluírem todas as etapas dentro do tempo estimado, aparece na tela  “Final vitorioso. Vocês acabam de destruir o ritual, agora a alma do pequeno órfão e de outras pessoas está livre. Se reúnam no stand e comemorem a vitória juntos”. Chegando lá, o placar de vitoriosos se atualiza e eles ganham uma recompensa (pirulito ou algum chocolate).
+Jogador 1(stand): aparece na sua tela que precisa encontrar as instruções desta fase numa página secreta do livro. Também em cima da mesa, terá uma luminária de luz negra. As instruções estarão escritas de forma que só sejam vistas com a luz negra no papel. A orientação do papel vai ser que é necessário realizar o circuito eletrônico sem encostar no fio para desativar o sensor da escada, evitando que o alarme soe e os espíritos acordem.
+
+Jogador 2(auditório):  este jogador precisa realizar o circuito, e assim que finaliza-lo a interface inicia o próximo nível.
+
+**Nível 3:**
+
+Jogador 1(stand):  este jogador é indicado a ir até uma página específica do livro, e nesta página tem 7 coordenadas diferentes (indicando fileira e número de cadeira)
+
+Jogador 2(auditório): ele encontra a chave que abre a porta da sala de projeção, sobe as escadas e a interface pede para que o jogador procure pistas do que fazer pelas paredes da sala. Nas paredes terá as orientações para ele voltar para a parte de baixo do auditório e pegar os itens de acordo com as coordenadas do outro jogador. Ele irá encontrar 7 tags iguais e precisa subir com elas para a sala de projeção novamente. Na mesa de cabeceira há uma caixa trancada, e ele é orientado a encontrar qual das 7 tags abre a caixa (após encontrar, precisa guardar as outras 6 pois serão úteis para os próximos níveis. Quando o jogador aproximar da caixa a tag correta, eles passam para o próximo nível.
+
+**Nível 4:**
+
+Jogador 1: na sua tela, aparece “O outro jogador está correndo perigo, pegue sua lanterna e se direcione de forma silenciosa até o auditório para encontrá-lo na sala de projeção subindo as escadas da porta á esquerda”.
+
+Jogador 2: abrindo a caixa que foi desbloqueada, se depara com imagens e textos de páginas antigas (aspecto amarelado e um pouco rasgado) que informam que aquele era um lugar de rituais muito antes do garoto ir morar lá, que os espíritos raptaram sua alma e de algumas outras pessoas que se atrevem a entrar no local no momento da cerimônia. Diz que existe apenas um jeito de impedir que o ritual aconteça, e dá dicas de onde os jogadores têm que encontrar essas orientações. Os jogadores verão pistas pela sala, que vão direcioná-los a olharem para fora das janelas que tem na sala de projeção. Haverá um sensor nas janelas, assim que eles olharem verão as instruções em cima do ar condicionado, e a interface iniciará o próximo e último nível do jogo.
+
+**Nível 5:**
+
+Os jogadores vão ser orientados a usarem as tags que foram coletadas anteriormente, pois cada uma desativa uma vela apenas aproximando. O ambiente deve iniciar uma música de aflição, mensagens pedindo para os jogadores serem rápidos. Caso consigam completar esse e os outros níveis dentro do tempo de 10 minutos, saem com a vitória. Aparece na tela  “Final vitorioso". Vocês acabam de destruir o ritual, agora a alma do pequeno órfão e de outras pessoas está livre. Se reúnam no stand e comemorem a vitória juntos”.
+No stand deve haver uma placa com o ranking de vencedores mais rápidos, e a numeração de pessoas que não conseguiram completar o jogo.
+
 
 ### **OBJETIVO DO JOGO:**
 Os jogadores tem o objetivo final de destruir o ritual antes da meia noite, para que não sejam capturados pelos espíritos e conseguirem salvar as almas que já estão presas local, mas até conseguir isso, terão que enfrentar uma sequência de níveis que exige raciocínio lógico e agilidade. Caso não consigam cumprir o tempo estimado para qualquer etapa, o jogo estará perdido e os jogadores devem se retirar. Informações que podem ser importantes para o jogo:
@@ -67,6 +78,7 @@ Os jogadores tem o objetivo final de destruir o ritual antes da meia noite, para
 - A interface começa a contar 40s após identificar que os dois jogadores estão na posição geográfica correta, que estará indicada no chão com um X no chão. No fim dos 40s o relógio começa a contar o tempo e o cronômetro também.
 - Na lateral da interface terá um símbolo (triângulo amarelo de alerta) para que os jogadores desistam do jogo. Se este botão for acionado por qualquer um dos dois jogadores, uma sirene toca e o jogo se encerra.
 - Os componentes eletrônicos presentes no escape room são sensíveis, é importante que os jogadores joguem com cuidado.
+- Os jogadores devem tomar cuidado com as escadas do local.
 
 ### **REFERÊNCIAS:**
 - [Filme Escape Room;](https://www.youtube.com/watch?v=v9JFZFQLt9k)
@@ -78,12 +90,7 @@ Os jogadores tem o objetivo final de destruir o ritual antes da meia noite, para
 
 Início do jogo
 
-```mermaid
-flowchart TD
-    A[Início - dupla no stand] -->|Jogadores abrem a interface do jogo em seus smartphones| B(Jogadores se separam)
-     -->|JOGADOR 1| D[Permanece no stand - pôe os fones de ouvido] --> |Informativo de 15 segundos| Nível1
-    B -->|JOGADOR 2| E[Vai até o auditório - em cima do X no chão] --> |Informativo de 15 segundos| Nível1    
-```
+
 
 ### **Descrição das cenas do jogo (interface):**
 
@@ -131,25 +138,7 @@ flowchart TD
 
     Final trágico - acontece caso alguma etapa não seja executada dentro do tempo estabelecido. Na tela aparece “O ritual vai começar, corra enquanto ainda é tempo” - lampada vermelha e sirene.
 
-### **Descrição dos ambientes:**
 
-**Stand:**
-- Metade fechada com tecido preto, com uma mesa, fone de ouvido para comunicação, um abajur, algumas folhas de papel de rascunho, caneta, livro e um calendário pendurado e objeto do circuito eletronico.
-- Outra metade: Painel com o QR code, premissa, título do jogo, regras, termo, etc.
-
-**Auditório:**
-- Em baixo: caixa com porta de vidro e teclado, para pegar a chave. Sinalização pelo auditório para a porta indicada. 
-- Em cima: Sensor na escada para ligar as velas quando entrar. Botão em cima de uma cadeira com papel e caneta. Local decorado com corrente, prateleira coberta por TNT preto, riscos com giz nas paredes, estrela de Davi desenhada com velas de led numeradas em cada ponta. Mesinha com o relógio e teclado para a fase 4.
-
-### **Tecnologias dos locais:**
-- Caixa com porta de vidro e teclado para inserir números (motor para abertura)
-- Detector de presença (a pessoa sobe a escada e as velas de LED acendem).
-- Botão em cima da cadeira para iniciar a fase 3.
-- Circuito da fase 3, com led e liberação do relógio.
-- Relógio com display e teclado para voltar ao tempo.
-- Sirene vermelha (no stand e na sala de projeção - lâmpadas de led inteligente, bucal portátil)
-- Sensor de prox. nas velas (o jogador aproxima a mão das velas numa ordem X para desativar o ritual)
-- Caixa de som sincronizada com o jogo (música de suspense, áudio de marcação de tempo, áudio de fim trágico).
 
 
 ### **COMO GERAR RECEITA:**
