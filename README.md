@@ -114,12 +114,11 @@ flowchart TD
   AA --> |Jogador 2| CC(Pegue o molho de chaves e abra a porta)
   CC --> DD{Localizou as orientações na parede?}
  
- DD --> |Sim| LL
+ DD --> |Sim| LL(Peça as coordenadas do livro para o jogador 1)
 DD --> |Não| HH
 
 
  EE(Suba as escadas) --> JJ(Localize na as orientações para a próxima etapa)
- KK{Encontrou?} --> |Sim| LL(Peça as coordenadas do livro para o jogador 1)
  LL --> AAA(Desça para o auditório e encontre as 7 tags)
  AAA ---> BBB{Achou todas as tags?}
  BBB ---> |Não| HH
@@ -127,23 +126,10 @@ DD --> |Não| HH
  CCC ---> DDD{Desbloqueou a caixa}
  DDD ---> |Sim| EEE(Próxima fase)
  DDD ---> |Não| HH
- KK --> |Não| HH(O tempo continua rodando)
 
 BB --> RR{Possui as coordenadas?}
 RR -->  |Sim| SS(Informe ao Jogador 1)
 RR -->  |Não| BB
-
-JJ --> UU{Encontrou todas?}
-UU --> |Sim|PP(Suba na sala de projeção)
-UU --> |Não| QQ(O tempo continua rodando)
-  QQ --> VV{O tempo acabou?}
-  VV --> |Sim| WW[Fim de jogo]
-  
-
-  PP --> ZZ(Desbloqueia a caixa em cima da cama com a tag certa)
-  ZZ --> XX{Encontrou?}
-  XX --> |Não|QQ
-  XX --> |Sim| OO[Próxima Fase]
 
 ```
 **Nível 4:**
