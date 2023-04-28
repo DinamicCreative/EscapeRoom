@@ -125,9 +125,11 @@ DD --> |Não| HH
  CCC ---> DDD{Desbloqueou a caixa}
  DDD ---> |Sim| EEE(Próxima fase)
  DDD ---> |Não| HH
+ HH ---> |Sim| FF(Fim do jogo)
+ HH ---> |Não| BBB
 
 BB --> RR{Possui as coordenadas?}
-RR -->  |Sim| SS(Informe ao Jogador 1)
+RR -->  |Sim| SS(Informe ao Jogador 2)
 RR -->  |Não| BB
 
 ```
