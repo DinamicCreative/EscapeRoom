@@ -118,7 +118,6 @@ flowchart TD
 DD --> |Não| HH
 
 
- EE(Suba as escadas) --> JJ(Localize na as orientações para a próxima etapa)
  LL --> AAA(Desça para o auditório e encontre as 7 tags)
  AAA ---> BBB{Achou todas as tags?}
  BBB ---> |Não| HH
