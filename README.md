@@ -75,6 +75,32 @@ Jogador 1(stand): aparece na sua tela que precisa encontrar as instruções dest
 
 Jogador 2(auditório):  este jogador precisa realizar o circuito, e assim que finaliza-lo a interface inicia o próximo nível.
 
+```mermaid
+flowchart TD
+
+
+   AAA[Fase 2]
+  AAA --> |Jogador 1| BBB(Encontra a página do livro em branco)
+  BBB --> JJJ{Encontrou?}
+  JJJ --> |Sim| KKK(Ligue a luz negra e oriente o jogador 2)
+  BBB --> |Não| LLL(O tempo acabou?)
+  LLL --> |Sim| MMM[Fim de jogo]
+  LLL --> |Não| BBB
+ 
+  AAA --> |Jogador 2| CCC{Já possui as instruções da fase?}
+  CCC --> |Não| NNN(Peça ao jogador 1)
+  NNN --> CCC
+  CCC --> |Sim| OOO(Interaja com o jogo labirinto eletrônico)
+  OOO --> DDD{Encostou no fio?}
+  DDD --> |Não| EEE(Desativado o sensor suba as escadas)
+  EEE --> ZZZ[Próximo Nível]
+  DDD --> |Sim| GGG(Soará um ruido até realizá-lo corretamente)
+  GGG --> HHH{O tempo acabou?}
+  HHH --> |Sim| III[Fim de jogo]
+  HHH --> |Não| OOO
+
+```
+
 **Nível 3:**
 
 Jogador 1(stand):  este jogador é indicado a ir até uma página específica do livro, e nesta página tem 7 coordenadas diferentes (indicando fileira e número de cadeira)
