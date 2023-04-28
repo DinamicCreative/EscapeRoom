@@ -111,7 +111,7 @@ Fase 5: Tags da fase 5 encaixando em outros sensores para desligar o led de cada
 - Placas de vencedores e perdedores
 - Fone de ouvido para o stand
 - Duas lanternas de dínamo
-- Caixa e porta de vidro - displays, sensores, motor, etc (fase )
+- Caixa e porta de vidro - displays, sensores, motor, etc (fase 1)
 - Componentes para o circuito - sensor da escada, buzzer, fios, etc (fase 2)
 - Giz para escrita nas paredes e desenho da estrela de 6 pontas no chão
 - Imagens para as paredes
