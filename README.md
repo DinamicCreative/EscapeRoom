@@ -121,6 +121,13 @@ DD --> |Não| HH
  EE --> JJ(Localize na as orientações para a próxima etapa)
  JJ --> KK{Encontrou?}
  KK --> |Sim| LL(Peça as coordenadas do livro para o jogador 1)
+ LL --> AAA(Desça para o auditório e encontre as 7 tags)
+ AAA ---> BBB{Achou todas as tags?}
+ BBB ---> |Não| HH
+ BBB ---> |Sim| CCC(Suba para a sala de projeção novamente e desbloqueie a caixa com a chave correta)
+ CCC ---> DDD{Desbloqueou a caixa}
+ DDD ---> |Sim| EEE(Próxima fase)
+ DDD ---> |Não| HH
  KK --> |Não| HH(O tempo continua rodando)
   HH --> MM{O tempo acabou?}
   MM --> |Sim| II[Fim de jogo]
