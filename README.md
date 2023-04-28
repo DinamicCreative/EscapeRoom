@@ -120,13 +120,12 @@ DD --> |Não| HH
 
  LL --> AAA(Desça para o auditório e encontre as 7 tags)
  AAA ---> BBB{Achou todas as tags?}
- BBB ---> |Não| HH{Acabou o tempo?}
  BBB ---> |Sim| CCC(Suba para a sala de projeção novamente e desbloqueie a caixa com a chave correta)
  CCC ---> DDD{Desbloqueou a caixa}
  DDD ---> |Sim| EEE(Próxima fase)
  DDD ---> |Não| HH
- HH ---> |Sim| FF(Fim do jogo)
- HH ---> |Não| BBB
+ HH{Acabou o tempo?} ---> |Sim| FF(Fim do jogo)
+ HH ---> |Nãoooooooo| BBB
 
 BB --> RR{Possui as coordenadas?}
 RR -->  |Sim| SS(Informe ao Jogador 2)
