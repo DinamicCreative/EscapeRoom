@@ -16,6 +16,10 @@ Após a situação tenebrosa, poucas pessoas tiveram coragem de subir na sala de
 **Início:**
 As duas pessoas interessadas deverão ir até o stand, onde irão ler a premissa da história, assinar um termo de comprometimento e abrir a interface nos seus celulares através de um QR code.
 
+O jogador 1 entra em uma parte fechada do stand e é orientado a por o fone de ouvido que estará a disposição, enquanto o jogador 2 ganha uma lanterna de dínamo e é direcionado ao auditório. A interface ficará na tela de carregamento até que os dois jogadores estejam corretamente nos seus locais indicados.
+
+Após esta etapa, a interface irá apresentar o seguinte informativo por 10 segundos: "Agora são 23:50 do dia 23 de junho. O ritual dos espíritos inicia à meia noite e vocês precisam terminar todos os níveis dentro do tempo indicado para conseguirem sair a salvo. Boa sorte…”. Após o informativo, se inicia o primeiro nível.
+
 ```mermaid
 flowchart TD
   A[Início - dupla no stand] --> KA{Aceitam os termos e regras do jogo?}
@@ -29,16 +33,36 @@ flowchart TD
  
 ```
 
-O jogador 1 entra em uma parte fechada do stand e é orientado a por o fone de ouvido que estará a disposição, enquanto o jogador 2 ganha uma lanterna de dínamo e é direcionado ao auditório. A interface ficará na tela de carregamento até que os dois jogadores estejam corretamente nos seus locais indicados.
-
-Após esta etapa, a interface irá apresentar o seguinte informativo por 10 segundos: "Agora são 23:50 do dia 23 de junho. O ritual dos espíritos inicia à meia noite e vocês precisam terminar todos os níveis dentro do tempo indicado para conseguirem sair a salvo. Boa sorte…”. Após o informativo, se inicia o primeiro nível.
-
 **Nível 1:**
 
 Jogador 1 (stand): aparece na tela que este jogador precisa encontrar um código, e para isso ele terá que usar o calendário e o diário que estão dispostos na mesa.
 
 Jogador 2 (auditório): é informado que precisa aguardar o código e inseri-lo corretamente para abrir a porta de vidro e pegar a chave.
 Após conseguirem decifrar o código e o jogador 2 pegar a chave, avançam para o próximo nível.
+
+```mermaid
+   H[Fase 1] -->|JOGADOR 1| I(Recebe a missão de decifrar o enigma)
+   I --> K{Decifrou?}
+   K -->|Sim| L(Dê o código ao jogador 2)
+   K -->|Não| M(O tempo continua rodando)
+   M --> Q(O tempo acabou?)
+   Q --> |Sim| R[Fim de jogo]
+   Q --> |Não| S(Continue tentando decifrar)
+   S --> K
+
+
+   L --> N
+
+
+   H -->|JOGADOR 2| J(Deve inserir um código de seis dígitos para abrir a caixa de vidro)
+   J --> N(O código já foi encontrado?)
+   N -->|Sim| O(Insira o código no teclado e aperte o botão 1)
+   N --> |Não| P(O tempo continua rodando)
+   P --> T(O tempo acabou?)
+   T --> |Sim| R
+   T --> |Não| J
+   O --> X[Próxima Fase]
+```
 
 **Nível 2:**
 
