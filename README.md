@@ -62,6 +62,7 @@ Após conseguirem decifrar o código e o jogador 2 pegar a chave, avançam para 
    T --> |Sim| R
    T --> |Não| J
    O --> X[Próxima Fase]
+   
 ```
 
 **Nível 2:**
@@ -87,6 +88,19 @@ Jogador 2: abrindo a caixa que foi desbloqueada, se depara com imagens e textos 
 Os jogadores vão ser orientados a usarem as tags que foram coletadas anteriormente, pois cada uma desativa uma vela apenas aproximando. O ambiente deve iniciar uma música de aflição, mensagens pedindo para os jogadores serem rápidos. Caso consigam completar esse e os outros níveis dentro do tempo de 10 minutos, saem com a vitória. Aparece na tela  “Final vitorioso". Vocês acabam de destruir o ritual, agora a alma do pequeno órfão e de outras pessoas está livre. Se reúnam no stand e comemorem a vitória juntos”.
 No stand deve haver uma placa com o ranking de vencedores mais rápidos, e a numeração de pessoas que não conseguiram completar o jogo.
 
+### **Hardware que será utilizado:**
+
+Início: sensor de presença no auditório
+
+Fase 1: Porta com sensor que a faz abrir caso a combinação (código) inserido esteja correto. 8 Displays para a sequência de código e 9 botões para inserir os números e confirmar (8 pra ir mudando os  números e 1 para OK).
+
+Fase 2: Labirinto circuito eletrônico com timer para realizá-lo, caso contrário soa os barulhos e ele perde.
+
+Fase 3: Sensor na caixa e chave deste sensor (o que a faz abrir). E outros 6 sensores para as velas (tags).
+
+Fase 4: Sensor de movimento na janela para iniciar a próxima fase
+
+Fase 5: Tags da fase 5 encaixando em outros sensores para desligar o led de cada vela
 
 ### **OBJETIVO DO JOGO:**
 Os jogadores tem o objetivo final de destruir o ritual antes da meia noite, para que não sejam capturados pelos espíritos e conseguirem salvar as almas que já estão presas local, mas até conseguir isso, terão que enfrentar uma sequência de níveis que exige raciocínio lógico e agilidade. Caso não consigam cumprir o tempo estimado para qualquer etapa, o jogo estará perdido e os jogadores devem se retirar. Informações que podem ser importantes para o jogo:
@@ -99,7 +113,7 @@ Os jogadores tem o objetivo final de destruir o ritual antes da meia noite, para
 - As fases deverão ser executadas dentro do tempo indicado, na ordem indicada.
 - Para desistir do jogo, deverá ser apertado um botão que ficará no canto da tela com o símbolo de perigo, e confirmar. Quando confirmarem a interface fecha e eles são liberados.
 - Não podem sair do local que o jogo estará indicando durante a execução.
-- A interface começa a contar 40s após identificar que os dois jogadores estão na posição geográfica correta, que estará indicada no chão com um X no chão. No fim dos 40s o relógio começa a contar o tempo e o cronômetro também.
+- O jogo deve ser terminado em no máximo 10 minutos. Terá um cronômetro no canto da tela sinalizando o tempo.
 - Na lateral da interface terá um símbolo (triângulo amarelo de alerta) para que os jogadores desistam do jogo. Se este botão for acionado por qualquer um dos dois jogadores, uma sirene toca e o jogo se encerra.
 - Os componentes eletrônicos presentes no escape room são sensíveis, é importante que os jogadores joguem com cuidado.
 - Os jogadores devem tomar cuidado com as escadas do local.
@@ -109,60 +123,6 @@ Os jogadores tem o objetivo final de destruir o ritual antes da meia noite, para
 - [Filme Um classico filme de terror](https://www.youtube.com/watch?v=hYuV9N5egg8)
 - [Série Stranger Things](https://www.netflix.com/br/title/80057281)
 - [Jogo Pacify](https://store.steampowered.com/app/967050/Pacify/)
-
-### **FLUXOGRAMA:**
-
-Início do jogo
-
-
-
-### **Descrição das cenas do jogo (interface):**
-
-    1- Cena com a logo da empresa.
-    
-    2- Cena com nome do jogo.
-
-    3- Cena de carregamento.
-    Descrição: Faca pingando e mensagem “Aguardando todos os jogadores se posicionarem corretamente).
-    OBS: colocar sensor de geolocalização (latitude e longitude) e ir para a próxima cena apenas quando os jogadores estiverem no local indicado.
-
-    4- Cena com mensagem.
-    Tempo de duração: 15 segundos.
-    Item: canto inferior direito relógio marcando 23:50:00.
-    Mensagem no meio da tela: "Agora são 23:50. O ritual dos espíritos inicia à meia noite e vocês precisam terminar todos os níveis dentro do tempo indicado para conseguirem sair a salvo. Boa sorte..."
-
-    (após os 15 segundos, pular para próxima cena)
-
-    5- Cena Nível 1.
-    Item: canto inferior direito relógio passando o tempo (a partir de 23:50:00).
-    Mensagem no meio da tela: “Nível 1 - Vocês precisam subir na sala de projeção, mas a porta está trancada. Dentro da caixa há uma chave, e o enigma para abri-la é uma data".
-
-    OBS: ir para a próxima cena e abrir a porta de vidro quando o código for inserido no teclado da caixa corretamente.
-
-    6- Cena Nível 2.
-    Item: canto inferior direito relógio passando o tempo (continuando da outra cena).
-    Mensagem no meio da tela: “Nível 2 - como resolver o mistério sem ir até a cena do crime? Pegue a chave e abra a porta à esquerda no fundo do auditório. Suba as escadas e aperte o botão em cima da cadeira para iniciar o próximo nível"
-
-    7- Cena Nível 3.
-    Item: canto inferior direito relógio passando o tempo (continuando da outra cena).
-    Mensagem no meio da tela: "Nível 3: o relógio é um item importante para a jornada de vocês, mas para desbloquea-lo é necessário completar o circuito em cima da mesa passando o objeto de metal sem encostar no fio."
-
-    8- Cena Nível 4.
-    Item: canto inferior direito relógio passando o tempo (continuando da outra cena).
-    Mensagem no meio da tela: "Nível 4: o tempo está quase acabando, precisamos atrasar o relógio para seguir com a última etapa da missão."
-
-    OBS: ir para a próxima cena e voltar o relógio (físico) para 23:58:30 apenas quando a missão for executada.
-
-    9- Cena Nível 5.
-    Item: canto inferior direito relógio passando o tempo (volta para 23:58:30).
-    Mensagem no meio da tela: "Nível 5: os espíritos já estão rodando por aí, é preciso destruir o ritual para saírem vivos. Cada vela tem um símbolo e são sensíveis, aproxime a mão em cima de cada uma na ordem correta indicada na página 7 do livro para destruir o ritual. CUIDADO: não encoste para não se queimar."
-
-    10- Final.
-    Mensagem no meio da tela: “Final vitorioso. Vocês acabam de destruir o ritual, agora a alma do pequeno órfão e de outras pessoas está livre. Se reúnam no stand e comemorem a vitória juntos”.
-
-    Final trágico - acontece caso alguma etapa não seja executada dentro do tempo estabelecido. Na tela aparece “O ritual vai começar, corra enquanto ainda é tempo” - lampada vermelha e sirene.
-
-
 
 
 ### **COMO GERAR RECEITA:**
