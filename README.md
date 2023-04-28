@@ -125,7 +125,7 @@ Fase 5: Tags da fase 5 encaixando em outros sensores para desligar o led de cada
 - Mesinha de cabeceira
 - Diário (stand - fase 1 e 2)
 - Luz negra (fase 2)
-- Caldnerário com o dia 23 de junho circulado (fase 1)
+- Calendário com o dia 23 de junho circulado (fase 1)
 
 
 
