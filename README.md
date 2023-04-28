@@ -120,6 +120,7 @@ DD --> |Não| HH
 
  LL --> AAA(Desça para o auditório e encontre as 7 tags)
  AAA ---> BBB{Achou todas as tags?}
+ BBB ---> |Não| HH
  BBB ---> |Sim| CCC(Suba para a sala de projeção novamente e desbloqueie a caixa com a chave correta)
  CCC ---> DDD{Desbloqueou a caixa}
  DDD ---> |Sim| EEE(Próxima fase)
