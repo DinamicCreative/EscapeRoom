@@ -125,7 +125,7 @@ DD --> |Não| HH
  DDD ---> |Sim| EEE(Próxima fase)
  DDD ---> |Não| HH
  HH{Acabou o tempo?} ---> |Sim| FF(Fim do jogo)
- HH ---> |Nãoooooooo| BBB
+ HH ---> |Não| GG(Volte para a etapa anterior)
 
 BB --> RR{Possui as coordenadas?}
 RR -->  |Sim| SS(Informe ao Jogador 2)
