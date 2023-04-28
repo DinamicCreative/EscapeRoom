@@ -37,8 +37,8 @@ flowchart TD
 
 Jogador 1 (stand): aparece na tela que este jogador precisa encontrar um código, e para isso ele terá que usar o calendário e o diário que estão dispostos na mesa.
 
-Jogador 2 (auditório): é informado que precisa aguardar o código e inseri-lo corretamente para abrir a porta de vidro e pegar a chave.
-Após conseguirem decifrar o código e o jogador 2 pegar a chave, avançam para o próximo nível.
+Jogador 2 (auditório): é informado que precisa aguardar o código e inseri-lo corretamente para abrir a porta de vidro e pegar o molho de chaves.
+Após conseguirem decifrar o código e o jogador 2 pegar as chaves, avançam para o próximo nível.
 
 ```mermaid
    H[Fase 1] -->|JOGADOR 1| I(Recebe a missão de decifrar o enigma)
@@ -62,7 +62,7 @@ Após conseguirem decifrar o código e o jogador 2 pegar a chave, avançam para 
    T --> |Sim| R
    T --> |Não| J
    O --> X[Próxima Fase]
-   
+
 ```
 
 **Nível 2:**
@@ -75,7 +75,7 @@ Jogador 2(auditório):  este jogador precisa realizar o circuito, e assim que fi
 
 Jogador 1(stand):  este jogador é indicado a ir até uma página específica do livro, e nesta página tem 7 coordenadas diferentes (indicando fileira e número de cadeira)
 
-Jogador 2(auditório): ele encontra a chave que abre a porta da sala de projeção, sobe as escadas e a interface pede para que o jogador procure pistas do que fazer pelas paredes da sala. Nas paredes terá as orientações para ele voltar para a parte de baixo do auditório e pegar os itens de acordo com as coordenadas do outro jogador. Ele irá encontrar 7 tags iguais e precisa subir com elas para a sala de projeção novamente. Na mesa de cabeceira há uma caixa trancada, e ele é orientado a encontrar qual das 7 tags abre a caixa (após encontrar, precisa guardar as outras 6 pois serão úteis para os próximos níveis. Quando o jogador aproximar da caixa a tag correta, eles passam para o próximo nível.
+Jogador 2(auditório): ele encontra no molho de chaves a chave que abre a porta da sala de projeção, sobe as escadas e a interface pede para que o jogador procure pistas do que fazer pelas paredes da sala. Nas paredes terá as orientações para ele voltar para a parte de baixo do auditório e pegar os itens de acordo com as coordenadas do outro jogador. Ele irá encontrar 7 tags iguais e precisa subir com elas para a sala de projeção novamente. Na mesa de cabeceira há uma caixa trancada, e ele é orientado a encontrar qual das 7 tags abre a caixa (após encontrar, precisa guardar as outras 6 pois serão úteis para os próximos níveis. Quando o jogador aproximar da caixa a tag correta, eles passam para o próximo nível.
 
 **Nível 4:**
 
@@ -101,6 +101,30 @@ Fase 3: Sensor na caixa e chave deste sensor (o que a faz abrir). E outros 6 sen
 Fase 4: Sensor de movimento na janela para iniciar a próxima fase
 
 Fase 5: Tags da fase 5 encaixando em outros sensores para desligar o led de cada vela
+
+**Resumo dos itens físicos:**
+Itens físicos:
+- Termos de compromisso impressos
+- Placas de vencedores e perdedores
+- Fone de ouvido para o stand
+- Duas lanternas de dínamo
+- Caixa e porta de vidro - displays, sensores, motor, etc (fase )
+- Componentes para o circuito - sensor da escada, buzzer, fios, etc (fase 2)
+- Giz para escrita nas paredes e desenho da estrela de 6 pontas no chão
+- Imagens para as paredes
+- 7 tags (fase 3)
+- Caixa com trava magnética que abre com uma tag (fase 4)
+- Páginas amareladas falando sobre a história dos espíritos e explicando o ritual (fase 4)
+- Sensor para a janela da sala de projeção (fase 5)
+- Cartolina estilizada com as orientações para desativar o ritual (fase 5)
+- Velas com sensor das tags (fase 5)
+- Cama feita com caixas, coberta e almofadas
+- Mesinha de cabeceira
+- Diário (stand - fase 1 e 2)
+- Luz negra (fase 2})
+- Caldnerário com o dia 23 de junho circulado (fase 1)
+
+
 
 ### **OBJETIVO DO JOGO:**
 Os jogadores tem o objetivo final de destruir o ritual antes da meia noite, para que não sejam capturados pelos espíritos e conseguirem salvar as almas que já estão presas local, mas até conseguir isso, terão que enfrentar uma sequência de níveis que exige raciocínio lógico e agilidade. Caso não consigam cumprir o tempo estimado para qualquer etapa, o jogo estará perdido e os jogadores devem se retirar. Informações que podem ser importantes para o jogo:
