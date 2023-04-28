@@ -119,6 +119,7 @@ DD --> |Não| HH
 
 
  EE --> JJ(Localize na as orientações para a próxima etapa)
+ JJ --> KK{Encontrou?}
  KK --> |Sim| LL(Peça as coordenadas do livro para o jogador 1)
  LL --> AAA(Desça para o auditório e encontre as 7 tags)
  AAA ---> BBB{Achou todas as tags?}
