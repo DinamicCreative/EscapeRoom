@@ -1,0 +1,1 @@
+//Sai da cena quando o sensor do auditório sinalizar que o jogador 2 chegou
