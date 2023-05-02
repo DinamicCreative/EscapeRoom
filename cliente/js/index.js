@@ -1,13 +1,18 @@
 import config from "./config.js";
 
-import logo_empresa from "./1cena-logoempresa.js";
+import cena-logoempresa from "./1cena-logoempresa.js";
 import capa_do_jogo from "./2capa-do-jogo.js";
-import cena_carregamento from "./3cena-carregamento.js";
+import cena-qualjogador from "./3cena-qualjogador.js";
+import carregamento from "./j1-nivel0-carregamento.js";
+import aviso_hora from "./j1-nivel0-hora.js";
 import aviso_hora from "./4cena-aviso-hora.js";
-import principal from "./5cena-nivel1.js";
-//import fim_do_jogo from "./cena-finaltriste.js";
-//import final_feliz from "./10cena-finalfeliz.js";
-//import logoempresa from "./1cena-logoempresa.js";
+import j1n1 from "./j1-nivel1.js";
+import j1n2 from "./j1-nivel2.js";
+import j1n3 from "./j1-nivel3.js";
+import j1n4 from "./j1-nivel4.js";
+import j1n5 from "./j1-nivel5.js";
+
+//botar finais
 
 class Game extends Phaser.Game {
   constructor() {

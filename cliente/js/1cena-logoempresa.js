@@ -1,6 +1,6 @@
-export default class logo_empresa extends Phaser.Scene {
+export default class cena-logoempresa extends Phaser.Scene {
   constructor() {
-    super("logo-empresa");
+    super("cena-logoempresa");
   }
 
   preload() {

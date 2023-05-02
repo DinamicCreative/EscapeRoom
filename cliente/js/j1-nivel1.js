@@ -1,6 +1,6 @@
-export default class principal extends Phaser.Scene {
+export default class j1n1 extends Phaser.Scene {
   constructor() {
-    super("principal");
+    super("j1n1");
   }
 
   preload() {

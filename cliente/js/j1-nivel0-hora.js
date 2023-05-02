@@ -4,13 +4,13 @@ export default class aviso_hora extends Phaser.Scene {
   }
 
   preload() {
-    this.load.image("botao-alerta", "./assets/botaoalerta.png");
+    this.load.image("botao-desistencia", "./assets/botaodesistencia.png");
     this.load.image("desistir", "./assets/desistir.png");
   }
 
   create() {
     this.botao_alerta = this.add
-      .image(400, 50, "botao-alerta")
+      .image(400, 50, "botao-desistencia")
       .setInteractive()
       .on("pointerdown", () => {
         this.desistir = this.add
