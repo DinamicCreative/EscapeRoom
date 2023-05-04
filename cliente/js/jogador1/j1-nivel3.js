@@ -1,14 +1,11 @@
-
-/*
-
 export default class j1n3 extends Phaser.Scene {
   constructor() {
-    super;
+    super("j1n3");
   }
 
-  preload() 
+  preload() {}
 
-  create() 
+  create() {}
 
-  upload()
+  upload(){}
 }

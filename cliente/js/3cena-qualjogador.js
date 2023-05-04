@@ -4,7 +4,18 @@ export default class qualjogador extends Phaser.Scene {
   }
 
   preload() {
-    this.load.image("fundoqualjogador", "./assets/fundoqualjogador.png");
+    this.load.image(
+      "fundoqualjogador",
+      "./assets/cenaqualjogador/fundoqualjogador.png"
+    );
+    this.load.image(
+      "botaoauditorio",
+      "./assets/cenaqualjogador/botaoauditorio.png"
+    );
+        this.load.image(
+      "botaostand",
+      "./assets/cenaqualjogador/botaostand.png"
+    );
   }
 
   create() {
@@ -15,8 +26,23 @@ export default class qualjogador extends Phaser.Scene {
         this.capa.destroy();
         this.game.scene.start("carregamento");
       });
-        
-        //Add 2 spritesheets ---> "botaostand.png" e "botaoauditorio.png"
+    
+    this.capa = this.add
+      .image(125, 400, "botaostand")
+      .setInteractive()
+      .on("pointerdown", () => {
+        this.capa.destroy();
+        this.game.scene.start("carregamento1");
+      });
+    
+    this.capa = this.add
+      .image(325, 400, "botaoauditorio")
+      .setInteractive()
+      .on("pointerdown", () => {
+        this.capa.destroy();
+        this.game.scene.start("carregamento2");
+      });
+    
   }
 
   upload() {}

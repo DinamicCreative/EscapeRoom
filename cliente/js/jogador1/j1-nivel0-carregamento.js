@@ -2,7 +2,7 @@
 
 export default class carregamento1 extends Phaser.Scene {
   constructor() {
-    super("carregamento");
+    super("carregamento1");
   }
 
   preload() {

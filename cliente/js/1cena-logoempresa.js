@@ -10,11 +10,7 @@ export default class logoempresa extends Phaser.Scene {
   create() {
     this.vela = this.add
       .sprite(225, 400, "logoempresa")
-      .setInteractive()
-      .on("pointerdown", () => {
-        this.vela.destroy();
-        this.game.scene.start("capa-do-jogo");
-      });
+
 
     /* Contagem regressiva */
     this.timer = 2;

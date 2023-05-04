@@ -4,32 +4,39 @@ export default class aviso_hora1 extends Phaser.Scene {
   }
 
   preload() {
-    this.load.spritesheet("botao-desistencia", "./assets/desistir/botaodesistencia.png", {
+    this.load.spritesheet(
+      "botao-desistencia",
+      "./assets/desistir/botaodesistencia.png",
+      {
+        frameWidth: 64,
+        frameHeight: 64,
+      }
+    );
+
+    this.load.spritesheet(
+      "caixa-desistencia",
+      "./assets/desistir/caixadesistencia.png",
+      {
+        frameWidth: 64,
+        frameHeight: 64,
+      }
+    );
+
+    this.load.spritesheet("botao-nao", "./assets/desistir/botaonao.png", {
       frameWidth: 64,
       frameHeight: 64,
     });
 
-    this.load.spritesheet("caixa-desistencia", "./assets/desistir/caixadesistencia.png" {
-      frameWidth: 64,
-      frameHeight: 64,
-    });
-
-    this.load.spritesheet("botao-nao", "./assets/desistir/botaonao.png" {
-      frameWidth: 64,
-      frameHeight: 64,
-    });
-    
-    this.load.spritesheet("botao-sim", "./assets/desistir/botaosim.png" {
+    this.load.spritesheet("botao-sim", "./assets/desistir/botaosim.png", {
       frameWidth: 64,
       frameHeight: 64,
     });
 
     this.load.image("aviso-hora", "./assets/cenaavisohora.png");
-
   }
 
   create() {
-    this.botao-desistencia = this.add
+    this.botao_desistencia = this.add
       .image(400, 50, "botao-desistencia")
       .setInteractive()
       .on("pointerdown", () => {
@@ -43,7 +50,7 @@ export default class aviso_hora1 extends Phaser.Scene {
             this.desistir.destroy();
             this.game.scene.start("cena-desistencia");
           });
-          
+
         /* Aparece uma tela em cima (pop-up) pedindo confirmação */
       });
 
