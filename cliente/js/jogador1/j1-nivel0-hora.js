@@ -4,17 +4,37 @@ export default class aviso_hora extends Phaser.Scene {
   }
 
   preload() {
-    this.load.image("botao-desistencia", "./assets/botaodesistencia.png");
-    this.load.image("desistir", "./assets/desistir.png");
+    this.load.spritesheet("botao-desistencia", "./assets/desistir/botaodesistencia.png", {
+      frameWidth: 64,
+      frameHeight: 64,
+    });
+
+    this.load.spritesheet("caixa-desistencia", "./assets/desistir/caixadesistencia.png" {
+      frameWidth: 64,
+      frameHeight: 64,
+    });
+
+    this.load.spritesheet("botao-nao", "./assets/desistir/botaonao.png" {
+      frameWidth: 64,
+      frameHeight: 64,
+    });
+    
+    this.load.spritesheet("botao-sim", "./assets/desistir/botaosim.png" {
+      frameWidth: 64,
+      frameHeight: 64,
+    });
+
+    this.load.image("aviso-hora", "./assets/cenaavisohora.png");
+
   }
 
   create() {
-    this.botao_alerta = this.add
+    this.botao-desistencia = this.add
       .image(400, 50, "botao-desistencia")
       .setInteractive()
       .on("pointerdown", () => {
         this.desistir = this.add
-          .image(225, 400, "desistir")
+          .image(225, 400, "caixadesistencia")
           .setInteractive()
           .on("pointerdown", () => {
             this.timedEvent.destroy();

@@ -1,4 +1,4 @@
-export default class cena-qualjogador extends Phaser.Scene {
+export default class qualjogador extends Phaser.Scene {
   constructor() {
     super("fundoqualjogador");
   }
@@ -13,7 +13,7 @@ export default class cena-qualjogador extends Phaser.Scene {
       .setInteractive()
       .on("pointerdown", () => {
         this.capa.destroy();
-        this.game.scene.start("cena-carregamento");
+        this.game.scene.start("carregamento");
       });
         
         //Add 2 spritesheets ---> "botaostand.png" e "botaoauditorio.png"
