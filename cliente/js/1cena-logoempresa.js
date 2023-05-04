@@ -8,7 +8,7 @@ export default class logoempresa extends Phaser.Scene {
   }
 
   create() {
-    this.vela = this.add
+    this.logo = this.add
       .sprite(225, 400, "logoempresa")
 
 
@@ -33,7 +33,7 @@ export default class logoempresa extends Phaser.Scene {
     if (this.timer === 0) {
       this.timedEvent.destroy();
       //   this.timerText.destroy();
-      this.vela.destroy();
+      this.logo.destroy();
 
       this.game.scene.start("capa-do-jogo");
     }
