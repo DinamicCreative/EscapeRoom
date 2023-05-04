@@ -32,6 +32,8 @@ export default class qualjogador extends Phaser.Scene {
       .setInteractive()
       .on("pointerdown", () => {
         this.botaostand.destroy();
+        this.botaoauditorio.destroy();
+        this.fundo.destroy();
         this.game.scene.start("carregamento1");
       });
     
@@ -40,6 +42,8 @@ export default class qualjogador extends Phaser.Scene {
       .setInteractive()
       .on("pointerdown", () => {
         this.botaoauditorio.destroy();
+        this.botaostand.destroy();
+        this.fundo.destroy();
         this.game.scene.start("carregamento2");
       });
     
