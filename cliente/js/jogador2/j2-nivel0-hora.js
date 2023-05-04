@@ -1,6 +1,6 @@
 export default class aviso_hora2 extends Phaser.Scene {
   constructor() {
-    super("aviso-hora");
+    super("aviso-hora2");
   }
 
   preload() {
@@ -14,32 +14,11 @@ export default class aviso_hora2 extends Phaser.Scene {
     );
     this.load.image("botao-nao", "./assets/desistir/botaonao.png");
     this.load.image("botao-sim", "./assets/desistir/botaosim.png");
-    this.load.image("aviso-hora", "./assets/cenaavisohora.png");
+
+    this.load.image("aviso-hora2", "./assets/cenaavisohora.png");
   }
 
   create() {
-    this.botao_desistencia = this.add
-      .image(400, 50, "botao-desistencia")
-      .setInteractive()
-      .on("pointerdown", () => {
-        thid.botao_desistencia.destroy();
-        this.desistir = this.add.image(225, 400, "caixa-desistencia");
-
-        /*
-          .image(325, 400, "botao-nao")
-          .image(125, 400, "botao-sim")
-
-          .setInteractive()
-          .on("pointerdown", () => {
-            this.timedEvent.destroy();
-            this.timerText.destroy();
-            this.botao_alerta.destroy();
-            this.desistir.destroy();
-            this.game.scene.start("cena-desistencia");
-          });
-          */
-      });
-
     /* Contagem regressiva */
     this.timer = 10;
 
@@ -50,11 +29,22 @@ export default class aviso_hora2 extends Phaser.Scene {
       loop: true,
     });
 
-    // Relógio em tela
     this.timerText = this.add.text(225, 400, this.timer, {
       fontSize: "64px",
       fill: "#FFFFFF",
     });
+
+    this.avisohora2 = this.add.image(225, 400, "aviso-hora2");
+
+    this.botao_desistencia = this.add
+      .image(400, 50, "botao-desistencia")
+      .setInteractive()
+      .on("pointerdown", () => {
+        this.botao_desistencia.destroy();
+        this.botao_desistencia = this.add.image(225, 400, "caixa-desistencia");
+        this.botao_desistencia = this.add.image(150, 450, "botao-sim");
+        this.botao_desistencia = this.add.image(300, 450, "botao-nao");
+      });
   }
 
   upload() {}
@@ -67,8 +57,9 @@ export default class aviso_hora2 extends Phaser.Scene {
     if (this.timer === 0) {
       this.timedEvent.destroy();
       this.timerText.destroy();
-      this.botao_alerta.destroy();
-      this.game.scene.start("j1n1");
+      this.aviso_hora2.destroy();
+      this.botao_desistencia.destroy();
+      this.game.scene.start("j2n1");
     } else {
       this.timerText.setText(this.timer);
     }

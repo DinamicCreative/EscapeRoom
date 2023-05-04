@@ -1,6 +1,6 @@
 export default class aviso_hora1 extends Phaser.Scene {
   constructor() {
-    super("aviso-hora");
+    super("aviso-hora1");
   }
 
   preload() {
@@ -23,42 +23,12 @@ export default class aviso_hora1 extends Phaser.Scene {
     );
 
     this.load.image(
-      "aviso-hora",
+      "aviso-hora1",
       "./assets/cenaavisohora.png"
     );
   }
 
   create() {
-
-    this.avisohora = this.add.image(225, 400, "aviso-hora");
-    
-    this.botao_desistencia = this.add
-      .image(400, 50, "botao-desistencia")
-      .setInteractive()
-      .on("pointerdown", () => {
-        this.botao_desistencia.destroy();
-        this.botao_desistencia = this.add
-          .image(225, 400, "caixa-desistencia");
-        this.botao_desistencia = this.add
-          .image(150, 450, "botao-sim")
-        this.botao_desistencia = this.add
-          .image(300, 450, "botao-nao");
-
-            
-
-/*
-          .setInteractive()
-          .on("pointerdown", () => {
-            this.timedEvent.destroy();
-            this.timerText.destroy();
-            this.botao_alerta.destroy();
-            this.desistir.destroy();
-            this.game.scene.start("cena-desistencia");
-          });
-          */
-
-      });
-
     /* Contagem regressiva */
     this.timer = 10;
 
@@ -73,8 +43,19 @@ export default class aviso_hora1 extends Phaser.Scene {
       fontSize: "64px",
       fill: "#FFFFFF",
     });
-  
 
+
+    this.avisohora1 = this.add.image(225, 400, "aviso-hora1");
+
+    this.botao_desistencia = this.add
+      .image(400, 50, "botao-desistencia")
+      .setInteractive()
+      .on("pointerdown", () => {
+        this.botao_desistencia.destroy();
+        this.botao_desistencia = this.add.image(225, 400, "caixa-desistencia");
+        this.botao_desistencia = this.add.image(150, 450, "botao-sim");
+        this.botao_desistencia = this.add.image(300, 450, "botao-nao");
+      });
   }
 
   upload() {}
@@ -87,7 +68,8 @@ export default class aviso_hora1 extends Phaser.Scene {
     if (this.timer === 0) {
       this.timedEvent.destroy();
       this.timerText.destroy();
-      this.botao_alerta.destroy();
+      this.aviso_hora1.destroy();
+      this.botao_desistencia.destroy();
       this.game.scene.start("j1n1");
     } else {
       this.timerText.setText(this.timer);
