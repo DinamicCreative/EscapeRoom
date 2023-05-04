@@ -1,6 +1,6 @@
 export default class finaltriste extends Phaser.Scene {
     constructor() {
-      super("cena-finaltriste");
+      super("finaltriste");
     }
   
     preload() {

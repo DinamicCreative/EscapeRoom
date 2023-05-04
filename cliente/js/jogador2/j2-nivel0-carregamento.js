@@ -1,6 +1,8 @@
 //Sai da cena quando o sensor do auditório sinalizar que o jogador 2 chegou
 
-export default class cena_carregamento extends Phaser.Scene {
+/*
+
+export default class carregamento2 extends Phaser.Scene {
   constructor() {
     super("carregamento");
   }

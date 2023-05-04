@@ -1,4 +1,4 @@
-export default class aviso_hora extends Phaser.Scene {
+export default class aviso_hora1 extends Phaser.Scene {
   constructor() {
     super("aviso-hora");
   }
