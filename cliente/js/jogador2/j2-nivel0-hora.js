@@ -1,43 +1,34 @@
-
-/*
-
 export default class aviso_hora2 extends Phaser.Scene {
   constructor() {
     super("aviso-hora");
   }
 
   preload() {
-    this.load.spritesheet("botao-desistencia", "./assets/desistir/botaodesistencia.png", {
-      frameWidth: 64,
-      frameHeight: 64,
-    });
-
-    this.load.spritesheet("caixa-desistencia", "./assets/desistir/caixadesistencia.png" {
-      frameWidth: 64,
-      frameHeight: 64,
-    });
-
-    this.load.spritesheet("botao-nao", "./assets/desistir/botaonao.png" {
-      frameWidth: 64,
-      frameHeight: 64,
-    });
-    
-    this.load.spritesheet("botao-sim", "./assets/desistir/botaosim.png" {
-      frameWidth: 64,
-      frameHeight: 64,
-    });
-
+    this.load.image(
+      "botao-desistencia",
+      "./assets/desistir/botaodesistencia.png"
+    );
+    this.load.image(
+      "caixa-desistencia",
+      "./assets/desistir/caixadesistencia.png"
+    );
+    this.load.image("botao-nao", "./assets/desistir/botaonao.png");
+    this.load.image("botao-sim", "./assets/desistir/botaosim.png");
     this.load.image("aviso-hora", "./assets/cenaavisohora.png");
-
   }
 
   create() {
-    this.botao-desistencia = this.add
+    this.botao_desistencia = this.add
       .image(400, 50, "botao-desistencia")
       .setInteractive()
       .on("pointerdown", () => {
-        this.desistir = this.add
-          .image(225, 400, "caixadesistencia")
+        thid.botao_desistencia.destroy();
+        this.desistir = this.add.image(225, 400, "caixa-desistencia");
+
+        /*
+          .image(325, 400, "botao-nao")
+          .image(125, 400, "botao-sim")
+
           .setInteractive()
           .on("pointerdown", () => {
             this.timedEvent.destroy();
@@ -46,8 +37,7 @@ export default class aviso_hora2 extends Phaser.Scene {
             this.desistir.destroy();
             this.game.scene.start("cena-desistencia");
           });
-          
-        /* Aparece uma tela em cima (pop-up) pedindo confirmação */
+          */
       });
 
     /* Contagem regressiva */
@@ -60,7 +50,7 @@ export default class aviso_hora2 extends Phaser.Scene {
       loop: true,
     });
 
-    /* Relógio em tela */
+    // Relógio em tela
     this.timerText = this.add.text(225, 400, this.timer, {
       fontSize: "64px",
       fill: "#FFFFFF",
@@ -78,7 +68,7 @@ export default class aviso_hora2 extends Phaser.Scene {
       this.timedEvent.destroy();
       this.timerText.destroy();
       this.botao_alerta.destroy();
-      this.game.scene.start("proxima-cena");
+      this.game.scene.start("j1n1");
     } else {
       this.timerText.setText(this.timer);
     }

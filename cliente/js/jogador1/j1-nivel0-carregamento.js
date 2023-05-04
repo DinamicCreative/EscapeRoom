@@ -18,7 +18,7 @@ export default class carregamento1 extends Phaser.Scene {
       .setInteractive()
       .on("pointerdown", () => {
         this.vela.destroy();        
-        this.game.scene.start("aviso-hora1");
+        this.game.scene.start("aviso-hora2");
       });
 
     this.anims.create({
