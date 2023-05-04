@@ -19,27 +19,27 @@ export default class qualjogador extends Phaser.Scene {
   }
 
   create() {
-    this.capa = this.add
+    this.fundo = this.add
       .image(225, 400, "fundoqualjogador")
       .setInteractive()
       .on("pointerdown", () => {
-        this.capa.destroy();
+        this.fundo.destroy();
         this.game.scene.start("carregamento");
       });
     
-    this.capa = this.add
+    this.botaostand = this.add
       .image(125, 400, "botaostand")
       .setInteractive()
       .on("pointerdown", () => {
-        this.capa.destroy();
+        this.botaostand.destroy();
         this.game.scene.start("carregamento1");
       });
     
-    this.capa = this.add
+    this.botaoauditorio = this.add
       .image(325, 400, "botaoauditorio")
       .setInteractive()
       .on("pointerdown", () => {
-        this.capa.destroy();
+        this.botaoauditorio.destroy();
         this.game.scene.start("carregamento2");
       });
     
