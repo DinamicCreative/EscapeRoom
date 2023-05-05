@@ -21,11 +21,6 @@ export default class qualjogador extends Phaser.Scene {
   create() {
     this.fundo = this.add
       .image(225, 400, "fundoqualjogador")
-      .setInteractive()
-      .on("pointerdown", () => {
-        this.fundo.destroy();
-        this.game.scene.start("carregamento");
-      });
     
     this.botaostand = this.add
       .image(125, 400, "botaostand")

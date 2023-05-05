@@ -11,9 +11,9 @@ import j1n3 from "./jogador1/j1-nivel3.js";
 import j1n4 from "./jogador1/j1-nivel4.js";
 import j1n5 from "./jogador1/j1-nivel5.js";
 
+import carregamento2 from "./jogador2/j2-nivel0-carregamento.js";
 
 /* cenas jogador 2
-import carregamento2 from "./jogador2/j2-nivel0-carregamento.js";
 import aviso_hora2 from "./j2-nivel0-hora.js";
 import j2n1 from "./j2-nivel1.js";
 import j2n2 from "./j2-nivel2.js";
@@ -48,10 +48,10 @@ class Game extends Phaser.Game {
 
     this.scene.add("finalfeliz", finalfeliz);
 
-    
+    this.scene.add("carregamento2", carregamento2);
+
     /*- Jogador 2
     
-    this.scene.add("carregamento2", carregamento2);
     this.scene.add("aviso-hora2", aviso_hora2);
     this.scene.add("j2n1", j2n1);
     this.scene.add("j2n2", j2n2);
