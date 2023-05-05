@@ -30,13 +30,13 @@ export default class qualjogador extends Phaser.Scene {
 
     this.botaoauditorio = this.add
       .image(325, 400, "botaoauditorio")
-    //   .setInteractive()
-    //   .on("pointerdown", () => {
-    //     this.botaoauditorio.destroy();
-    //     this.botaostand.destroy();
-    //     this.fundo.destroy();
-    //     this.game.scene.start("carregamento2");
-    //   });
+      .setInteractive()
+      .on("pointerdown", () => {
+        this.botaoauditorio.destroy();
+        this.botaostand.destroy();
+        this.fundo.destroy();
+        this.game.scene.start("carregamento2");
+      });
   }
 
   upload() {}
