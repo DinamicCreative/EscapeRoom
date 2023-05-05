@@ -17,7 +17,7 @@ export default class carregamento1 extends Phaser.Scene {
       .sprite(225, 350, "vela1")
       .setInteractive()
       .on("pointerdown", () => {
-        this.vela1.destroy(); 
+        this.vela1.destroy();
         this.game.scene.start("aviso-hora1");
       });
 
@@ -30,7 +30,7 @@ export default class carregamento1 extends Phaser.Scene {
       frameRate: 5,
       repeat: -1,
     });
-    //
+
     this.vela1.anims.play("vela1-mexendo", true);
   }
 

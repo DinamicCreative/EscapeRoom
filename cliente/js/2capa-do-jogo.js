@@ -8,13 +8,13 @@ export default class capa_do_jogo extends Phaser.Scene {
   }
 
   create() {
-
-    this.game.sala = 0
+    this.game.sala = 0;
     this.mensagem = this.add.text(100, 75, "", {
       fontFamily: "monospace",
       font: "32px Courier",
       fill: "#cccccc",
     });
+
     this.capa = this.add
       .image(225, 400, "capa")
       .setInteractive()
@@ -22,7 +22,6 @@ export default class capa_do_jogo extends Phaser.Scene {
         this.capa.destroy();
         this.game.scene.start("fundoqualjogador");
       });
-  }
 
     this.game.socket.on("jogadores", (jogadores) => {
       if (jogadores.segundo) {
@@ -36,7 +35,6 @@ export default class capa_do_jogo extends Phaser.Scene {
       }
     });
   }
-
 
   upload() {}
 }

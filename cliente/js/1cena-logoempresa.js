@@ -8,11 +8,7 @@ export default class logoempresa extends Phaser.Scene {
   }
 
   create() {
-
-    
-    this.logo = this.add
-      .sprite(225, 400, "logoempresa")
-
+    this.logo = this.add.sprite(225, 400, "logoempresa");
 
     /* Contagem regressiva */
     this.timer = 2;
