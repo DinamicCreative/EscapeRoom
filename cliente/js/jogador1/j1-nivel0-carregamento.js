@@ -6,24 +6,24 @@ export default class carregamento1 extends Phaser.Scene {
   }
 
   preload() {
-    this.load.spritesheet("vela", "./assets/vela.png", {
+    this.load.spritesheet("vela1", "./assets/vela.png", {
       frameWidth: 450,
       frameHeight: 800,
     });
   }
 
   create() {
-    this.vela = this.add
-      .sprite(225, 350, "vela")
+    this.vela1 = this.add
+      .sprite(225, 350, "vela1")
       .setInteractive()
       .on("pointerdown", () => {
-        this.vela.destroy(); 
+        this.vela1.destroy(); 
         this.game.scene.start("aviso-hora1");
       });
 
     this.anims.create({
-      key: "vela-mexendo",
-      frames: this.anims.generateFrameNumbers("vela", {
+      key: "vela1-mexendo",
+      frames: this.anims.generateFrameNumbers("vela1", {
         start: 0,
         end: 4,
       }),
@@ -31,7 +31,7 @@ export default class carregamento1 extends Phaser.Scene {
       repeat: -1,
     });
     //
-    this.vela.anims.play("vela-mexendo", true);
+    this.vela1.anims.play("vela1-mexendo", true);
   }
 
   upload() {}

@@ -1,13 +1,16 @@
-/*
 
 export default class finaldesistiu extends Phaser.Scene {
   constructor() {
-    super;
+    super("finaldesistiu");
   }
 
-  preload() 
+  preload() {
+    this.load.image("finaldesistiu", "./assets/finais/desistiu.png");
+  }
 
-  create() 
+  create() {
+    this.finaldesistiu = this.add.image(225, 400, "finaldesistiu");
+  }
 
-  upload()
+  upload() {}
 }

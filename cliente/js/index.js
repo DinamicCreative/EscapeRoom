@@ -32,6 +32,11 @@ class Game extends Phaser.Game {
   constructor() {
     super(config);
 
+    this.socket = io();
+    this.socket.on("connect", () => {
+      console.log("Conectado ao servidor para troca de mensagens.");
+      });
+    
     this.scene.add("cena-logoempresa", logoempresa);
     this.scene.add("capa-do-jogo", capa_do_jogo);
     this.scene.add("fundoqualjogador", qualjogador);
