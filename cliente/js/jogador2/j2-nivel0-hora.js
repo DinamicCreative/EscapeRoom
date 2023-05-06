@@ -4,6 +4,7 @@ export default class aviso_hora2 extends Phaser.Scene {
   }
 
   preload() {
+
     this.load.image(
       "botao-desistencia",
       "./assets/desistir/botaodesistencia.png"
@@ -12,10 +13,18 @@ export default class aviso_hora2 extends Phaser.Scene {
       "caixa-desistencia",
       "./assets/desistir/caixadesistencia.png"
     );
-    this.load.image("botao-nao", "./assets/desistir/botaonao.png");
-    this.load.image("botao-sim", "./assets/desistir/botaosim.png");
-
-    this.load.image("aviso-hora2", "./assets/cenaavisohora.png");
+    this.load.image(
+      "botao-nao",
+      "./assets/desistir/botaonao.png"
+    );
+    this.load.image(
+      "botao-sim",
+      "./assets/desistir/botaosim.png"
+    );
+    this.load.image(
+      "aviso-hora2",
+      "./assets/cenaavisohora.png"
+    );
   }
 
   create() {
@@ -46,6 +55,7 @@ export default class aviso_hora2 extends Phaser.Scene {
           .image(150, 450, "botao-sim")
           .setInteractive()
           .on("pointerdown", () => {
+            this.botao_desistencia.destroy();
             this.game.scene.start("finaldesistiu");
           });
         this.botao_desistencia = this.add

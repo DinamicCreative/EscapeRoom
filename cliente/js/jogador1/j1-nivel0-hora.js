@@ -21,7 +21,6 @@ export default class aviso_hora1 extends Phaser.Scene {
       "botao-sim",
       "./assets/desistir/botaosim.png"
     );
-
     this.load.image(
       "aviso-hora1",
       "./assets/cenaavisohora.png"
@@ -44,7 +43,6 @@ export default class aviso_hora1 extends Phaser.Scene {
       fill: "#FFFFFF",
     });
 
-
     this.avisohora1 = this.add.image(225, 400, "aviso-hora1");
 
     this.botao_desistencia = this.add
@@ -57,6 +55,7 @@ export default class aviso_hora1 extends Phaser.Scene {
           .image(150, 450, "botao-sim")
           .setInteractive()
           .on("pointerdown", () => {
+            this.botao_desistencia.destroy()
             this.game.scene.start("finaldesistiu")
           });
         this.botao_desistencia = this.add
