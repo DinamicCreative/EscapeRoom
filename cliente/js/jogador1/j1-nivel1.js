@@ -4,7 +4,6 @@ export default class j1n1 extends Phaser.Scene {
   }
 
   preload() {
-    
     this.load.image("j1n1", "./assets/jogador1/j1-nivel1.png");
 
     this.load.image(
@@ -28,24 +27,17 @@ export default class j1n1 extends Phaser.Scene {
         this.botao_desistencia.destroy();
         this.game.scene.start("j1n2");
       });
-  
+
     this.botao_desistencia = this.add
       .image(400, 50, "botao-desistencia")
       .setInteractive()
       .on("pointerdown", () => {
         this.botao_desistencia.destroy();
-        this.botao_desistencia = this.add
-          .image(225, 400, "caixa-desistencia");
-        this.botao_desistencia = this.add
-          .image(150, 450, "botao-sim")
-        this.botao_desistencia = this.add
-          .image(300, 450, "botao-nao");
-              });
-        
-    }
-  
-
+        this.botao_desistencia = this.add.image(225, 400, "caixa-desistencia");
+        this.botao_desistencia = this.add.image(150, 450, "botao-sim");
+        this.botao_desistencia = this.add.image(300, 450, "botao-nao");
+      });
+  }
 
   upload() {}
-  
 }

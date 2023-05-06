@@ -46,13 +46,13 @@ export default class aviso_hora2 extends Phaser.Scene {
           .image(150, 450, "botao-sim")
           .setInteractive()
           .on("pointerdown", () => {
-            this.game.scene.start("finaldesistiu")
+            this.game.scene.start("finaldesistiu");
           });
         this.botao_desistencia = this.add
           .image(300, 450, "botao-nao")
           .setInteractive()
           .on("pointerdown", () => {
-            this.botao_desistencia.destroy()
+            this.botao_desistencia.destroy();
           });
       });
   }
