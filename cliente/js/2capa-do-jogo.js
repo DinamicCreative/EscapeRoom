@@ -5,7 +5,23 @@ export default class capa_do_jogo extends Phaser.Scene {
 
   preload() {
     this.load.image("capa", "./assets/capa.png");
-  }
+
+    this.load.image(
+      "fundoqualjogador",
+      "./assets/cenaqualjogador/fundoqualjogador.png"
+    );
+    this.load.image(
+      "botaoauditorio",
+      "./assets/cenaqualjogador/botaoauditorio.png"
+    );
+    this.load.image(
+      "botaostand",
+      "./assets/cenaqualjogador/botaostand.png"
+    );
+    
+//preload de imagens jogador 1 e jogador 2
+
+  }       
 
   create() {
     this.game.sala = 0;
