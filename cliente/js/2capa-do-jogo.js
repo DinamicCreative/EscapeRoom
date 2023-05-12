@@ -112,6 +112,16 @@ export default class capa_do_jogo extends Phaser.Scene {
       "./assets/finais/perdeu.png"
     );
 
+    this.load.spritesheet("vela2", "./assets/vela.png", {
+      frameWidth: 450,
+      frameHeight: 800,
+        });
+
+    this.load.image(
+      "aviso-hora2",
+      "./assets/cenaavisohora.png"
+    );
+    
   }       
 
   create() {
