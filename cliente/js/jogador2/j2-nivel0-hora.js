@@ -25,6 +25,7 @@ export default class aviso_hora2 extends Phaser.Scene {
       "aviso-hora2",
       "./assets/cenaavisohora.png"
     );
+
   }
 
   create() {
@@ -77,7 +78,7 @@ export default class aviso_hora2 extends Phaser.Scene {
     if (this.timer === 0) {
       this.timedEvent.destroy();
       this.timerText.destroy();
-      this.aviso_hora2.destroy();
+      this.avisohora2.destroy();
       this.botao_desistencia.destroy();
       this.game.scene.start("j2n1");
     } else {
