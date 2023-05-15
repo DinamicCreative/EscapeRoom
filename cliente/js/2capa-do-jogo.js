@@ -137,7 +137,9 @@ export default class capa_do_jogo extends Phaser.Scene {
       .setInteractive()
       .on("pointerdown", () => {
         this.capa.destroy();
-        this.game.scene.start("fundoqualjogador");
+        this.scale.startFullscreen();
+        this.game.scene.start("fundoqualjogador")
+        ;
       });
 
     this.game.socket.on("jogadores", (jogadores) => {
