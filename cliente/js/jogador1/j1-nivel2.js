@@ -32,7 +32,7 @@ export default class j1n2 extends Phaser.Scene {
       .image(400, 50, "botao-desistencia")
       .setInteractive()
       .on("pointerdown", () => {
-        this.caixa_desistencia = this.add.image(225, 400, "caixa-desistencia");
+        this.caixa_desistencia = this.add.image(225, 415, "caixa-desistencia");
         this.sim_desistencia = this.add
           .image(150, 450, "botao-sim")
           .setInteractive()
