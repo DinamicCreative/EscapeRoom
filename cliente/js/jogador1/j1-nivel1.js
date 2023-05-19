@@ -60,7 +60,7 @@ export default class j1n1 extends Phaser.Scene {
 
     this.timerText = this.add.text(360, 10, this.timer, {
       //fontSize: "64px",
-      fill: "#FFFFFF",
+      fill: "#FF0000",
     });
   }
 
