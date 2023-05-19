@@ -29,7 +29,7 @@ export default class j2n4 extends Phaser.Scene {
       });
 
     this.botao_desistencia = this.add
-      .image(400, 50, "botao-desistencia")
+      .image(415, 770, "botao-desistencia")
       .setInteractive()
       .on("pointerdown", () => {
         this.caixa_desistencia = this.add.image(225, 415, "caixa-desistencia");
