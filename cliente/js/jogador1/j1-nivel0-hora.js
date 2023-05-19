@@ -29,7 +29,7 @@ export default class aviso_hora1 extends Phaser.Scene {
 
   create() {
     /* Contagem regressiva */
-    this.timer = 10;
+    this.timer = 1;
 
     this.timedEvent = this.time.addEvent({
       delay: 1000,
