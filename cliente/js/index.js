@@ -35,6 +35,21 @@ class Game extends Phaser.Game {
       console.log("Conectado ao servidor para troca de mensagens.");
     });
 
+    /* 02:50 UTC = 23:50 BRT */
+    this.data = new Date("2024-01-01T02:50:00.000Z");
+    this.data_formatada = "";
+    setInterval(() => {
+      this.data = new Date(this.data.getTime() + 1000); // Incrementa em 1 segundo o relógio
+      this.data_formatada =
+        this.data.getHours() +
+        ":" +
+        (this.data.getMinutes() < 10 ? "0" : "") + // Adiciona 0 quando necessário
+        this.data.getMinutes() +
+        ":" +
+        (this.data.getSeconds() < 10 ? "0" : "") + // Adiciona 0 quando necessário
+        this.data.getSeconds();
+    }, 1000);
+
     /* Cenas comuns */
     this.scene.add("cena-logoempresa", logoempresa);
     this.scene.add("capa-do-jogo", capa_do_jogo);
