@@ -50,33 +50,15 @@ export default class j1n1 extends Phaser.Scene {
           });
       });
 
-    /* 02:50 UTC = 23:50 BRT */
-    this.date = new Date("2024-01-01T02:50:00.000Z");
-    this.timedEvent = this.time.addEvent({
-      delay: 1000,
-      callback: this.counter,
-      callbackScope: this,
-      loop: true,
-    });
-
     this.timerText = this.add.text(360, 10, this.timer, {
-      //fontSize: "64px",
       fill: "#FF0000",
     });
+
+    /* "Zerando" o relógio (ver index.js) */
+    this.game.data = new Date("2024-01-01T02:50:00.000Z");
   }
 
-  upload() {}
-
-  counter() {
-    this.date = new Date(this.date.getTime() + 1000); // Incrementa em 1 segundo o relógio
-    this.timerText.setText(
-      this.date.getHours() +
-        ":" +
-        (this.date.getMinutes() < 10 ? "0" : "") + // Adiciona 0 quando necessário
-        this.date.getMinutes() +
-        ":" +
-        (this.date.getSeconds() < 10 ? "0" : "") + // Adiciona 0 quando necessário
-        this.date.getSeconds()
-    );
+  update() {
+    this.timerText.setText(this.game.data_formatada);
   }
 }
