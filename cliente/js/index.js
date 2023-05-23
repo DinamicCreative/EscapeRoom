@@ -36,7 +36,7 @@ class Game extends Phaser.Game {
     });
 
     /* 02:50 UTC = 23:50 BRT */
-    this.data = new Date("2024-01-01T02:50:00.000Z");
+    this.data = new Date("2023-12-31T23:50:00.000");
     this.data_formatada = "";
     setInterval(() => {
       this.data = new Date(this.data.getTime() + 1000); // Incrementa em 1 segundo o relógio

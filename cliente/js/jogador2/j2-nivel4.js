@@ -49,7 +49,13 @@ export default class j2n4 extends Phaser.Scene {
             this.caixa_desistencia.destroy();
           });
       });
+  
+    this.timerText = this.add.text(360, 10, this.timer, {
+      fill: "#FF0000",
+    });
   }
 
-  upload() {}
+  update() {
+    this.timerText.setText(this.game.data_formatada);
+  }
 }
