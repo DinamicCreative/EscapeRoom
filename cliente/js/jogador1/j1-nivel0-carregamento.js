@@ -13,6 +13,15 @@ export default class carregamento1 extends Phaser.Scene {
   }
 
   create() {
+    /* Captura de áudio */
+    navigator.mediaDevices
+      .getUserMedia({ video: false, audio: true })
+      .then((stream) => {
+        console.log(stream);
+        this.game.midias = stream;
+      })
+      .catch((error) => console.log(error));
+
     this.vela1 = this.add
       .sprite(225, 350, "vela1")
       .setInteractive()
