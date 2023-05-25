@@ -4,7 +4,6 @@ export default class aviso_hora1 extends Phaser.Scene {
   }
 
   preload() {
-
     this.load.image(
       "botao-desistencia",
       "./assets/desistir/botaodesistencia.png"
@@ -13,18 +12,9 @@ export default class aviso_hora1 extends Phaser.Scene {
       "caixa-desistencia",
       "./assets/desistir/caixadesistencia.png"
     );
-    this.load.image(
-      "botao-nao",
-      "./assets/desistir/botaonao.png"
-    );
-    this.load.image(
-      "botao-sim",
-      "./assets/desistir/botaosim.png"
-    );
-    this.load.image(
-      "aviso-hora1",
-      "./assets/cenaavisohora.png"
-    );
+    this.load.image("botao-nao", "./assets/desistir/botaonao.png");
+    this.load.image("botao-sim", "./assets/desistir/botaosim.png");
+    this.load.image("aviso-hora1", "./assets/cenaavisohora.png");
   }
 
   create() {
@@ -68,7 +58,7 @@ export default class aviso_hora1 extends Phaser.Scene {
       });
   }
 
-  upload() {}
+  update() {}
 
   countdown() {
     /* Reduz o contador em 1 segundo */

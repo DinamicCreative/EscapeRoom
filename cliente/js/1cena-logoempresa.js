@@ -21,7 +21,7 @@ export default class logoempresa extends Phaser.Scene {
     });
   }
 
-  upload() {}
+  update() {}
 
   countdown() {
     /* Reduz o contador em 1 segundo */

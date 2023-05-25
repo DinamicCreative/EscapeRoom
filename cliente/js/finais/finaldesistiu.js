@@ -11,5 +11,5 @@ export default class finaldesistiu extends Phaser.Scene {
     this.finaldesistiu = this.add.image(225, 400, "finaldesistiu");
   }
 
-  upload() {}
+  update() {}
 }

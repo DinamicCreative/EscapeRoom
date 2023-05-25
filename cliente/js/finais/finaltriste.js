@@ -7,9 +7,7 @@ export default class finaltriste extends Phaser.Scene {
     this.load.image("finaltriste", "./assets/finais/perdeu.png");
   }
 
-  create() {
+  create() {}
 
-  }
-
-  upload() {}
+  update() {}
 }
