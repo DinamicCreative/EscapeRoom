@@ -34,5 +34,5 @@ export default class carregamento2 extends Phaser.Scene {
     this.vela2.anims.play("vela2-mexendo", true);
   }
 
-  upload() {}
+  update() {}
 }

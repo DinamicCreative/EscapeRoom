@@ -11,5 +11,5 @@ export default class finalfeliz extends Phaser.Scene {
     this.finalfeliz = this.add.image(225, 400, "finalfeliz");
   }
 
-  upload() {}
+  update() {}
 }
