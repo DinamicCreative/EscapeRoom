@@ -9,6 +9,9 @@ export default class finalfeliz extends Phaser.Scene {
 
   create() {
     this.finalfeliz = this.add.image(225, 400, "finalfeliz");
+    let conn = this.game.localConnection || this.game.remoteConnection;
+    conn.close();
+    this.game.socket.disconnect();
   }
 
   update() {}
