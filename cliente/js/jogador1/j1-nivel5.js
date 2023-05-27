@@ -40,6 +40,7 @@ export default class j1n5 extends Phaser.Scene {
             this.botao_desistencia.destroy();
             this.game.scene.start("finaldesistiu");
           });
+        
         this.nao_desistencia = this.add
           .image(300, 450, "botao-nao")
           .setInteractive()
