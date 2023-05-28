@@ -107,35 +107,18 @@ flowchart TD
 
 **Nível 3:**
 
-Jogador 1(stand):  este jogador é indicado a ir até uma página específica do livro, e nesta página tem 7 coordenadas diferentes (indicando fileira e número de cadeira)
-
-Jogador 2(auditório): ele encontra no molho de chaves a chave que abre a porta da sala de projeção, sobe as escadas e a interface pede para que o jogador procure pistas do que fazer pelas paredes da sala. Nas paredes terá as orientações para ele voltar para a parte de baixo do auditório e pegar os itens de acordo com as coordenadas do outro jogador. Ele irá encontrar 7 tags iguais e precisa subir com elas para a sala de projeção novamente. Na mesa de cabeceira há uma caixa trancada, e ele é orientado a encontrar qual das 7 tags abre a caixa (após encontrar, precisa guardar as outras 6 pois serão úteis para os próximos níveis). Quando o jogador aproximar da caixa a tag correta, eles passam para o próximo nível.
+Jogadores: encontram informações importantes sobre o zelador na caixa, com imagens, etc. Aparece na tela que nem tudo é o que parecem, mas os espiritos deixaram uma mensagem para as próximas pessoas que pisassem naquele local. Eles devem procurar pela sala onde os espiritos podem ter deixado algo escrito. Após encontrarem o livro com o fundo falso, o sensor vai idenficar e eles estarão no nível 4. 
 
 ```mermaid
 flowchart TD
-  AA[Fase 3]
-  AA --> |Jogador 1| BB(Vá para a próxima página do livro)
-  AA --> |Jogador 2| CC(Pegue o molho de chaves e abra a porta)
-  CC --> DD{Localizou as orientações na parede?}
- 
- DD --> |Sim| LL(Peça as coordenadas do livro para o jogador 1)
-DD --> |Não| HH
-
-
- LL --> AAA(Desça para o auditório e encontre as 7 tags)
- AAA ---> BBB{Achou todas as tags?}
- BBB ---> |Não| LL
- BBB ---> |Sim| CCC(Suba para a sala de projeção novamente e desbloqueie a caixa com a chave correta)
- CCC ---> DDD{Desbloqueou a caixa}
- DDD ---> |Sim| EEE(Próxima fase)
- DDD ---> |Não| HH
- HH{Acabou o tempo?} ---> |Sim| FF(Fim do jogo)
- HH ---> |Não| GG(Volte para a etapa anterior)
-
-BB --> RR{Possui as coordenadas?}
-RR -->  |Sim| SS(Informe ao Jogador 2)
-RR -->  |Não| BB
-
+  A[Nível 3] --> KA{Lêem as informações importantes da caixa}
+  KA -->  E
+   B(O tempo acabou)
+   B---> |Sim| G(Fim de jogo)
+    E ---> D
+  B --> E[Procuram as escritas dos espiritos]
+  D{Encontraram?} ---> |Sim| L(Proximo Nível)
+  D---> |Não| B
 
 ```
 **Nível 4:**
