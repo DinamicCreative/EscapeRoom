@@ -84,18 +84,21 @@ flowchart TD
   AAA --> |Jogador 1| BBB(Encontra as coordenadas com a luz negra)
   BBB --> JJJ{Encontrou?}
   JJJ --> |Sim| KKK(Oriente o jogador 2)
+  KKK ---> GGG
   BBB --> |Não| LLL(O tempo acabou?)
   LLL --> |Sim| MMM[Fim de jogo]
   LLL --> |Não| BBB
  
-  AAA --> |Jogador 2| CCC{Já possui as instruções da fase?}
+  AAA --> |Jogador 2| CCC{Já possui as coordenadas?}
   CCC --> |Não| NNN(Peça ao jogador 1)
   NNN --> CCC
-  CCC --> |Sim| OOO(Interaja com o jogo labirinto eletrônico)
-  OOO --> DDD{Encostou no fio?}
-  DDD --> |Não| EEE(Desativado o sensor suba as escadas)
-  EEE --> ZZZ[Próximo Nível]
-  DDD --> |Sim| GGG(Soará um ruido até realizá-lo corretamente)
+  CCC --> |Sim| OOO(Encontre as 7 tags pelo auditório)
+  OOO --> DDD{Encontrou todas as tags?}
+  DDD --> |Não| HHH
+  DDD --> |Sim| GGG(Suba com o Jogador 1 para a sala de projeção)
+  GGG ---> YYY{Encontraram a tag que abre a caixa?}
+  YYY ---> |Sim| XXX(Próximo nível)
+  YYY ---> |Não| HHH
   GGG --> HHH{O tempo acabou?}
   HHH --> |Sim| III[Fim de jogo]
   HHH --> |Não| OOO
