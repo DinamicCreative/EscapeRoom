@@ -159,13 +159,13 @@ Início: sensor de presença no auditório
 
 Fase 1: Porta com sensor que a faz abrir caso a combinação (código) inserido esteja correto. 8 Displays para a sequência de código e 9 botões para inserir os números e confirmar (8 pra ir mudando os  números e 1 para OK).
 
-Fase 2: Labirinto circuito eletrônico com timer para realizá-lo, caso contrário soa os barulhos e ele perde.
+Fase 2: 7 tags. Tranca magnética para abrir a caixa que estará na sala de projeção.
 
-Fase 3: Sensor na caixa e chave deste sensor (o que a faz abrir). E outros 6 sensores para as velas (tags).
+Fase 3: Sensor de movimento que indentifica que os jogadores encontraram o livro com fundo falso.
 
-Fase 4: Sensor de movimento na janela para iniciar a próxima fase
+Fase 4: Chave mecânica que faz as velas se acenderem para o próximo nível
 
-Fase 5: Tags da fase 5 encaixando em outros sensores para desligar o led de cada vela
+Fase 5: Sensor RFID que vai indentificar uma ordem correta de 6 tags, apagando uma por vez ou acendendo todas novamente quando algum erro é detectado.
 
 **Resumo dos itens físicos:**
 
