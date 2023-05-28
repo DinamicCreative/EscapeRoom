@@ -213,6 +213,7 @@ Os jogadores tem o objetivo final de destruir o ritual antes da meia noite, para
 - [Filme Um classico filme de terror](https://www.youtube.com/watch?v=hYuV9N5egg8)
 - [Série Stranger Things](https://www.netflix.com/br/title/80057281)
 - [Jogo Pacify](https://store.steampowered.com/app/967050/Pacify/)
+- [Filme Knives Out](https://www.youtube.com/watch?v=xi-1NchUqMA)
 
 
 ### **COMO GERAR RECEITA:**
