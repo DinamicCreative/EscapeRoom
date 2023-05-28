@@ -123,22 +123,16 @@ flowchart TD
 ```
 **Nível 4:**
 
-Jogador 1: na sua tela, aparece “O outro jogador está correndo perigo, pegue sua lanterna e se direcione de forma silenciosa até o auditório para encontrá-lo na sala de projeção subindo as escadas da porta á esquerda”.
-
-Jogador 2: abrindo a caixa que foi desbloqueada, se depara com imagens e textos de páginas antigas (aspecto amarelado e um pouco rasgado) que informam que aquele era um lugar de rituais muito antes do garoto ir morar lá, que os espíritos raptaram sua alma e de algumas outras pessoas que se atrevem a entrar no local no momento da cerimônia. Diz que existe apenas um jeito de impedir que o ritual aconteça, e dá dicas de onde os jogadores têm que encontrar essas orientações. Os jogadores verão pistas pela sala, que vão direcioná-los a olharem para fora das janelas que tem na sala de projeção. Haverá um sensor nas janelas, assim que eles olharem verão as instruções em cima do ar condicionado, e a interface iniciará o próximo e último nível do jogo.
+Jogadores: eles encontram uma chave no fundo falso do livro e são enganados pelos epiritos, que dizem que para finalizar o jogo só precisam inserir a chave no meio das velas.
 
 ```mermaid
-
 flowchart TD
-  A[Fase 4]
-  A --> |Jogador 1| B(Pegue sua lanterna e vá para o auditório em silêncio)
-  B ---> S
-  A --> |Jogador 2| S(Leia os textos da caixa e pegue a dica para procurar as orientações da próxima fase)
-S ---> D
-D{Encontraram a dica?} ---> |Sim| C(Próxima fase )
-D ---> |Não| F{Acabo o tempo?}
-F ---> |Sim| G(Fim de jogo)
-F ---> |Não| S
+  A[Nível 3] --> D
+   B(O tempo acabou)
+   B---> |Não| D
+   B---> |Sim| G(Fim de jogo)
+  D{Inseriram a chave?} ---> |Sim| L(Proximo Nível)
+  D---> |Não| B
 
 ```
 **Nível 5:**
