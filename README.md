@@ -3,13 +3,12 @@
 ### **PREMISSA:**
 A cerca de 20 anos atrás, um órfão chegou na porta do câmpus pedindo abrigo, e caridosamente os docentes o abrigaram na sala de projeção acima do auditório em troca de que realizasse alguns trabalhos simples, como por exemplo auxiliar o zelador e trancar o campûs após a última pessoa ir embora pela noite.
 
-Ao longo do tempo o garoto começou a relatar que coisas estranhas aconteciam após a meia noite no câmpus, mas por ser uma criança que passou por muitas situações traumáticas, as pessoas apenas ignoravam e diziam para ele tentar dormir mais cedo.
+Ao longo do tempo o garoto começou a relatar um desconforto em trabalhar ao lado do zelador, e dizer que tinha muito medo de ficar sozinho de noite no câmpus, mas por ser uma criança que passou por muitas situações traumáticas, as pessoas apenas ignoravam e diziam para ele ir dormir mais cedo e não inventar problemas.
 
-Esta história ficou ainda mais curiosa quando um  professor antigo contou que perto da meia noite, qualquer pessoa que passava aos arredores do campus conseguia escutar barulhos tenebrosos… TÃO tenebrosos, que estimulava a imaginação das pessoas para imaginarem que fossem gritos de almas presas sendo torturadas por outros espíritos.
+Certo dia o garoto desapareceu, o zelador seria a única pessoa capaz de saber de algo pois eles passavam muito tempo juntos, mas disse que não fazia ideia do que tinha acontecido. A história ficou ainda mais estranha quando um professor contou que na noite anterior ao sumiço, estava passando aos arredores do campus perto da meia noite e escutou gritos horripilantes, TÃO tenebrosos que estimulou sua imaginação a pensar que alguém estivesse em apuros…Mas logo em seguida se convenceu que os sons eram apenas frutos da sua imaginação fértil, ignorou a situação e seguiu seu caminho.
 
-Certo dia, o menino não desceu mais do seu quarto para nenhuma de suas tarefas diárias, e o seu principal companheiro (o zelador), decidiu subir para averiguar a situação. Não havia ninguém no local, apenas um símbolo e algumas velas suspeitas pelo chão, além dos pertences do garoto.
+Ao subirem para averiguar o quarto do menino, não haviam rastros de corpo algum, mas algumas velas suspeitas, uma caixa misteriosa ao lado da cama, e os pertences do órfão pelo local. A situação continua sem uma solução, porém alguns corajosos estão dispostos a ir em busca de respostas. Prontos para enfrentar este mistério?
 
-Após a situação tenebrosa, poucas pessoas tiveram coragem de subir na sala de projeção, e o órfão nunca mais apareceu. Os gritos da meia noite ainda podem ser ouvidos mas a situação continua sem uma solução. Prontos para enfrentar o mistério?
 
 ### **JOGO IDEAL:**
 
