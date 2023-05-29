@@ -36,9 +36,11 @@ class Game extends Phaser.Game {
     this.socket = io();
     //this.socket = io.connect({path: "/adcipt20231/socket.io"});
     
-    this.socket.on("connect", () => {
+   this.socket.on("connect", () => {
       console.log("Conectado ao servidor para troca de mensagens.");
     });
+
+    this.cliente_mqtt = mqtt.connect("wss://ifsc.digital/ws/");
 
     /* 02:50 UTC = 23:50 BRT */
     this.data = new Date("2023-12-31T23:50:00.000");
