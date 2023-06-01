@@ -1,6 +1,3 @@
-
-
-
 import config from "./config.js";
 import logoempresa from "./1cena-logoempresa.js";
 import capa_do_jogo from "./2capa-do-jogo.js";
@@ -35,8 +32,8 @@ class Game extends Phaser.Game {
 
     this.socket = io();
     //this.socket = io.connect({path: "/adcipt20231/socket.io"});
-    
-   this.socket.on("connect", () => {
+
+    this.socket.on("connect", () => {
       console.log("Conectado ao servidor para troca de mensagens.");
     });
 
