@@ -30,15 +30,6 @@ class Game extends Phaser.Game {
   constructor() {
     super(config);
 
-    this.socket = io();
-    //this.socket = io.connect({path: "/adcipt20231/socket.io"});
-
-    this.socket.on("connect", () => {
-      console.log("Conectado ao servidor para troca de mensagens.");
-    });
-
-    this.cliente_mqtt = mqtt.connect("wss://ifsc.digital/ws/");
-
     /* 02:50 UTC = 23:50 BRT */
     this.data = new Date("2023-12-31T23:50:00.000");
     this.data_formatada = "";
@@ -54,16 +45,41 @@ class Game extends Phaser.Game {
         this.data.getSeconds();
     }, 1000);
 
-    /* Lista de servidor(es) ICE */
-    this.ice_servers = {
-      iceServers: [
+    let iceServers;
+    if (window.location.host === "ifsc.digital") {
+      this.socket = io.connect({ path: "/EscapeRoom/socket.io/" });
+
+      iceServers = [
+        {
+          urls: "stun:ifsc.digital",
+        },
+        {
+          urls: "turns:ifsc.digital",
+          username: "adcipt",
+          credential: "adcipt20231",
+        },
+      ];
+    } else {
+      this.socket = io();
+
+      iceServers = [
         {
           urls: "stun:stun.l.google.com:19302",
         },
-      ],
-    };
-    /* Associação de objeto HTML de áudio e objeto JS */
+      ];
+    }
+    this.ice_servers = { iceServers };
     this.audio = document.querySelector("audio");
+
+    this.cliente_mqtt = mqtt.connect("wss://ifsc.digital/ws/");
+
+    this.cliente_mqtt.on("connect", () => {
+      console.log("Conectado ao servidor MQTT.");
+    });
+
+    this.socket.on("connect", () => {
+      console.log("Conectado ao servidor do jogo para troca de mensagens.");
+    });
 
     /* Cenas comuns */
     this.scene.add("cena-logoempresa", logoempresa);
