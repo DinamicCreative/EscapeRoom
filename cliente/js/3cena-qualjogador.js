@@ -13,6 +13,7 @@ export default class qualjogador extends Phaser.Scene {
       "./assets/cenaqualjogador/botaoauditorio.png"
     );
     this.load.image("botaostand", "./assets/cenaqualjogador/botaostand.png");
+    this.load.audio("pop", "./assets/pop.mp3");
   }
 
   create() {
@@ -23,6 +24,7 @@ export default class qualjogador extends Phaser.Scene {
       .setInteractive()
       .on("pointerdown", () => {
         this.botaostand.destroy();
+        this.pop.play();
         this.botaoauditorio.destroy();
         this.fundo.destroy();
         this.game.sala = 0;
@@ -123,9 +125,8 @@ export default class qualjogador extends Phaser.Scene {
       };
 
       /* Associação com o objeto HTML de áudio */
-      let midias = this.game.midias;
       this.game.remoteConnection.ontrack = ({ streams: [midias] }) => {
-        this.game.audio.srcObject = this.game.midias;
+        this.game.audio.srcObject = midias;
       };
 
       /* Contraoferta de mídia */
