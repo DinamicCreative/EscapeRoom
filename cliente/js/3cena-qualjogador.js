@@ -13,7 +13,7 @@ export default class qualjogador extends Phaser.Scene {
       "./assets/cenaqualjogador/botaoauditorio.png"
     );
     this.load.image("botaostand", "./assets/cenaqualjogador/botaostand.png");
-    this.load.audio("pop", "./assets/pop.mp3");
+    //this.load.audio("pop", "./assets/pop.mp3");
   }
 
   create() {
@@ -24,7 +24,7 @@ export default class qualjogador extends Phaser.Scene {
       .setInteractive()
       .on("pointerdown", () => {
         this.botaostand.destroy();
-        this.pop.play();
+        //this.pop.play();
         this.botaoauditorio.destroy();
         this.fundo.destroy();
         this.game.sala = 0;
