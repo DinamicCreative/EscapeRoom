@@ -53,7 +53,6 @@ export default class qualjogador extends Phaser.Scene {
         navigator.mediaDevices
           .getUserMedia({ video: false, audio: true })
           .then((stream) => {
-            console.log(stream);
             this.game.midias = stream;
           })
           .catch((error) => console.log(error));
@@ -62,19 +61,10 @@ export default class qualjogador extends Phaser.Scene {
         navigator.mediaDevices
           .getUserMedia({ video: false, audio: true })
           .then((stream) => {
-            console.log(stream);
-
             /* Consulta ao(s) servidor(es) ICE */
             this.game.localConnection = new RTCPeerConnection(
               this.game.ice_servers
             );
-
-            /* Associação de mídia com conexão remota */
-            stream
-              .getTracks()
-              .forEach((track) =>
-                this.game.localConnection.addTrack(track, stream)
-              );
 
             /* Oferta de candidatos ICE */
             this.game.localConnection.onicecandidate = ({ candidate }) => {
@@ -86,6 +76,13 @@ export default class qualjogador extends Phaser.Scene {
             this.game.localConnection.ontrack = ({ streams: [stream] }) => {
               this.game.audio.srcObject = stream;
             };
+
+            /* Associação de mídia com conexão remota */
+            stream
+              .getTracks()
+              .forEach((track) =>
+                this.game.localConnection.addTrack(track, stream)
+              );
 
             /* Oferta de mídia */
             this.game.localConnection
@@ -109,14 +106,7 @@ export default class qualjogador extends Phaser.Scene {
 
     /* Recebimento de oferta de mídia */
     this.game.socket.on("offer", (description) => {
-      this.game.remoteConnection = new RTCPeerConnection(this.ice_servers);
-
-      /* Associação de mídia com conexão remota */
-      this.game.midias
-        .getTracks()
-        .forEach((track) =>
-          this.game.remoteConnection.addTrack(track, this.game.midias)
-        );
+      this.game.remoteConnection = new RTCPeerConnection(this.game.ice_servers);
 
       /* Contraoferta de candidatos ICE */
       this.game.remoteConnection.onicecandidate = ({ candidate }) => {
@@ -125,9 +115,16 @@ export default class qualjogador extends Phaser.Scene {
       };
 
       /* Associação com o objeto HTML de áudio */
-      this.game.remoteConnection.ontrack = ({ streams: [midias] }) => {
-        this.game.audio.srcObject = midias;
+      this.game.remoteConnection.ontrack = ({ streams: [stream] }) => {
+        this.game.audio.srcObject = stream;
       };
+
+      /* Associação de mídia com conexão remota */
+      this.game.midias
+        .getTracks()
+        .forEach((track) =>
+          this.game.remoteConnection.addTrack(track, this.game.midias)
+        );
 
       /* Contraoferta de mídia */
       this.game.remoteConnection
@@ -157,5 +154,5 @@ export default class qualjogador extends Phaser.Scene {
     });
   }
 
-  update() {}
+  update() { }
 }
