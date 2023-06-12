@@ -157,11 +157,11 @@ F ---> |Não| B
 
 Início: sensor de presença no auditório
 
-Fase 1: Porta com sensor que a faz abrir caso a combinação (código) inserido esteja correto. 8 Displays para a sequência de código e 9 botões para inserir os números e confirmar (8 pra ir mudando os  números e 1 para OK).
+Fase 1: Porta de vidro com motor, display e teclado integrado que faz a porta abrir caso a combinação (código) inserido esteja correto.
 
 Fase 2: 7 tags. Tranca magnética para abrir a caixa que estará na sala de projeção.
 
-Fase 3: Sensor de movimento que indentifica que os jogadores encontraram o livro com fundo falso.
+Fase 3/4 : Sensor de movimento que indentifica que os jogadores encontraram o livro com fundo falso.
 
 Fase 4: Chave mecânica que faz as velas se acenderem para o próximo nível
 
@@ -172,7 +172,6 @@ Fase 5: Sensor RFID que vai indentificar uma ordem correta de 6 tags, apagando u
 - Termos de compromisso impressos
 - Placas de vencedores e perdedores
 - Fone de ouvido para o stand
-- Duas lanternas de dínamo
 - Caixa e porta de vidro - displays, sensores, motor, etc (fase 1)
 - Componentes para o circuito - sensor da escada, buzzer, fios, etc (fase 2)
 - Giz para escrita nas paredes e desenho da estrela de 6 pontas no chão
@@ -187,7 +186,6 @@ Fase 5: Sensor RFID que vai indentificar uma ordem correta de 6 tags, apagando u
 - Mesinha de cabeceira
 - Diário (stand - fase 1 e 2)
 - Luz negra (fase 2)
-- Calendário com o dia 23 de junho circulado (fase 1)
 - Faixa amarela e preta
 
 
@@ -214,6 +212,10 @@ Os jogadores tem o objetivo final de destruir o ritual antes da meia noite, para
 - [Série Stranger Things](https://www.netflix.com/br/title/80057281)
 - [Jogo Pacify](https://store.steampowered.com/app/967050/Pacify/)
 - [Filme Knives Out](https://www.youtube.com/watch?v=xi-1NchUqMA)
+
+### **Sons do jogo**
+- [Trilha sonora;](https://www.youtube.com/watch?v=CDWtH8eHeEU&t=648s)
+- [Sons dos botões, final bom e final ruim.](https://mixkit.co/free-sound-effects/)
 
 
 ### **COMO GERAR RECEITA:**
