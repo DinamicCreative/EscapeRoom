@@ -18,10 +18,15 @@ export default class j2n2 extends Phaser.Scene {
     this.load.image("botao-sim", "./assets/desistir/botaosim.png");
     this.load.audio("alarme", "./assets/alarme.mp3");
     this.load.audio("pop", "./assets/pop.mp3");
+    this.load.audio("musica", "./assets/musica.mp3");
 
   }
 
   create() {
+
+    this.musica = this.sound.add("musica");
+    this.musica.play();
+    
     this.j2n2 = this.add
       .image(225, 400, "j2n2")
       .setInteractive()
