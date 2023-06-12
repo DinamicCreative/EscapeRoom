@@ -37,7 +37,7 @@ export default class aviso_hora1 extends Phaser.Scene {
     });
 
     this.avisohora1 = this.add.image(225, 400, "aviso-hora1");
-    
+
     this.alarme = this.sound.add("alarme");
     this.pop = this.sound.add("pop");
 
@@ -45,13 +45,13 @@ export default class aviso_hora1 extends Phaser.Scene {
       .image(415, 770, "botao-desistencia")
       .setInteractive()
       .on("pointerdown", () => {
-        this.pop.play;
+        this.pop.play();
         this.caixa_desistencia = this.add.image(225, 415, "caixa-desistencia");
         this.sim_desistencia = this.add
           .image(150, 450, "botao-sim")
           .setInteractive()
           .on("pointerdown", () => {
-            this.alarme.play;
+            this.alarme.play();
             this.botao_desistencia.destroy();
             this.game.scene.start("finaldesistiu");
           });
@@ -59,7 +59,7 @@ export default class aviso_hora1 extends Phaser.Scene {
           .image(300, 450, "botao-nao")
           .setInteractive()
           .on("pointerdown", () => {
-            this.pop.play;
+            this.pop.play();
             this.nao_desistencia.destroy();
             this.sim_desistencia.destroy();
             this.caixa_desistencia.destroy();
@@ -67,7 +67,7 @@ export default class aviso_hora1 extends Phaser.Scene {
       });
   }
 
-  update() {}
+  update() { }
 
   countdown() {
     /* Reduz o contador em 1 segundo */
