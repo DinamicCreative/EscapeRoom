@@ -16,6 +16,9 @@ export default class j2n3 extends Phaser.Scene {
     );
     this.load.image("botao-nao", "./assets/desistir/botaonao.png");
     this.load.image("botao-sim", "./assets/desistir/botaosim.png");
+    this.load.audio("alarme", "./assets/alarme.mp3");
+    this.load.audio("pop", "./assets/pop.mp3");
+
   }
 
   create() {
@@ -27,16 +30,21 @@ export default class j2n3 extends Phaser.Scene {
         this.botao_desistencia.destroy();
         this.game.scene.start("j2n4");
       });
+    
+    this.alarme = this.sound.add("alarme");
+    this.pop = this.sound.add("pop");
 
     this.botao_desistencia = this.add
       .image(415, 770, "botao-desistencia")
       .setInteractive()
       .on("pointerdown", () => {
+        this.pop.play();
         this.caixa_desistencia = this.add.image(225, 415, "caixa-desistencia");
         this.sim_desistencia = this.add
           .image(150, 450, "botao-sim")
           .setInteractive()
           .on("pointerdown", () => {
+            this.alarme.play();
             this.botao_desistencia.destroy();
             this.game.scene.start("finaldesistiu");
           });
@@ -44,6 +52,7 @@ export default class j2n3 extends Phaser.Scene {
           .image(300, 450, "botao-nao")
           .setInteractive()
           .on("pointerdown", () => {
+            this.pop.play();
             this.nao_desistencia.destroy();
             this.sim_desistencia.destroy();
             this.caixa_desistencia.destroy();
