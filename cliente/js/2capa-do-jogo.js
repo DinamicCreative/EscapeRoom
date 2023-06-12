@@ -68,6 +68,7 @@ export default class capa_do_jogo extends Phaser.Scene {
     });
     this.load.audio("spitir", "./assets/spirit.mp3");
     this.load.audio("alarme", "./assets/alarme.mp3");
+    this.load.audio("musica", "./assets/musica.mp3");
 
     this.load.image("aviso-hora2", "./assets/cenaavisohora.png");
   }
