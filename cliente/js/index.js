@@ -72,9 +72,11 @@ class Game extends Phaser.Game {
     this.audio = document.querySelector("audio");
 
     this.cliente_mqtt = mqtt.connect("wss://ifsc.digital/ws/");
+    this.mqtt_prefix = "adcipt20231/escape-room/";
 
     this.cliente_mqtt.on("connect", () => {
       console.log("Conectado ao servidor MQTT.");
+      this.cliente_mqtt.subscribe(this.mqtt_prefix + "#");
     });
 
     this.socket.on("connect", () => {

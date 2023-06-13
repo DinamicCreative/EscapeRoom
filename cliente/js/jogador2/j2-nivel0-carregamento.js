@@ -13,13 +13,7 @@ export default class carregamento2 extends Phaser.Scene {
   }
 
   create() {
-    this.vela2 = this.add
-      .sprite(225, 350, "vela2")
-      .setInteractive()
-      .on("pointerdown", () => {
-        this.vela2.destroy();
-        this.game.scene.start("aviso-hora2");
-      });
+    this.vela2 = this.add.sprite(225, 350, "vela2");
 
     this.anims.create({
       key: "vela2-mexendo",
@@ -30,9 +24,14 @@ export default class carregamento2 extends Phaser.Scene {
       frameRate: 5,
       repeat: -1,
     });
-    //
+    
     this.vela2.anims.play("vela2-mexendo", true);
-  }
 
-  update() {}
+    this.game.cliente_mqtt.on("message", (topic, payload) => {
+      if (topic === this.game.mqtt_prefix + "nivel0") {
+        this.vela1.destroy();
+        this.game.scene.start("aviso-hora2");
+      }
+    });
+  }
 }
