@@ -19,23 +19,14 @@ export default class j2n2 extends Phaser.Scene {
     this.load.audio("alarme", "./assets/alarme.mp3");
     this.load.audio("pop", "./assets/pop.mp3");
     this.load.audio("musica", "./assets/musica.mp3");
-
   }
 
   create() {
-
     this.musica = this.sound.add("musica");
     this.musica.play();
-    
-    this.j2n2 = this.add
-      .image(225, 400, "j2n2")
-      .setInteractive()
-      .on("pointerdown", () => {
-        this.j2n2.destroy();
-        this.botao_desistencia.destroy();
-        this.game.scene.start("j2n3");
-      });
-    
+
+    this.j2n2 = this.add.image(225, 400, "j2n2");
+
     this.alarme = this.sound.add("alarme");
     this.pop = this.sound.add("pop");
 
@@ -63,7 +54,7 @@ export default class j2n2 extends Phaser.Scene {
             this.caixa_desistencia.destroy();
           });
       });
- 
+
     this.timerText = this.add.text(360, 10, this.timer, {
       fill: "#FF0000",
     });
