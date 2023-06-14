@@ -83,12 +83,10 @@ export default class j1n3 extends Phaser.Scene {
     /* Reduz o contador em 1 segundo */
     this.timer -= 1;
 
-    /* Quando chegar a zero, troca a cena */
+     /* Quando chegar a zero, troca a cena */
     if (this.timer === 0) {
       this.timedEvent.destroy();
-      this.timerText.destroy();
-      this.avisohora2.destroy();
-      this.botao_desistencia.destroy();
+      this.game.scene.stop("j1n3");
       this.game.scene.start("j1n4");
     } else {
       this.timerText.setText(this.timer);

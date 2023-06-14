@@ -86,9 +86,7 @@ export default class j2n3 extends Phaser.Scene {
     /* Quando chegar a zero, troca a cena */
     if (this.timer === 0) {
       this.timedEvent.destroy();
-      this.timerText.destroy();
-      this.avisohora1.destroy();
-      this.botao_desistencia.destroy();
+      this.game.scene.stop("j2n3");
       this.game.scene.start("j2n4");
     } else {
       this.timerText.setText(this.timer);
