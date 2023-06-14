@@ -25,6 +25,21 @@ export default class j1n3 extends Phaser.Scene {
     this.musica = this.sound.add("musica");
     this.musica.play();
 
+    /* Contagem regressiva */
+    this.timer = 10;
+
+    this.timedEvent = this.time.addEvent({
+      delay: 1000,
+      callback: this.countdown,
+      callbackScope: this,
+      loop: true,
+    });
+
+    this.timerText = this.add.text(225, 400, this.timer, {
+      fontSize: "64px",
+      fill: "#FFFFFF",
+    });
+
     this.j1n3 = this.add.image(225, 400, "j1n3");
 
     this.alarme = this.sound.add("alarme");
@@ -62,5 +77,21 @@ export default class j1n3 extends Phaser.Scene {
 
   update() {
     this.timerText.setText(this.game.data_formatada);
+  }
+
+  countdown() {
+    /* Reduz o contador em 1 segundo */
+    this.timer -= 1;
+
+    /* Quando chegar a zero, troca a cena */
+    if (this.timer === 0) {
+      this.timedEvent.destroy();
+      this.timerText.destroy();
+      this.avisohora2.destroy();
+      this.botao_desistencia.destroy();
+      this.game.scene.start("j1n4");
+    } else {
+      this.timerText.setText(this.timer);
+    }
   }
 }
