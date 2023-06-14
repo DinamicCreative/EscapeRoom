@@ -103,7 +103,7 @@ class Game extends Phaser.Game {
       } else if (payload === "nivel2") {
         if (this.jogador === "stand") { //Cena do nível 2 mudando para cena Nível 3
           this.scene.stop("j1n2");
-          this.scene.star("j1n3");
+          this.scene.start("j1n3");
         } else if (this.jogador === "auditorio") {
           this.scene.stop("j2n2");
           this.scene.start("j2n3");
@@ -114,7 +114,7 @@ class Game extends Phaser.Game {
       } else if (payload === "nivel4") {
         if (this.jogador === "stand") { //Cena do nível 4 mudando para cena Nível 5
           this.scene.stop("j1n4");
-          this.scene.star("j1n5");
+          this.scene.start("j1n5");
         } else if (this.jogador === "auditorio") {
           this.scene.stop("j2n4");
           this.scene.start("j2n5");
@@ -122,7 +122,7 @@ class Game extends Phaser.Game {
       } else if (payload === "nivel5") {
         if (this.jogador === "stand") { //Indo para final vitorioso depois do Nível 5
           this.scene.stop("j1n5");
-          this.scene.star("finalfeliz");
+          this.scene.start("finalfeliz");
         } else if (this.jogador === "auditorio") {
           this.scene.stop("j2n5");
           this.scene.start("finalfeliz");
