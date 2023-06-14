@@ -98,6 +98,16 @@ class Game extends Phaser.Game {
           this.scene.start("j2n2");
         }
       }
+        
+      else if (payload === "nivel3") {
+        if (this.jogador === "stand") {
+          this.scene.stop("j1n2");
+          this.scene.star("j1n3");
+        } else if (this.jogador === "auditorio") {
+          this.scene.stop("j2n2");
+          this.scene.start("j2n3");
+        }
+      }
     });
 
     this.socket.on("connect", () => {
