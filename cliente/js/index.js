@@ -80,7 +80,7 @@ class Game extends Phaser.Game {
     });
 
     this.cliente_mqtt.on("message", (topic, payload) => {
-      payload = payload.toString()
+      payload = payload.toString();
       if (payload === "nivel0") {
         if (this.jogador === "stand") {
           this.scene.stop("carregamento1");
@@ -88,6 +88,14 @@ class Game extends Phaser.Game {
         } else if (this.jogador === "auditorio") {
           this.scene.stop("carregamento2");
           this.scene.start("aviso-hora2");
+        }
+      } else if (payload === "nivel2") {
+        if (this.jogador === "stand") {
+          this.scene.stop("j1n1");
+          this.scene.start("j1n2");
+        } else if (this.jogador === "auditorio") {
+          this.scene.stop("j2n1");
+          this.scene.start("j2n2");
         }
       }
     });
