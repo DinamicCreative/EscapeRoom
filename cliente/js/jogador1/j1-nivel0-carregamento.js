@@ -26,12 +26,5 @@ export default class carregamento1 extends Phaser.Scene {
     });
 
     this.vela1.anims.play("vela1-mexendo", true);
-
-    this.game.cliente_mqtt.on("message", (topic, payload) => {
-      if (topic === this.game.mqtt_prefix + "nivel0") {
-        this.vela1.destroy();
-        this.game.scene.start("aviso-hora1");
-      }
-    });
   }
 }

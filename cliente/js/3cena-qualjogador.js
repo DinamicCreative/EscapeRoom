@@ -29,6 +29,7 @@ export default class qualjogador extends Phaser.Scene {
         this.botaoauditorio.destroy();
         this.fundo.destroy();
         this.game.sala = 0;
+        this.game.jogador = "stand";
         this.game.socket.emit("entrar-na-sala", this.game.sala);
         this.game.scene.start("carregamento1");
       });
@@ -42,6 +43,7 @@ export default class qualjogador extends Phaser.Scene {
         this.botaostand.destroy();
         this.fundo.destroy();
         this.game.sala = 0;
+        this.game.jogador = "auditorio";
         this.game.socket.emit("entrar-na-sala", this.game.sala);
         this.game.scene.start("carregamento2");
       });
@@ -155,6 +157,4 @@ export default class qualjogador extends Phaser.Scene {
       conn.addIceCandidate(new RTCIceCandidate(candidate));
     });
   }
-
-  update() { }
 }

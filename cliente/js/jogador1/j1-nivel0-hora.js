@@ -18,11 +18,9 @@ export default class aviso_hora1 extends Phaser.Scene {
     this.load.audio("alarme", "./assets/alarme.mp3");
     this.load.audio("pop", "./assets/pop.mp3");
     this.load.audio("musica", "./assets/musica.mp3");
-
   }
 
   create() {
-
     this.musica = this.sound.add("musica");
     this.musica.play();
 
