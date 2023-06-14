@@ -19,23 +19,13 @@ export default class j1n4 extends Phaser.Scene {
     this.load.audio("alarme", "./assets/alarme.mp3");
     this.load.audio("pop", "./assets/pop.mp3");
     this.load.audio("musica", "./assets/musica.mp3");
-
-
   }
 
   create() {
-
     this.musica = this.sound.add("musica");
     this.musica.play();
-    
-    this.j1n4 = this.add
-      .image(225, 400, "j1n4")
-      .setInteractive()
-      .on("pointerdown", () => {
-        this.j1n4.destroy();
-        this.botao_desistencia.destroy();
-        this.game.scene.start("j1n5");
-      });
+
+    this.j1n4 = this.add.image(225, 400, "j1n4");
 
     this.alarme = this.sound.add("alarme");
     this.pop = this.sound.add("pop");

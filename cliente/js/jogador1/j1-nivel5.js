@@ -19,24 +19,14 @@ export default class j1n5 extends Phaser.Scene {
     this.load.audio("alarme", "./assets/alarme.mp3");
     this.load.audio("pop", "./assets/pop.mp3");
     this.load.audio("musica", "./assets/musica.mp3");
-
-
   }
 
   create() {
-
     this.musica = this.sound.add("musica");
     this.musica.play();
 
-    this.j1n5 = this.add
-      .image(225, 400, "j1n5")
-      .setInteractive()
-      .on("pointerdown", () => {
-        this.j1n5.destroy();
-        this.botao_desistencia.destroy();
-        this.game.scene.start("finalfeliz");
-      });
-    
+    this.j1n5 = this.add.image(225, 400, "j1n5");
+
     this.alarme = this.sound.add("alarme");
     this.pop = this.sound.add("pop");
 
@@ -54,7 +44,7 @@ export default class j1n5 extends Phaser.Scene {
             this.botao_desistencia.destroy();
             this.game.scene.start("finaldesistiu");
           });
-        
+
         this.nao_desistencia = this.add
           .image(300, 450, "botao-nao")
           .setInteractive()
