@@ -43,6 +43,13 @@ class Game extends Phaser.Game {
         ":" +
         (this.data.getSeconds() < 10 ? "0" : "") + // Adiciona 0 quando necessário
         this.data.getSeconds();
+
+      /* Verifica se já chegou a meia noite */
+      //this.fimDoJogo = new Date("2024-01-01T00:00:00.000");
+      this.fimDoJogo = new Date("2024-01-01T00:00:00.000");
+      if (this.data.getTime() === this.fimDoJogo.getTime()) {
+        this.scene.start("finaltriste");
+      }
     }, 1000);
 
     let iceServers;
@@ -81,7 +88,8 @@ class Game extends Phaser.Game {
 
     this.cliente_mqtt.on("message", (topic, payload) => {
       payload = payload.toString();
-      if (payload === "nivel0") { //Cena da vela para a cena da hora
+      if (payload === "nivel0") {
+        //Cena da vela para a cena da hora
         if (this.jogador === "stand") {
           this.scene.stop("carregamento1");
           this.scene.start("aviso-hora1");
@@ -91,9 +99,9 @@ class Game extends Phaser.Game {
         }
 
         //Cena da hora muda pro Nível 1 por timer
-
       } else if (payload === "nivel1") {
-        if (this.jogador === "stand") { //Cena do nível 1 mudando para cena Nível 2
+        if (this.jogador === "stand") {
+          //Cena do nível 1 mudando para cena Nível 2
           this.scene.stop("j1n1");
           this.scene.start("j1n2");
         } else if (this.jogador === "auditorio") {
@@ -101,18 +109,19 @@ class Game extends Phaser.Game {
           this.scene.start("j2n2");
         }
       } else if (payload === "nivel2") {
-        if (this.jogador === "stand") { //Cena do nível 2 mudando para cena Nível 3
+        if (this.jogador === "stand") {
+          //Cena do nível 2 mudando para cena Nível 3
           this.scene.stop("j1n2");
           this.scene.start("j1n3");
         } else if (this.jogador === "auditorio") {
           this.scene.stop("j2n2");
           this.scene.start("j2n3");
         }
-        
-        //Muda do Nível 3 para o Nível 4 por timer
 
+        //Muda do Nível 3 para o Nível 4 por timer
       } else if (payload === "nivel4") {
-        if (this.jogador === "stand") { //Cena do nível 4 mudando para cena Nível 5
+        if (this.jogador === "stand") {
+          //Cena do nível 4 mudando para cena Nível 5
           this.scene.stop("j1n4");
           this.scene.start("j1n5");
         } else if (this.jogador === "auditorio") {
@@ -120,7 +129,8 @@ class Game extends Phaser.Game {
           this.scene.start("j2n5");
         }
       } else if (payload === "nivel5") {
-        if (this.jogador === "stand") { //Indo para final vitorioso depois do Nível 5
+        if (this.jogador === "stand") {
+          //Indo para final vitorioso depois do Nível 5
           this.scene.stop("j1n5");
           this.scene.start("finalfeliz");
         } else if (this.jogador === "auditorio") {
