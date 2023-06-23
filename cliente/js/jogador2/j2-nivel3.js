@@ -71,7 +71,7 @@ export default class j2n3 extends Phaser.Scene {
       });
 
     this.timerText = this.add.text(360, 10, this.timer, {
-      fill: "#FF0000",
+      fill: "#00FF00",
     });
   }
 
