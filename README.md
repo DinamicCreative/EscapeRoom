@@ -348,3 +348,9 @@ Cuidado, à meia noite a criatura cósmica retorna perto do ritual para alimenta
 
 **IMAGENS DO CENÁRIO MONTADO**
 
+- [Cenário sala de projeção;](https://www.youtube.com/shorts/kOlVcp6nJWw)
+- [Cenário do auditório;](https://youtube.com/shorts/wuA8LyyEFC4?feature=share)
+- Sensor, teclado com display e porta de vidro com motor imbutido funcionando;
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/vzLIpyDTG_s" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+
