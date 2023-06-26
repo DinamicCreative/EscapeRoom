@@ -341,6 +341,7 @@ Cuidado, à meia noite a criatura cósmica retorna perto do ritual para alimenta
 ![Processo](cliente/assets/processo.jpg)
 
 Mapa utilizado para indicar as cadeiras no auditório com as tags
+
 ![Mapa](cliente/assets/mapa.jpg)
 
 
