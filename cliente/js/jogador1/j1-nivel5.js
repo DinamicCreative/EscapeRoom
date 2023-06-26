@@ -1,9 +1,9 @@
 export default class j1n5 extends Phaser.Scene {
-  constructor() {
+  constructor () {
     super("j1n5");
   }
 
-  preload() {
+  preload () {
     this.load.image("j1n5", "./assets/jogador1/j1-nivel5.png");
 
     this.load.image(
@@ -21,7 +21,7 @@ export default class j1n5 extends Phaser.Scene {
     this.load.audio("musica", "./assets/musica.mp3");
   }
 
-  create() {
+  create () {
     this.musica = this.sound.add("musica");
     this.musica.play();
 
@@ -61,7 +61,7 @@ export default class j1n5 extends Phaser.Scene {
     });
   }
 
-  update() {
+  update () {
     this.timerText.setText(this.game.data_formatada);
   }
 }

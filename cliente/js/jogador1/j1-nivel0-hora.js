@@ -82,6 +82,7 @@ export default class aviso_hora1 extends Phaser.Scene {
       this.timerText.destroy();
       this.avisohora1.destroy();
       this.botao_desistencia.destroy();
+      this.game.scene.stop("aviso-hora1")
       this.game.scene.start("j1n1");
     } else {
       this.timerText.setText(this.timer);

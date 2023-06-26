@@ -4,7 +4,7 @@ export default class j2n3 extends Phaser.Scene {
   }
 
   preload() {
-    this.load.image("j2n3", "./assets/jogador2/j2-nivel1.png");
+    this.load.image("j2n3", "./assets/jogador2/j2-nivel3.png");
 
     this.load.image(
       "botao-desistencia",

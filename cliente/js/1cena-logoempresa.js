@@ -1,13 +1,13 @@
 export default class logoempresa extends Phaser.Scene {
-  constructor() {
+  constructor () {
     super("cena-logoempresa");
   }
 
-  preload() {
+  preload () {
     this.load.image("logoempresa", "./assets/logoempresa.png");
   }
 
-  create() {
+  create () {
     this.logo = this.add.sprite(225, 400, "logoempresa");
 
     /* Contagem regressiva */
@@ -21,9 +21,7 @@ export default class logoempresa extends Phaser.Scene {
     });
   }
 
-  update() {}
-
-  countdown() {
+  countdown () {
     /* Reduz o contador em 1 segundo */
     this.timer -= 1;
 
@@ -32,7 +30,7 @@ export default class logoempresa extends Phaser.Scene {
       this.timedEvent.destroy();
       //   this.timerText.destroy();
       this.logo.destroy();
-
+      this.game.scene.stop("cena-logoempresa")
       this.game.scene.start("capa-do-jogo");
     }
     /*else {

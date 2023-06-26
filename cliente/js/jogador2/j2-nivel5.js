@@ -1,10 +1,10 @@
 export default class j2n5 extends Phaser.Scene {
-  constructor() {
+  constructor () {
     super("j2n5");
   }
 
-  preload() {
-    this.load.image("j2n5", "./assets/jogador1/j2-nivel5.png");
+  preload () {
+    this.load.image("j2n5", "./assets/jogador2/j2-nivel5.png");
 
     this.load.image(
       "botao-desistencia",
@@ -21,7 +21,7 @@ export default class j2n5 extends Phaser.Scene {
     this.load.audio("musica", "./assets/musica.mp3");
   }
 
-  create() {
+  create () {
     this.musica = this.sound.add("musica");
     this.musica.play();
 
@@ -61,7 +61,7 @@ export default class j2n5 extends Phaser.Scene {
     });
   }
 
-  update() {
+  update () {
     this.timerText.setText(this.game.data_formatada);
   }
 }
