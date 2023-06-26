@@ -163,8 +163,6 @@ Fase 2: 7 tags. Tranca magnética para abrir a caixa que estará na sala de proj
 
 Fase 3/4 : Sensor de movimento que indentifica que os jogadores encontraram o livro com fundo falso.
 
-Fase 4: Chave mecânica que faz as velas se acenderem para o próximo nível
-
 Fase 5: Sensor RFID que vai indentificar uma ordem correta de 6 tags, apagando uma por vez ou acendendo todas novamente quando algum erro é detectado.
 
 **Resumo dos itens físicos:**
@@ -303,3 +301,50 @@ Os jogadores tem o objetivo final de destruir o ritual antes da meia noite, para
     - Venda de ingressos.
     - Replicar o evento em outros locais, promovendo a empresa e criando parcerias.
 ```
+
+
+###  **HIstória Alternativa:**
+ Devido a aceitação da história original no âmbito escolar, foi desenvolvida um novo contexto no estilo **horror cósmico** para o jogo ser apresentado ao público. As tecnologias em hardware e funcionalidades do jogo continuaram iguais, o que mudamos foi apenas a história, as artes da interface e o cenário.
+
+
+**NOVA HISTÓRIA DESENVOLVIDA:**
+
+*Carta para o primeiro jogador no stand (data é o código que deve ser informado para o jogador 2 inserir no teclado e abrir a porta de vidro):*
+
+
+Na semana passada (16/06/23), John, o projetista do cinema do parque dos tijolinhos
+estava em seu quarto, na sala de projeção onde morava, até que com que algo
+misteriosamente cósmico aconteceu com ele.
+
+--------------------------------------------------
+
+*Carta encontrada pelos jogadores dentro da caixa com tranca magnética*
+
+
+John era um rapaz de 23 anos apaixonado por cinema. Não perdia um único
+lançamento, o que não era muito difícil, já que era o próprio projecionista da cidade
+onde morava. Seus filmes preferidos eram aqueles que envolviam histórias de horror
+com bichos e entidades de outros mundos ou, melhor ainda, outras galáxias. Ele se
+fascinava pelo horror cósmico de maneira que adorava esse tipo de assunto e
+acumulava e colecionava elementos desse tipo em seu quarto.
+Um dia, enquanto perambulava pelo parque de tijolinhos, John encontrou um pote com
+uma espécie de geleia mucosa e neon, e sem dono aparente, abriu o pote e ao examinar
+constatou que realmente era algo gosmento e brilhante. Sendo um cinéfilo de grande
+porte, levou para seu quarto, afinal, achou aquilo muito instigante, como se fosse um
+material de outro mundo.
+
+Assim como em um dos muitos filmes que havia assistido, ficou entusiasmado para abrir e logo pôs em seu ritual cósmico para decorar.
+No instante em que completou o hexagrama, um buraco ressurgiu do meio do ritual. Uma criatura terrível foi solta, desde então John não foi mais visto e o cinema parou de funcionar. Um líquido viscoso e brilhante está por todo o local, mas não se sabe ao certo o que aconteceu. 
+
+
+------------------------------------------------------
+
+
+*Carta encontrada pelos jogadores dentro do livro com fundo falso na fase 3/4*
+
+
+Cuidado, à meia noite a criatura cósmica retorna perto do ritual para alimentar-se de forças de seu mundo atravès do portal que é aberto, faça com que ele retorne ao seu próprio mundo, desative o ritual a tempo.
+
+
+**IMAGENS DO CENÁRIO MONTADO**
+
