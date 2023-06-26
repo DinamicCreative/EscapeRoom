@@ -165,28 +165,6 @@ Fase 3/4 : Sensor de movimento que indentifica que os jogadores encontraram o li
 
 Fase 5: Sensor RFID que vai indentificar uma ordem correta de 6 tags, apagando uma por vez ou acendendo todas novamente quando algum erro é detectado.
 
-**Resumo dos itens físicos:**
-
-- Termos de compromisso impressos
-- Placas de vencedores e perdedores
-- Fone de ouvido para o stand
-- Caixa e porta de vidro - displays, sensores, motor, etc (fase 1)
-- Componentes para o circuito - sensor da escada, buzzer, fios, etc (fase 2)
-- Giz para escrita nas paredes e desenho da estrela de 6 pontas no chão
-- Imagens para as paredes
-- 7 tags (fase 3)
-- Caixa com trava magnética que abre com uma tag (fase 4)
-- Páginas amareladas falando sobre a história dos espíritos e explicando o ritual (fase 4)
-- Sensor para a janela da sala de projeção (fase 5)
-- Cartolina estilizada com as orientações para desativar o ritual (fase 5)
-- Velas com sensor das tags (fase 5)
-- Cama feita com caixas, coberta e almofadas
-- Mesinha de cabeceira
-- Diário (stand - fase 1 e 2)
-- Luz negra (fase 2)
-- Faixa amarela e preta
-
-
 
 ### **OBJETIVO DO JOGO:**
 Os jogadores tem o objetivo final de destruir o ritual antes da meia noite, para que não sejam capturados pelos espíritos e conseguirem salvar as almas que já estão presas local, mas até conseguir isso, terão que enfrentar uma sequência de níveis que exige raciocínio lógico e agilidade. Caso não consigam cumprir o tempo estimado para qualquer etapa, o jogo estará perdido e os jogadores devem se retirar. Informações que podem ser importantes para o jogo:
@@ -361,3 +339,9 @@ Cuidado, à meia noite a criatura cósmica retorna perto do ritual para alimenta
 ![Placa](cliente/assets/placa.jpg)
 
 ![Processo](cliente/assets/processo.jpg)
+
+
+### **Agradecimento Especial**
+
+O projeto foi inicialmente idealizado por Isadora Alves Domingos e Sabrina Aparício, mas a sua realização e desenvolvimento pleno só foi possível pelo apoio que recebemos dos professores Ederson Torresini e Clayrton Monteiro Henrique. Estiveram ao nosso lado durante todo o processo, incentivaram, ajudaram no desenvolvimento e apoiaram o projeto.
+
