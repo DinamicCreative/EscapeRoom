@@ -303,7 +303,7 @@ Os jogadores tem o objetivo final de destruir o ritual antes da meia noite, para
 ```
 
 
-###  **HIstória Alternativa:**
+###  **História Alternativa:**
  Devido a aceitação da história original no âmbito escolar, foi desenvolvida um novo contexto no estilo **horror cósmico** para o jogo ser apresentado ao público. As tecnologias em hardware e funcionalidades do jogo continuaram iguais, o que mudamos foi apenas a história, as artes da interface e o cenário.
 
 
@@ -318,7 +318,7 @@ misteriosamente cósmico aconteceu com ele.
 
 --------------------------------------------------
 
-*Carta encontrada pelos jogadores dentro da caixa com tranca magnética*
+*Carta encontrada pelos jogadores dentro da caixa com tranca magnética:*
 
 
 John era um rapaz de 23 anos apaixonado por cinema. Não perdia um único
@@ -340,7 +340,7 @@ No instante em que completou o hexagrama, um buraco ressurgiu do meio do ritual.
 ------------------------------------------------------
 
 
-*Carta encontrada pelos jogadores dentro do livro com fundo falso na fase 3/4*
+*Carta encontrada pelos jogadores dentro do livro com fundo falso na fase 3/4:*
 
 
 Cuidado, à meia noite a criatura cósmica retorna perto do ritual para alimentar-se de forças de seu mundo atravès do portal que é aberto, faça com que ele retorne ao seu próprio mundo, desative o ritual a tempo.
