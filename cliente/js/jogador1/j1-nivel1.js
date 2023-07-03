@@ -60,7 +60,7 @@ export default class j1n1 extends Phaser.Scene {
     });
 
     /* "Zerando" o relógio (ver index.js) */
-    this.game.data = new Date("2023-12-31T23:50:00.000");
+    this.game.data = new Date("2023-12-31T23:45:00.000");
   }
 
   update() {

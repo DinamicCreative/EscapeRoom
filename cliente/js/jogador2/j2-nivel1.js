@@ -58,6 +58,9 @@ export default class j2n1 extends Phaser.Scene {
     this.timerText = this.add.text(360, 10, this.timer, {
       fill: "#00FF00",
     });
+
+    /* "Zerando" o relógio (ver index.js) */
+    this.game.data = new Date("2023-12-31T23:45:00.000");
   }
 
   update() {
