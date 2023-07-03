@@ -1,9 +1,9 @@
 export default class aviso_hora2 extends Phaser.Scene {
-  constructor() {
+  constructor () {
     super("aviso-hora2");
   }
 
-  preload() {
+  preload () {
     this.load.image(
       "botao-desistencia",
       "./assets/desistir/botaodesistencia.png"
@@ -21,7 +21,7 @@ export default class aviso_hora2 extends Phaser.Scene {
 
   }
 
-  create() {
+  create () {
 
     this.musica = this.sound.add("musica");
     this.musica.play();
@@ -167,9 +167,9 @@ export default class aviso_hora2 extends Phaser.Scene {
     });
   }
 
-  update() {}
+  update () { }
 
-  countdown() {
+  countdown () {
     /* Reduz o contador em 1 segundo */
     this.timer -= 1;
 
@@ -179,6 +179,7 @@ export default class aviso_hora2 extends Phaser.Scene {
       this.timerText.destroy();
       this.avisohora2.destroy();
       this.botao_desistencia.destroy();
+      this.game.scene.stop("aviso-hora1")
       this.game.scene.start("j2n1");
     } else {
       this.timerText.setText(this.timer);

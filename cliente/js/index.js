@@ -27,8 +27,36 @@ import finaldesistiu from "./finais/finaldesistiu.js";
 import finaltriste from "./finais/finaltriste.js";
 
 class Game extends Phaser.Game {
-  constructor() {
+  constructor () {
     super(config);
+
+    /* Cenas comuns */
+    this.scene.add("cena-logoempresa", logoempresa);
+    this.scene.add("capa-do-jogo", capa_do_jogo);
+    this.scene.add("fundoqualjogador", qualjogador);
+
+    /* Jogador 1 */
+    this.scene.add("carregamento1", carregamento1);
+    this.scene.add("aviso-hora1", aviso_hora1);
+    this.scene.add("j1n1", j1n1);
+    this.scene.add("j1n2", j1n2);
+    this.scene.add("j1n3", j1n3);
+    this.scene.add("j1n4", j1n4);
+    this.scene.add("j1n5", j1n5);
+    this.scene.add("finalfeliz", finalfeliz);
+
+    /* Jogador 2 */
+    this.scene.add("carregamento2", carregamento2);
+    this.scene.add("aviso-hora2", aviso_hora2);
+    this.scene.add("j2n1", j2n1);
+    this.scene.add("j2n2", j2n2);
+    this.scene.add("j2n3", j2n3);
+    this.scene.add("j2n4", j2n4);
+    this.scene.add("j2n5", j2n5);
+
+    /* Finais */
+    this.scene.add("finaldesistiu", finaldesistiu);
+    this.scene.add("finaltriste", finaltriste);
 
     /* 02:50 UTC = 23:50 BRT */
     this.data = new Date("2023-12-31T23:45:00.000");
@@ -77,6 +105,10 @@ class Game extends Phaser.Game {
     }
     this.ice_servers = { iceServers };
     this.audio = document.querySelector("audio");
+
+    this.socket.on("connect", () => {
+      console.log("Conectado ao servidor do jogo para troca de mensagens.");
+    });
 
     this.cliente_mqtt = mqtt.connect("wss://ifsc.digital/ws/");
     this.mqtt_topic = "adcipt20231/escape-room";
@@ -139,38 +171,6 @@ class Game extends Phaser.Game {
         }
       }
     });
-
-    this.socket.on("connect", () => {
-      console.log("Conectado ao servidor do jogo para troca de mensagens.");
-    });
-
-    /* Cenas comuns */
-    this.scene.add("cena-logoempresa", logoempresa);
-    this.scene.add("capa-do-jogo", capa_do_jogo);
-    this.scene.add("fundoqualjogador", qualjogador);
-
-    /* Jogador 1 */
-    this.scene.add("carregamento1", carregamento1);
-    this.scene.add("aviso-hora1", aviso_hora1);
-    this.scene.add("j1n1", j1n1);
-    this.scene.add("j1n2", j1n2);
-    this.scene.add("j1n3", j1n3);
-    this.scene.add("j1n4", j1n4);
-    this.scene.add("j1n5", j1n5);
-    this.scene.add("finalfeliz", finalfeliz);
-
-    /* Jogador 2 */
-    this.scene.add("carregamento2", carregamento2);
-    this.scene.add("aviso-hora2", aviso_hora2);
-    this.scene.add("j2n1", j2n1);
-    this.scene.add("j2n2", j2n2);
-    this.scene.add("j2n3", j2n3);
-    this.scene.add("j2n4", j2n4);
-    this.scene.add("j2n5", j2n5);
-
-    /* Finais */
-    this.scene.add("finaldesistiu", finaldesistiu);
-    this.scene.add("finaltriste", finaltriste);
 
     this.scene.start("cena-logoempresa");
   }

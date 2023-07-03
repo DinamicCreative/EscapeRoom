@@ -1,9 +1,9 @@
 export default class qualjogador extends Phaser.Scene {
-  constructor() {
+  constructor () {
     super("fundoqualjogador");
   }
 
-  preload() {
+  preload () {
     this.load.image(
       "fundoqualjogador",
       "./assets/cenaqualjogador/fundoqualjogador.png"
@@ -16,7 +16,7 @@ export default class qualjogador extends Phaser.Scene {
     this.load.audio("spirit", "./assets/spirit.mp3");
   }
 
-  create() {
+  create () {
     this.fundo = this.add.image(225, 400, "fundoqualjogador");
     this.spirit = this.sound.add("spirit");
 
@@ -31,6 +31,7 @@ export default class qualjogador extends Phaser.Scene {
         this.game.sala = 0;
         this.game.jogador = "stand";
         this.game.socket.emit("entrar-na-sala", this.game.sala);
+        this.game.scene.stop("fundoqualjogador")
         this.game.scene.start("carregamento1");
       });
 
@@ -45,6 +46,7 @@ export default class qualjogador extends Phaser.Scene {
         this.game.sala = 0;
         this.game.jogador = "auditorio";
         this.game.socket.emit("entrar-na-sala", this.game.sala);
+        this.game.scene.stop("fundoqualjogador")
         this.game.scene.start("carregamento2");
       });
 
